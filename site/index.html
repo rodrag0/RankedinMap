@@ -1,0 +1,66 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Padel Tournaments Map (RankedIn)</title>
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" crossorigin="">
+  <link rel="stylesheet" href="https://unpkg.com/leaflet.markercluster@1.5.3/dist/MarkerCluster.css" crossorigin="">
+  <link rel="stylesheet" href="https://unpkg.com/leaflet.markercluster@1.5.3/dist/MarkerCluster.Default.css" crossorigin="">
+  <link rel="stylesheet" href="./style.css" />
+</head>
+<body>
+  <header class="topbar">
+    <div class="brand">Padel Tournaments Map</div>
+    <div class="meta">
+      <span id="lastUpdated">Loading…</span>
+      <a class="tiny" href="https://www.rankedin.com/" target="_blank" rel="noreferrer">RankedIn</a>
+    </div>
+  </header>
+
+  <main class="layout">
+    <aside class="sidebar">
+      <div class="controls">
+        <input id="search" type="search" placeholder="Search (club, city, title)…" />
+        <div class="row">
+          <select id="type">
+            <option value="">All types</option>
+          </select>
+          <select id="status">
+            <option value="">All status</option>
+          </select>
+        </div>
+        <div class="row">
+          <select id="state">
+            <option value="">All labels</option>
+          </select>
+          <select id="sort">
+            <option value="dateAsc">Date ↑</option>
+            <option value="dateDesc">Date ↓</option>
+          </select>
+        </div>
+        <button id="reset">Reset</button>
+      </div>
+
+      <div class="listMeta">
+        <span id="count"></span>
+      </div>
+
+      <div id="list" class="list"></div>
+      <footer class="footer">
+        <div class="tiny">
+          Built with Leaflet + data scraped from RankedIn.
+        </div>
+      </footer>
+    </aside>
+
+    <section class="mapWrap">
+      <div id="map"></div>
+    </section>
+  </main>
+
+  <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js" crossorigin=""></script>
+  <script src="https://unpkg.com/leaflet.markercluster@1.5.3/dist/leaflet.markercluster.js" crossorigin=""></script>
+  <script src="./app.js"></script>
+</body>
+</html>

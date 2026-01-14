@@ -1,0 +1,158 @@
+import { chromium } from 'playwright';
+import { applyFilters } from './applyFilters.js';
+import { makeAbsoluteRankedInUrl, normalizeWhitespace, makeId, isDPVClubName, sleep } from './utils.js';
+import { geocodeMany } from './geocode.js';
+import fs from 'node:fs';
+import path from 'node:path';
+
+const LIST_URL = process.env.RANKEDIN_LIST_URL;
+if(!LIST_URL){
+  console.error('Missing env var RANKEDIN_LIST_URL');
+  process.exit(1);
+}
+
+const OUT_PATH = path.join(process.cwd(), '..', 'site', 'data', 'tournaments.json');
+
+async function scrapeTablePage(page){
+  await page.waitForSelector('table#vdtnetable1 tbody tr', { timeout: 60_000 });
+
+  const rows = await page.$$eval('table#vdtnetable1 tbody tr', trs => {
+    return trs.map(tr => {
+      const tds = Array.from(tr.querySelectorAll('td'));
+      const a = tr.querySelector('a.rin-dt-table-action[data-action-click="go-to-event"]');
+      const title = a?.textContent?.trim() || '';
+      const href = a?.getAttribute('href') || '';
+
+      // Based on your example columns:
+      // [title link, date, "42855 Remscheid", club, show details, status, type label]
+      const date = tds?.[2]?.textContent?.trim() || tds?.[1]?.textContent?.trim() || '';
+      const cityRaw = tds?.[3]?.textContent?.trim() || '';
+      const club = tds?.[4]?.textContent?.trim() || '';
+      const status = tds?.[6]?.textContent?.trim() || '';
+      const type = (tds?.[7]?.textContent || '').replace(/\s+/g,' ').trim();
+
+      const parts = cityRaw.split(' ');
+      const postcode = parts[0] && /^\d{4,5}$/.test(parts[0]) ? parts[0] : '';
+      const city = postcode ? parts.slice(1).join(' ').trim() : cityRaw;
+
+      return { title, href, date, postcode, city, club, status, type };
+    });
+  });
+
+  return rows.map(r => ({
+    title: normalizeWhitespace(r.title),
+    url: makeAbsoluteRankedInUrl(r.href),
+    date: normalizeWhitespace(r.date),
+    postcode: normalizeWhitespace(r.postcode),
+    city: normalizeWhitespace(r.city),
+    club: normalizeWhitespace(r.club),
+    status: normalizeWhitespace(r.status),
+    type: normalizeWhitespace(r.type)
+  })).filter(r => r.url);
+}
+
+async function fetchJoinUrl(browser, url){
+  const page = await browser.newPage();
+  try{
+    await page.goto(url, { waitUntil:'domcontentloaded', timeout: 60_000 });
+    const join = await page.locator('a.org-join-btn').first();
+    if(await join.count()){
+      const href = await join.getAttribute('href');
+      return href ? makeAbsoluteRankedInUrl(href) : null;
+    }
+  }catch{}
+  finally{ await page.close().catch(()=>{}); }
+  return null;
+}
+
+async function main(){
+  const browser = await chromium.launch({ headless: true });
+  const page = await browser.newPage();
+
+  console.log('Go to', LIST_URL);
+  await page.goto(LIST_URL, { waitUntil:'domcontentloaded', timeout: 60_000 });
+
+  // Dismiss cookie consent popup
+  try {
+    await page.evaluate(() => {
+      const cmp = document.getElementById('sd-cmp');
+      if(cmp) cmp.remove();
+    });
+    console.log('Dismissed popup');
+  } catch {}
+
+  // Paste your working filter clicks into applyFilters.js
+  await applyFilters(page);
+
+  const all = [];
+  const seen = new Set();
+
+  while(true){
+    const chunk = await scrapeTablePage(page);
+    for(const t of chunk){
+      if(seen.has(t.url)) continue;
+      seen.add(t.url);
+      all.push(t);
+    }
+
+    const nextLi = page.locator('li#vdtnetable1_next');
+    const cls = await nextLi.getAttribute('class');
+    const disabled = (cls || '').includes('disabled');
+    if(disabled) break;
+
+    await nextLi.locator('a.page-link').click({ force: true });
+    await page.waitForTimeout(600);
+    await page.waitForSelector('table#vdtnetable1 tbody tr');
+  }
+
+  console.log('Rows scraped:', all.length);
+
+  const enriched = all.map(t => ({
+    ...t,
+    label: t.type, // adjust if you have a separate “state”
+    id: makeId(t)
+  }));
+
+  // Optional join lookups (limited to reduce load)
+  const MAX_JOIN = Number(process.env.MAX_JOIN_LOOKUPS || 25);
+  const targets = enriched.slice(0, MAX_JOIN);
+  let i = 0;
+  for(const t of targets){
+    i++;
+    console.log(`Join lookup ${i}/${targets.length}`);
+    t.joinUrl = await fetchJoinUrl(browser, t.url);
+    await sleep(250);
+  }
+
+  // Geocode query logic
+  for(const t of enriched){
+    const cityQ = t.city ? `${t.city}, Germany` : 'Germany';
+    if(isDPVClubName(t.club)){
+      t.geocodeQuery = cityQ;
+    }else if(t.club && t.city){
+      t.geocodeQuery = `${t.club}, ${t.city}, Germany`;
+    }else if(t.city){
+      t.geocodeQuery = cityQ;
+    }else if(t.club){
+      t.geocodeQuery = `${t.club}, Germany`;
+    }else{
+      t.geocodeQuery = null;
+    }
+  }
+
+  await geocodeMany(enriched, {
+    userAgent: process.env.NOMINATIM_USER_AGENT || 'rankedin-padel-map/1.0 (contact: you@example.com)'
+  });
+
+  const out = { updatedAt: new Date().toISOString(), items: enriched };
+  fs.mkdirSync(path.dirname(OUT_PATH), { recursive:true });
+  fs.writeFileSync(OUT_PATH, JSON.stringify(out, null, 2));
+  console.log('Wrote', OUT_PATH);
+
+  await browser.close();
+}
+
+main().catch(e=>{
+  console.error(e);
+  process.exit(1);
+});
