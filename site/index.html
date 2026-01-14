@@ -11,17 +11,24 @@
 </head>
 <body>
   <header class="topbar">
-    <div class="brand">Padel Tournaments Map</div>
+    <div class="brand">DPV Tournament map by Rodrigo</div>
     <div class="meta">
-      <span id="lastUpdated">Loading…</span>
-      <a class="tiny" href="https://www.rankedin.com/" target="_blank" rel="noreferrer">RankedIn</a>
+      <a href="https://www.rankedin.com/" target="_blank" id="lastUpdated" rel="noreferrer">Loading…</a>
+      <a class="tiny" href="https://www.github.com/rodrag0/" target="_blank" rel="noreferrer">github.com/rodrag0</a>
     </div>
   </header>
 
   <main class="layout">
     <aside class="sidebar">
-      <div class="controls">
-        <input id="search" type="search" placeholder="Search (club, city, title)…" />
+      <div class="controls-header">
+        <button id="filterToggle" class="filter-btn" aria-label="Toggle filters">
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+            <polygon points="22 3 2 3 10 12.46 10 19 14 21 14 12.46 22 3"></polygon>
+          </svg>
+        </button>
+      </div>
+      <div class="controls" id="controlsPanel">
+        <input id="search" type="search" placeholder="Search (club, 100, 250, city, title)…" />
         <div class="row">
           <select id="type">
             <option value="">All types</option>
@@ -35,11 +42,14 @@
             <option value="">All labels</option>
           </select>
           <select id="sort">
-            <option value="dateAsc">Date ↑</option>
-            <option value="dateDesc">Date ↓</option>
+            <option value="dateAsc">Sooner ↑</option>
+            <option value="dateDesc">Later ↓</option>
           </select>
         </div>
-        <button id="reset">Reset</button>
+        <div class="row">
+          <button id="apply">Apply</button>
+          <button id="reset">Reset</button>
+        </div>
       </div>
 
       <div class="listMeta">
@@ -49,7 +59,7 @@
       <div id="list" class="list"></div>
       <footer class="footer">
         <div class="tiny">
-          Built with Leaflet + data scraped from RankedIn.
+          data scraped from Rankedins calendar
         </div>
       </footer>
     </aside>

@@ -215,6 +215,24 @@ async function init(){
     applyFilters();
   });
 
+  // Apply button - collapse filters on mobile after applying
+  document.getElementById('apply').addEventListener('click', () => {
+    applyFilters();
+    const controlsPanel = document.getElementById('controlsPanel');
+    if(controlsPanel && controlsPanel.classList.contains('expanded')){
+      controlsPanel.classList.remove('expanded');
+    }
+  });
+
+  // Mobile filter toggle
+  const filterToggle = document.getElementById('filterToggle');
+  const controlsPanel = document.getElementById('controlsPanel');
+  if(filterToggle && controlsPanel){
+    filterToggle.addEventListener('click', () => {
+      controlsPanel.classList.toggle('expanded');
+    });
+  }
+
   applyFilters();
 }
 
