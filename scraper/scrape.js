@@ -133,7 +133,7 @@ async function main(){
     label: t.type, // adjust if you have a separate “state”
     id: makeId(t)
   }));
-
+  console.log('Enriched items:', enriched.length);
   // Optional join lookups (limited to reduce load)
   const MAX_JOIN = Number(process.env.MAX_JOIN_LOOKUPS || 25);
   const targets = enriched.slice(0, MAX_JOIN);
@@ -170,9 +170,10 @@ async function main(){
     console.log('Geocoding error:', e.message);
     // Continue anyway with whatever data we have
   }
-  console.log('Geocoding complete')
+  console.log('Geocoding complete, items now:', enriched.length);
 
   const out = { updatedAt: new Date().toISOString(), items: enriched };
+  console.log('Writing output:', out.items.length, 'items');
   fs.mkdirSync(path.dirname(OUT_PATH), { recursive:true });
   fs.writeFileSync(OUT_PATH, JSON.stringify(out, null, 2));
   console.log('Wrote', OUT_PATH);

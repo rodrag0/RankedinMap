@@ -38,7 +38,9 @@ export async function geocodeMany(items, { userAgent = 'rankedin-padel-map/1.0 (
       headers: { 'User-Agent': userAgent, 'Accept-Language': 'en' }
     });
     if(!res.ok){
-      console.warn('Geocode failed', res.status, q);
+      console.warn(`Geocode failed ${res.status} for query: "${q}". Skipping.`);
+      cache[q] = null;
+      saveCache(cache);
       return null;
     }
     const arr = await res.json();
