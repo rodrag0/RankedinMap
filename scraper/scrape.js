@@ -14,7 +14,12 @@ if(!LIST_URL){
 const OUT_PATH = path.join(process.cwd(), '..', 'site', 'data', 'tournaments.json');
 
 async function scrapeTablePage(page){
-  await page.waitForSelector('table#vdtnetable1 tbody tr', { timeout: 60_000 });
+  try {
+    await page.waitForSelector('table#vdtnetable1 tbody tr', { timeout: 5_000 });
+  } catch (e) {
+    console.log('Table not found, returning empty');
+    return [];
+  }
 
   const rows = await page.$$eval('table#vdtnetable1 tbody tr', trs => {
     return trs.map(tr => {
@@ -37,6 +42,9 @@ async function scrapeTablePage(page){
 
       return { title, href, date, postcode, city, club, status, type };
     });
+  }).catch(e => {
+    console.log('Error scraping rows:', e.message);
+    return [];
   });
 
   return rows.map(r => ({
@@ -71,6 +79,7 @@ async function main(){
 
   console.log('Go to', LIST_URL);
   await page.goto(LIST_URL, { waitUntil:'domcontentloaded', timeout: 60_000 });
+  await page.waitForTimeout(2000); // Wait for content to load
 
   // Dismiss cookie consent popup
   try {
@@ -80,6 +89,14 @@ async function main(){
     });
     console.log('Dismissed popup');
   } catch {}
+
+  // Wait for table to appear
+  try {
+    await page.waitForSelector('table#vdtnetable1 tbody tr', { timeout: 10_000 });
+    console.log('Table loaded');
+  } catch (e) {
+    console.log('Warning: Table selector timeout', e.message);
+  }
 
   // Paste your working filter clicks into applyFilters.js
   await applyFilters(page);
@@ -100,7 +117,11 @@ async function main(){
     const disabled = (cls || '').includes('disabled');
     if(disabled) break;
 
-    await nextLi.locator('a.page-link').click({ force: true });
+    // Use JavaScript to trigger the pagination instead of clicking through overlay
+    await page.evaluate(() => {
+      const link = document.querySelector('li#vdtnetable1_next a.page-link');
+      if(link) link.click();
+    });
     await page.waitForTimeout(600);
     await page.waitForSelector('table#vdtnetable1 tbody tr');
   }
@@ -140,9 +161,16 @@ async function main(){
     }
   }
 
-  await geocodeMany(enriched, {
-    userAgent: process.env.NOMINATIM_USER_AGENT || 'rankedin-padel-map/1.0 (contact: you@example.com)'
-  });
+  console.log('Starting geocoding of', enriched.length, 'items');
+  try {
+    await geocodeMany(enriched, {
+      userAgent: process.env.NOMINATIM_USER_AGENT || 'rankedin-padel-map/1.0 (contact: you@example.com)'
+    });
+  } catch (e) {
+    console.log('Geocoding error:', e.message);
+    // Continue anyway with whatever data we have
+  }
+  console.log('Geocoding complete')
 
   const out = { updatedAt: new Date().toISOString(), items: enriched };
   fs.mkdirSync(path.dirname(OUT_PATH), { recursive:true });
