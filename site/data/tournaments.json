@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-01-14T19:00:45.270Z",
+  "updatedAt": "2026-01-14T20:22:32.668Z",
   "items": [
     {
       "title": "CUPRA GPS 350 Herren - PADELON Bergisch Land",
@@ -13,7 +13,11 @@
       "label": "TN tournament",
       "id": "t_c33112b8",
       "joinUrl": null,
-      "geocodeQuery": "Padelon Bergisch Land, Remscheid, Germany"
+      "geocodeQuery": "Padelon Bergisch Land, Remscheid, Germany",
+      "lat": 51.1935244,
+      "lon": 7.1936535,
+      "geocodeDisplay": "42855, Alt-Remscheid, Remscheid, North Rhine-Westphalia, Germany",
+      "geocodeQueryUsed": "42855 Remscheid, Germany"
     },
     {
       "title": "CUPRA GPS 50 Herren - PADELON Essen",
@@ -30,7 +34,8 @@
       "geocodeQuery": "Essen, Germany",
       "lat": 51.4582235,
       "lon": 7.0158171,
-      "geocodeDisplay": "Essen, North Rhine-Westphalia, Germany"
+      "geocodeDisplay": "Essen, North Rhine-Westphalia, Germany",
+      "geocodeQueryUsed": "Essen, Germany"
     },
     {
       "title": "CUPRA GPS 250 Herren - Padellers Herdecke",
@@ -44,7 +49,11 @@
       "label": "TN tournament",
       "id": "t_31292aab",
       "joinUrl": null,
-      "geocodeQuery": "Padellers Herdecke, Herdecke, Deutschland, Germany"
+      "geocodeQuery": "Padellers Herdecke, Herdecke, Germany",
+      "lat": 51.3930121,
+      "lon": 7.4334038,
+      "geocodeDisplay": "The Padellers Herdecke, Vorhaller Weg, Sonnenstein, Herdecke, Hagen-Nord, Herdecke, Ennepe-Ruhr-Kreis, North Rhine-Westphalia, 58313, Germany",
+      "geocodeQueryUsed": "Padellers Herdecke, Herdecke, Germany"
     },
     {
       "title": "CUPRA GPS 350 Herren by padelBOX Niederkassel",
@@ -58,7 +67,11 @@
       "label": "TN tournament",
       "id": "t_16bac2e4",
       "joinUrl": null,
-      "geocodeQuery": "padelBOX Niederkassel, Niederkassel, Germany"
+      "geocodeQuery": "padelBOX Niederkassel, Niederkassel, Germany",
+      "lat": 50.8137102,
+      "lon": 7.0351942,
+      "geocodeDisplay": "Niederkassel, Rhein-Sieg-Kreis, North Rhine-Westphalia, 53859, Germany",
+      "geocodeQueryUsed": "Niederkassel, Germany"
     },
     {
       "title": "CUPRA GPS 100 Herren - Early Bird - by padelBOX Köln-Weiden",
@@ -72,7 +85,11 @@
       "label": "TN tournament",
       "id": "t_75c45490",
       "joinUrl": null,
-      "geocodeQuery": "padelBOX Köln-Weiden, Köln, Germany"
+      "geocodeQuery": "padelBOX Köln-Weiden, Köln, Germany",
+      "lat": 50.938361,
+      "lon": 6.959974,
+      "geocodeDisplay": "Cologne, North Rhine-Westphalia, Germany",
+      "geocodeQueryUsed": "Köln, Germany"
     },
     {
       "title": "CUPRA GPS 350 Herren - [LATE NIGHT SESSION] - Padelon Gelsenkirchen",
@@ -86,7 +103,11 @@
       "label": "TN tournament",
       "id": "t_c503c00e",
       "joinUrl": null,
-      "geocodeQuery": "Padelon Gelsenkirchen, Gelsenkirchen, Germany, Germany"
+      "geocodeQuery": "Padelon Gelsenkirchen, Gelsenkirchen, Germany",
+      "lat": 51.6052256,
+      "lon": 7.0368796,
+      "geocodeDisplay": "45896, Hassel, Gelsenkirchen-Nord, Gelsenkirchen, North Rhine-Westphalia, Germany",
+      "geocodeQueryUsed": "45896 Gelsenkirchen, Germany"
     },
     {
       "title": "CUPRA GPS 50 Mixed - The Padellers Essen",
@@ -103,7 +124,8 @@
       "geocodeQuery": "The Padellers Essen, Essen, Germany",
       "lat": 51.4492857,
       "lon": 6.9937766,
-      "geocodeDisplay": "The Padellers, 59, Schederhofstraße, Holsterhausen, Stadtbezirk III, Essen, North Rhine-Westphalia, 45145, Germany"
+      "geocodeDisplay": "The Padellers, 59, Schederhofstraße, Holsterhausen, Stadtbezirk III, Essen, North Rhine-Westphalia, 45145, Germany",
+      "geocodeQueryUsed": "The Padellers Essen, Essen, Germany"
     },
     {
       "title": "CUPRA GPS 50 HERREN (Freitag Abend) - KERPEN - RACKET ARENA",
@@ -120,7 +142,8 @@
       "geocodeQuery": "Racket Arena Rhein-Erft, Kerpen, Germany",
       "lat": 50.872395,
       "lon": 6.6770206,
-      "geocodeDisplay": "Racket Arena, 1, Heidefließ, Langenich, Kerpen, Rhein-Erft-Kreis, North Rhine-Westphalia, 50171, Germany"
+      "geocodeDisplay": "Racket Arena, 1, Heidefließ, Langenich, Kerpen, Rhein-Erft-Kreis, North Rhine-Westphalia, 50171, Germany",
+      "geocodeQueryUsed": "Racket Arena Rhein-Erft, Kerpen, Germany"
     },
     {
       "title": "CUPRA GPS 50 Herren in der Padelschmiede Rastatt",
@@ -134,7 +157,11 @@
       "label": "TN tournament",
       "id": "t_8d4de4d8",
       "joinUrl": null,
-      "geocodeQuery": "PADELschmiede Rastatt, Rastatt, Germany"
+      "geocodeQuery": "PADELschmiede Rastatt, Rastatt, Germany",
+      "lat": 48.8672308,
+      "lon": 8.1843707,
+      "geocodeDisplay": "76437, Rastatt, VVG der Stadt Rastatt, Landkreis Rastatt, Baden-Württemberg, Germany",
+      "geocodeQueryUsed": "76437 Rastatt, Germany"
     },
     {
       "title": "CUPRA GPS 250 MIXED - PADEL LOFT MAGDEBURG - ALL INCLUSIVE (bei 8 Teams)",
@@ -148,7 +175,11 @@
       "label": "TN tournament",
       "id": "t_1655e234",
       "joinUrl": null,
-      "geocodeQuery": "Padel Loft - Magdeburg, Magdeburg, Germany"
+      "geocodeQuery": "Padel Loft - Magdeburg, Magdeburg, Germany",
+      "lat": 52.1884874,
+      "lon": 11.6571488,
+      "geocodeDisplay": "39126, Rothensee, Magdeburg, Saxony-Anhalt, Germany",
+      "geocodeQueryUsed": "39126 Magdeburg, Germany"
     },
     {
       "title": "CUPRA GPS Masters 1500 - Sportpark Mönchengladbach, PadelPark",
@@ -162,7 +193,11 @@
       "label": "TN tournament",
       "id": "t_df8eb5c8",
       "joinUrl": null,
-      "geocodeQuery": "PadelPark Mönchengladbach, Mönchengladbach, Germany"
+      "geocodeQuery": "PadelPark Mönchengladbach, Mönchengladbach, Germany",
+      "lat": 51.1947131,
+      "lon": 6.4353792,
+      "geocodeDisplay": "Mönchengladbach, North Rhine-Westphalia, Germany",
+      "geocodeQueryUsed": "Mönchengladbach, Germany"
     },
     {
       "title": "CUPRA GPS 100 Herren || Padel Planet in Schönebeck (bei Magdeburg)",
@@ -176,7 +211,11 @@
       "label": "TN tournament",
       "id": "t_820795d4",
       "joinUrl": null,
-      "geocodeQuery": "Padel Planet, Schönebeck (Elbe), Germany"
+      "geocodeQuery": "Padel Planet, Schönebeck (Elbe), Germany",
+      "lat": 52.0205998,
+      "lon": 11.7383277,
+      "geocodeDisplay": "Schönebeck (Elbe), Salzlandkreis, Saxony-Anhalt, Germany",
+      "geocodeQueryUsed": "Schönebeck (Elbe), Germany"
     },
     {
       "title": "CUPRA GPS 500 H45 / GPS 350 H00 - PadelCity Erlangen",
@@ -190,7 +229,11 @@
       "label": "TN tournament",
       "id": "t_7c5e6fcc",
       "joinUrl": null,
-      "geocodeQuery": "PadelCity Erlangen, Erlangen, Germany"
+      "geocodeQuery": "PadelCity Erlangen, Erlangen, Germany",
+      "lat": 49.5600719,
+      "lon": 11.0098047,
+      "geocodeDisplay": "91058, Bruck, Erlangen, Bavaria, Germany",
+      "geocodeQueryUsed": "91058 Erlangen, Germany"
     },
     {
       "title": "CUPRA GPS 50 Mixed - PadelNRW Turnier @ Sportmühle Hilden",
@@ -207,7 +250,8 @@
       "geocodeQuery": "Sportmühle Hilden, Hilden, Germany",
       "lat": 51.1699471,
       "lon": 6.9448796,
-      "geocodeDisplay": "Sportmühle, 55, Berliner Straße, Pungshaus, Hilden, Kreis Mettmann, North Rhine-Westphalia, 40724, Germany"
+      "geocodeDisplay": "Sportmühle, 55, Berliner Straße, Pungshaus, Hilden, Kreis Mettmann, North Rhine-Westphalia, 40724, Germany",
+      "geocodeQueryUsed": "Sportmühle Hilden, Hilden, Germany"
     },
     {
       "title": "CUPRA GPS 100 Herren by APC || Class: Herren offen",
@@ -224,7 +268,8 @@
       "geocodeQuery": "Alsdorf, Germany",
       "lat": 49.8885782,
       "lon": 6.4643156,
-      "geocodeDisplay": "Alsdorf, Südeifel, Eifelkreis Bitburg-Prüm, Rhineland-Palatinate, Germany"
+      "geocodeDisplay": "Alsdorf, Südeifel, Eifelkreis Bitburg-Prüm, Rhineland-Palatinate, Germany",
+      "geocodeQueryUsed": "Alsdorf, Germany"
     },
     {
       "title": "CUPRA GPS 250 Herren - PADELON Recklinghausen",
@@ -241,7 +286,8 @@
       "geocodeQuery": "Padelon Recklinghausen, Recklinghausen, Germany",
       "lat": 51.5952676,
       "lon": 7.1876865,
-      "geocodeDisplay": "Padelon Recklinghausen, 22, Kleinherner Straße, Hillerheide, Recklinghausen, Kreis Recklinghausen, North Rhine-Westphalia, 45659, Germany"
+      "geocodeDisplay": "Padelon Recklinghausen, 22, Kleinherner Straße, Hillerheide, Recklinghausen, Kreis Recklinghausen, North Rhine-Westphalia, 45659, Germany",
+      "geocodeQueryUsed": "Padelon Recklinghausen, Recklinghausen, Germany"
     },
     {
       "title": "CUPRA GPS 50 Damen by padelBOX Niederkassel",
@@ -255,7 +301,11 @@
       "label": "TN tournament",
       "id": "t_d36d0600",
       "joinUrl": null,
-      "geocodeQuery": "padelBOX Niederkassel, Niederkassel, Germany"
+      "geocodeQuery": "padelBOX Niederkassel, Niederkassel, Germany",
+      "lat": 50.8137102,
+      "lon": 7.0351942,
+      "geocodeDisplay": "Niederkassel, Rhein-Sieg-Kreis, North Rhine-Westphalia, 53859, Germany",
+      "geocodeQueryUsed": "Niederkassel, Germany"
     },
     {
       "title": "CUPRA GPS 50 Herren - Padelon Gelsenkirchen",
@@ -269,7 +319,11 @@
       "label": "TN tournament",
       "id": "t_7d522c10",
       "joinUrl": null,
-      "geocodeQuery": "Padelon Gelsenkirchen, Gelsenkirchen, Germany, Germany"
+      "geocodeQuery": "Padelon Gelsenkirchen, Gelsenkirchen, Germany",
+      "lat": 51.6052256,
+      "lon": 7.0368796,
+      "geocodeDisplay": "45896, Hassel, Gelsenkirchen-Nord, Gelsenkirchen, North Rhine-Westphalia, Germany",
+      "geocodeQueryUsed": "45896 Gelsenkirchen, Germany"
     },
     {
       "title": "CUPRA GPS 250 Herren by padelBOX Werne",
@@ -283,7 +337,11 @@
       "label": "TN tournament",
       "id": "t_5f8ecd23",
       "joinUrl": null,
-      "geocodeQuery": "padelBOX Werne, Werne, Germany"
+      "geocodeQuery": "padelBOX Werne, Werne, Germany",
+      "lat": 51.66268,
+      "lon": 7.6355052,
+      "geocodeDisplay": "Werne, Kreis Unna, North Rhine-Westphalia, 59368, Germany",
+      "geocodeQueryUsed": "Werne, Germany"
     },
     {
       "title": "CUPRA GPS 350 Herren - The Padellers Essen",
@@ -300,7 +358,8 @@
       "geocodeQuery": "The Padellers Essen, Essen, Germany",
       "lat": 51.4492857,
       "lon": 6.9937766,
-      "geocodeDisplay": "The Padellers, 59, Schederhofstraße, Holsterhausen, Stadtbezirk III, Essen, North Rhine-Westphalia, 45145, Germany"
+      "geocodeDisplay": "The Padellers, 59, Schederhofstraße, Holsterhausen, Stadtbezirk III, Essen, North Rhine-Westphalia, 45145, Germany",
+      "geocodeQueryUsed": "The Padellers Essen, Essen, Germany"
     },
     {
       "title": "CUPRA GPS 100 Herren - Padelon Mülheim",
@@ -317,7 +376,8 @@
       "geocodeQuery": "Mülheim an der Ruhr, Germany",
       "lat": 51.4272925,
       "lon": 6.8829192,
-      "geocodeDisplay": "Mülheim an der Ruhr, North Rhine-Westphalia, Germany"
+      "geocodeDisplay": "Mülheim an der Ruhr, North Rhine-Westphalia, Germany",
+      "geocodeQueryUsed": "Mülheim an der Ruhr, Germany"
     },
     {
       "title": "CUPRA GPS 350 Herren & GPS 50 Damen - Samstag - Padelarena Wertheim",
@@ -331,7 +391,11 @@
       "label": "TN tournament",
       "id": "t_9089dd54",
       "joinUrl": null,
-      "geocodeQuery": "PadelArena Würzburg Grombühl, Wertheim, Germany"
+      "geocodeQuery": "PadelArena Würzburg Grombühl, Wertheim, Germany",
+      "lat": 49.741955,
+      "lon": 9.52596,
+      "geocodeDisplay": "97877, Waldenhausen, Wertheim, Main-Tauber-Kreis, Baden-Württemberg, Germany",
+      "geocodeQueryUsed": "97877 Wertheim, Germany"
     },
     {
       "title": "CUPRA GPS 100 Herren - PadelCity Recklinghausen",
@@ -345,7 +409,11 @@
       "label": "TN tournament",
       "id": "t_1f6e9750",
       "joinUrl": null,
-      "geocodeQuery": "PadelCity Recklinghausen, Recklinghausen, Germany"
+      "geocodeQuery": "PadelCity Recklinghausen, Recklinghausen, Germany",
+      "lat": 51.6188947,
+      "lon": 7.1894942,
+      "geocodeDisplay": "45657, Westviertel, Recklinghausen, Kreis Recklinghausen, North Rhine-Westphalia, Germany",
+      "geocodeQueryUsed": "45657 Recklinghausen, Germany"
     },
     {
       "title": "CUPRA GPS 100 Herren - Halle 11 (Berg)",
@@ -359,7 +427,11 @@
       "label": "TN tournament",
       "id": "t_9b57ad40",
       "joinUrl": null,
-      "geocodeQuery": "Padelmaniacs Halle11, Berg, Germany"
+      "geocodeQuery": "Padelmaniacs Halle11, Berg, Germany",
+      "lat": 47.8258048,
+      "lon": 9.5755619,
+      "geocodeDisplay": "88276, Bachmaier, Weiler, Berg, GVV Mittleres Schussental, Landkreis Ravensburg, Baden-Württemberg, Germany",
+      "geocodeQueryUsed": "88276 Berg, Germany"
     },
     {
       "title": "CUPRA GPS 350 Herren - Halle11 (Berg)",
@@ -373,7 +445,11 @@
       "label": "TN tournament",
       "id": "t_489d9424",
       "joinUrl": null,
-      "geocodeQuery": "Padelmaniacs Halle11, Berg, Germany"
+      "geocodeQuery": "Padelmaniacs Halle11, Berg, Germany",
+      "lat": 47.8258048,
+      "lon": 9.5755619,
+      "geocodeDisplay": "88276, Bachmaier, Weiler, Berg, GVV Mittleres Schussental, Landkreis Ravensburg, Baden-Württemberg, Germany",
+      "geocodeQueryUsed": "88276 Berg, Germany"
     },
     {
       "title": "CUPRA GPS 350 Herren 45 - by The Cube",
@@ -386,7 +462,11 @@
       "type": "TN tournament",
       "label": "TN tournament",
       "id": "t_64680780",
-      "geocodeQuery": "The Cube Padel, Köln, Germany"
+      "geocodeQuery": "The Cube Padel, Köln, Germany",
+      "lat": 50.9673086,
+      "lon": 7.0142068,
+      "geocodeDisplay": "51063, Mülheim, Cologne, North Rhine-Westphalia, Germany",
+      "geocodeQueryUsed": "51063 Köln, Germany"
     },
     {
       "title": "CUPRA GPS 100 Mixed - Terminal Padel & Social Club Rösrath",
@@ -399,7 +479,11 @@
       "type": "TN tournament",
       "label": "TN tournament",
       "id": "t_7ebc5be0",
-      "geocodeQuery": "Terminal Padel & Social Club, Rösrath, Germany"
+      "geocodeQuery": "Terminal Padel & Social Club, Rösrath, Germany",
+      "lat": 50.9051654,
+      "lon": 7.1821589,
+      "geocodeDisplay": "51503, Vierkotten, Hoffnungsthal, Rösrath, Rheinisch-Bergischer Kreis, North Rhine-Westphalia, Germany",
+      "geocodeQueryUsed": "51503 Rösrath, Germany"
     },
     {
       "title": "CUPRA GPS 350 Herren || Padel Planet in Schönebeck (bei Magdeburg)",
@@ -412,7 +496,11 @@
       "type": "TN tournament",
       "label": "TN tournament",
       "id": "t_3074a728",
-      "geocodeQuery": "Padel Planet, Schönebeck (Elbe), Germany"
+      "geocodeQuery": "Padel Planet, Schönebeck (Elbe), Germany",
+      "lat": 52.0205998,
+      "lon": 11.7383277,
+      "geocodeDisplay": "Schönebeck (Elbe), Salzlandkreis, Saxony-Anhalt, Germany",
+      "geocodeQueryUsed": "Schönebeck (Elbe), Germany"
     },
     {
       "title": "CUPRA GPS 100 Mixed || Padel Planet in Schönebeck (bei Magdeburg)",
@@ -425,7 +513,11 @@
       "type": "TN tournament",
       "label": "TN tournament",
       "id": "t_d9e836a0",
-      "geocodeQuery": "Padel Planet, Schönebeck (Elbe), Germany"
+      "geocodeQuery": "Padel Planet, Schönebeck (Elbe), Germany",
+      "lat": 52.0205998,
+      "lon": 11.7383277,
+      "geocodeDisplay": "Schönebeck (Elbe), Salzlandkreis, Saxony-Anhalt, Germany",
+      "geocodeQueryUsed": "Schönebeck (Elbe), Germany"
     },
     {
       "title": "CUPRA GPS 50 Damen - PADELON Recklinghausen",
@@ -441,7 +533,8 @@
       "geocodeQuery": "Padelon Recklinghausen, Recklinghausen, Germany",
       "lat": 51.5952676,
       "lon": 7.1876865,
-      "geocodeDisplay": "Padelon Recklinghausen, 22, Kleinherner Straße, Hillerheide, Recklinghausen, Kreis Recklinghausen, North Rhine-Westphalia, 45659, Germany"
+      "geocodeDisplay": "Padelon Recklinghausen, 22, Kleinherner Straße, Hillerheide, Recklinghausen, Kreis Recklinghausen, North Rhine-Westphalia, 45659, Germany",
+      "geocodeQueryUsed": "Padelon Recklinghausen, Recklinghausen, Germany"
     },
     {
       "title": "CUPRA GPS 100 Mixed by padelBOX Bergisch Gladbach",
@@ -454,7 +547,11 @@
       "type": "TN tournament",
       "label": "TN tournament",
       "id": "t_360e3e28",
-      "geocodeQuery": "padelBOX Bergisch Gladbach, Bergisch Gladbach, Germany"
+      "geocodeQuery": "padelBOX Bergisch Gladbach, Bergisch Gladbach, Germany",
+      "lat": 50.9929303,
+      "lon": 7.1277379,
+      "geocodeDisplay": "Bergisch Gladbach, Rheinisch-Bergischer Kreis, North Rhine-Westphalia, Germany",
+      "geocodeQueryUsed": "Bergisch Gladbach, Germany"
     },
     {
       "title": "CUPRA GPS 250 Herren by padelBOX Köln-Weiden",
@@ -467,7 +564,11 @@
       "type": "TN tournament",
       "label": "TN tournament",
       "id": "t_9163a446",
-      "geocodeQuery": "padelBOX Köln-Weiden, Köln, Germany"
+      "geocodeQuery": "padelBOX Köln-Weiden, Köln, Germany",
+      "lat": 50.938361,
+      "lon": 6.959974,
+      "geocodeDisplay": "Cologne, North Rhine-Westphalia, Germany",
+      "geocodeQueryUsed": "Köln, Germany"
     },
     {
       "title": "CUPRA GPS 350 Damen - PadelCity Recklinghausen",
@@ -480,7 +581,11 @@
       "type": "TN tournament",
       "label": "TN tournament",
       "id": "t_acce4448",
-      "geocodeQuery": "PadelCity Recklinghausen, Recklinghausen, Germany"
+      "geocodeQuery": "PadelCity Recklinghausen, Recklinghausen, Germany",
+      "lat": 51.6188947,
+      "lon": 7.1894942,
+      "geocodeDisplay": "45657, Westviertel, Recklinghausen, Kreis Recklinghausen, North Rhine-Westphalia, Germany",
+      "geocodeQueryUsed": "45657 Recklinghausen, Germany"
     },
     {
       "title": "CUPRA GPS 100 Damen - padelworld Bochum",
@@ -493,7 +598,11 @@
       "type": "TN tournament",
       "label": "TN tournament",
       "id": "t_ff74e614",
-      "geocodeQuery": "1. Padelclub Bochum, Bochum, Germany"
+      "geocodeQuery": "1. Padelclub Bochum, Bochum, Germany",
+      "lat": 51.4818111,
+      "lon": 7.2196635,
+      "geocodeDisplay": "Bochum, North Rhine-Westphalia, Germany",
+      "geocodeQueryUsed": "Bochum, Germany"
     },
     {
       "title": "CUPRA GPS 250 Mixed - padelworld Bochum",
@@ -506,7 +615,11 @@
       "type": "TN tournament",
       "label": "TN tournament",
       "id": "t_83c8d7e0",
-      "geocodeQuery": "1. Padelclub Bochum, Bochum, Germany"
+      "geocodeQuery": "1. Padelclub Bochum, Bochum, Germany",
+      "lat": 51.4818111,
+      "lon": 7.2196635,
+      "geocodeDisplay": "Bochum, North Rhine-Westphalia, Germany",
+      "geocodeQueryUsed": "Bochum, Germany"
     },
     {
       "title": "CUPRA GPS 350 Herren - Terminal Padel & Social Club Rösrath",
@@ -519,7 +632,11 @@
       "type": "TN tournament",
       "label": "TN tournament",
       "id": "t_a1e7bfee",
-      "geocodeQuery": "Terminal Padel & Social Club, Rösrath, Germany"
+      "geocodeQuery": "Terminal Padel & Social Club, Rösrath, Germany",
+      "lat": 50.9051654,
+      "lon": 7.1821589,
+      "geocodeDisplay": "51503, Vierkotten, Hoffnungsthal, Rösrath, Rheinisch-Bergischer Kreis, North Rhine-Westphalia, Germany",
+      "geocodeQueryUsed": "51503 Rösrath, Germany"
     },
     {
       "title": "CUPRA GPS 250 H00 | Peakz Padel Paderborn",
@@ -532,7 +649,11 @@
       "type": "TN tournament",
       "label": "TN tournament",
       "id": "t_cfb88bf6",
-      "geocodeQuery": "Peakz Padel Paderborn, Paderborn, Germany"
+      "geocodeQuery": "Peakz Padel Paderborn, Paderborn, Germany",
+      "lat": 51.7177044,
+      "lon": 8.752653,
+      "geocodeDisplay": "Paderborn, Kreis Paderborn, North Rhine-Westphalia, Germany",
+      "geocodeQueryUsed": "Paderborn, Germany"
     },
     {
       "title": "CUPRA GPS 100 Mixed - PADELON Bergisch Land",
@@ -545,7 +666,11 @@
       "type": "TN tournament",
       "label": "TN tournament",
       "id": "t_40d270bc",
-      "geocodeQuery": "Padelon Bergisch Land, Remscheid, Germany"
+      "geocodeQuery": "Padelon Bergisch Land, Remscheid, Germany",
+      "lat": 51.1935244,
+      "lon": 7.1936535,
+      "geocodeDisplay": "42855, Alt-Remscheid, Remscheid, North Rhine-Westphalia, Germany",
+      "geocodeQueryUsed": "42855 Remscheid, Germany"
     },
     {
       "title": "CUPRA GPS 250 Herren - [EARLY BIRD] - Padelon Gelsenkirchen",
@@ -558,7 +683,11 @@
       "type": "TN tournament",
       "label": "TN tournament",
       "id": "t_6ec3d8b8",
-      "geocodeQuery": "Padelon Gelsenkirchen, Gelsenkirchen, Germany, Germany"
+      "geocodeQuery": "Padelon Gelsenkirchen, Gelsenkirchen, Germany",
+      "lat": 51.6052256,
+      "lon": 7.0368796,
+      "geocodeDisplay": "45896, Hassel, Gelsenkirchen-Nord, Gelsenkirchen, North Rhine-Westphalia, Germany",
+      "geocodeQueryUsed": "45896 Gelsenkirchen, Germany"
     },
     {
       "title": "CUPRA GPS 50 Herren - EARLY BIRD - Terminal Padel & Social Club Rösrath",
@@ -571,7 +700,11 @@
       "type": "TN tournament",
       "label": "TN tournament",
       "id": "t_e2250480",
-      "geocodeQuery": "Terminal Padel & Social Club, Rösrath, Germany"
+      "geocodeQuery": "Terminal Padel & Social Club, Rösrath, Germany",
+      "lat": 50.9051654,
+      "lon": 7.1821589,
+      "geocodeDisplay": "51503, Vierkotten, Hoffnungsthal, Rösrath, Rheinisch-Bergischer Kreis, North Rhine-Westphalia, Germany",
+      "geocodeQueryUsed": "51503 Rösrath, Germany"
     },
     {
       "title": "CUPRA GPS 100 Herren - padel amigos Halstenbek",
@@ -584,7 +717,11 @@
       "type": "TN tournament",
       "label": "TN tournament",
       "id": "t_1c0a0720",
-      "geocodeQuery": "padel amigos Hamburg-Halstenbek, Halstenbek, Germany"
+      "geocodeQuery": "padel amigos Hamburg-Halstenbek, Halstenbek, Germany",
+      "lat": 53.6332984,
+      "lon": 9.8499933,
+      "geocodeDisplay": "Halstenbek, Kreis Pinneberg, Schleswig-Holstein, 25469, Germany",
+      "geocodeQueryUsed": "Halstenbek, Germany"
     },
     {
       "title": "CUPRA GPS 50 Herren - [EARLY BIRD] - Padelon Mülheim",
@@ -600,7 +737,8 @@
       "geocodeQuery": "Mülheim an der Ruhr, Germany",
       "lat": 51.4272925,
       "lon": 6.8829192,
-      "geocodeDisplay": "Mülheim an der Ruhr, North Rhine-Westphalia, Germany"
+      "geocodeDisplay": "Mülheim an der Ruhr, North Rhine-Westphalia, Germany",
+      "geocodeQueryUsed": "Mülheim an der Ruhr, Germany"
     },
     {
       "title": "CUPRA GPS 50 Herren - PADELON Bergisch Land",
@@ -613,7 +751,11 @@
       "type": "TN tournament",
       "label": "TN tournament",
       "id": "t_ac327ccc",
-      "geocodeQuery": "Padelon Bergisch Land, Remscheid, Germany"
+      "geocodeQuery": "Padelon Bergisch Land, Remscheid, Germany",
+      "lat": 51.1935244,
+      "lon": 7.1936535,
+      "geocodeDisplay": "42855, Alt-Remscheid, Remscheid, North Rhine-Westphalia, Germany",
+      "geocodeQueryUsed": "42855 Remscheid, Germany"
     },
     {
       "title": "CUPRA GPS 250 Herren - PADELON Essen",
@@ -629,7 +771,8 @@
       "geocodeQuery": "Essen, Germany",
       "lat": 51.4582235,
       "lon": 7.0158171,
-      "geocodeDisplay": "Essen, North Rhine-Westphalia, Germany"
+      "geocodeDisplay": "Essen, North Rhine-Westphalia, Germany",
+      "geocodeQueryUsed": "Essen, Germany"
     },
     {
       "title": "CUPRA GPS 250 Damen - Padellers Herdecke",
@@ -642,7 +785,11 @@
       "type": "TN tournament",
       "label": "TN tournament",
       "id": "t_798360c0",
-      "geocodeQuery": "Padellers Herdecke, Herdecke, Deutschland, Germany"
+      "geocodeQuery": "Padellers Herdecke, Herdecke, Germany",
+      "lat": 51.3930121,
+      "lon": 7.4334038,
+      "geocodeDisplay": "The Padellers Herdecke, Vorhaller Weg, Sonnenstein, Herdecke, Hagen-Nord, Herdecke, Ennepe-Ruhr-Kreis, North Rhine-Westphalia, 58313, Germany",
+      "geocodeQueryUsed": "Padellers Herdecke, Herdecke, Germany"
     },
     {
       "title": "CUPRA GPS 100 Herren + GPS 50 Herren PADELON Recklinghausen",
@@ -658,7 +805,8 @@
       "geocodeQuery": "Padelon Recklinghausen, Recklinghausen, Germany",
       "lat": 51.5952676,
       "lon": 7.1876865,
-      "geocodeDisplay": "Padelon Recklinghausen, 22, Kleinherner Straße, Hillerheide, Recklinghausen, Kreis Recklinghausen, North Rhine-Westphalia, 45659, Germany"
+      "geocodeDisplay": "Padelon Recklinghausen, 22, Kleinherner Straße, Hillerheide, Recklinghausen, Kreis Recklinghausen, North Rhine-Westphalia, 45659, Germany",
+      "geocodeQueryUsed": "Padelon Recklinghausen, Recklinghausen, Germany"
     },
     {
       "title": "CUPRA GPS 350 H35 by padelBOX Bergisch Gladbach",
@@ -671,7 +819,11 @@
       "type": "TN tournament",
       "label": "TN tournament",
       "id": "t_ebe9c350",
-      "geocodeQuery": "padelBOX Bergisch Gladbach, Bergisch Gladbach, Germany"
+      "geocodeQuery": "padelBOX Bergisch Gladbach, Bergisch Gladbach, Germany",
+      "lat": 50.9929303,
+      "lon": 7.1277379,
+      "geocodeDisplay": "Bergisch Gladbach, Rheinisch-Bergischer Kreis, North Rhine-Westphalia, Germany",
+      "geocodeQueryUsed": "Bergisch Gladbach, Germany"
     },
     {
       "title": "CUPRA GPS 250 Herren - Early Bird - by padelBOX Köln-Weiden",
@@ -684,7 +836,11 @@
       "type": "TN tournament",
       "label": "TN tournament",
       "id": "t_afec94b2",
-      "geocodeQuery": "padelBOX Köln-Weiden, Köln, Germany"
+      "geocodeQuery": "padelBOX Köln-Weiden, Köln, Germany",
+      "lat": 50.938361,
+      "lon": 6.959974,
+      "geocodeDisplay": "Cologne, North Rhine-Westphalia, Germany",
+      "geocodeQueryUsed": "Köln, Germany"
     },
     {
       "title": "CUPRA GPS 50 Damen & Herren - The Padellers Essen",
@@ -700,7 +856,8 @@
       "geocodeQuery": "The Padellers Essen, Essen, Germany",
       "lat": 51.4492857,
       "lon": 6.9937766,
-      "geocodeDisplay": "The Padellers, 59, Schederhofstraße, Holsterhausen, Stadtbezirk III, Essen, North Rhine-Westphalia, 45145, Germany"
+      "geocodeDisplay": "The Padellers, 59, Schederhofstraße, Holsterhausen, Stadtbezirk III, Essen, North Rhine-Westphalia, 45145, Germany",
+      "geocodeQueryUsed": "The Padellers Essen, Essen, Germany"
     },
     {
       "title": "CUPRA GPS 100 Herren - [LATE NIGHT SESSION] - Padelon Gelsenkirchen",
@@ -713,7 +870,11 @@
       "type": "TN tournament",
       "label": "TN tournament",
       "id": "t_41e2e80",
-      "geocodeQuery": "Padelon Gelsenkirchen, Gelsenkirchen, Germany, Germany"
+      "geocodeQuery": "Padelon Gelsenkirchen, Gelsenkirchen, Germany",
+      "lat": 51.6052256,
+      "lon": 7.0368796,
+      "geocodeDisplay": "45896, Hassel, Gelsenkirchen-Nord, Gelsenkirchen, North Rhine-Westphalia, Germany",
+      "geocodeQueryUsed": "45896 Gelsenkirchen, Germany"
     },
     {
       "title": "CUPRA GPS 100 Herren by The Cube",
@@ -726,7 +887,11 @@
       "type": "TN tournament",
       "label": "TN tournament",
       "id": "t_622116ec",
-      "geocodeQuery": "The Cube Padel, Köln, Germany"
+      "geocodeQuery": "The Cube Padel, Köln, Germany",
+      "lat": 50.9673086,
+      "lon": 7.0142068,
+      "geocodeDisplay": "51063, Mülheim, Cologne, North Rhine-Westphalia, Germany",
+      "geocodeQueryUsed": "51063 Köln, Germany"
     },
     {
       "title": "CUPRA GPS 100 Herren - EARLY BIRD - Terminal Padel & Social Club Rösrath",
@@ -739,7 +904,11 @@
       "type": "TN tournament",
       "label": "TN tournament",
       "id": "t_9572d73a",
-      "geocodeQuery": "Terminal Padel & Social Club, Rösrath, Germany"
+      "geocodeQuery": "Terminal Padel & Social Club, Rösrath, Germany",
+      "lat": 50.9051654,
+      "lon": 7.1821589,
+      "geocodeDisplay": "51503, Vierkotten, Hoffnungsthal, Rösrath, Rheinisch-Bergischer Kreis, North Rhine-Westphalia, Germany",
+      "geocodeQueryUsed": "51503 Rösrath, Germany"
     },
     {
       "title": "CUPRA GPS 50 H00 - mitte — the cabrio",
@@ -752,7 +921,11 @@
       "type": "TN tournament",
       "label": "TN tournament",
       "id": "t_8164690",
-      "geocodeQuery": "mitte — The Cabrio, Hamburg, Germany"
+      "geocodeQuery": "mitte — The Cabrio, Hamburg, Germany",
+      "lat": 53.550341,
+      "lon": 10.000654,
+      "geocodeDisplay": "Hamburg, Germany",
+      "geocodeQueryUsed": "Hamburg, Germany"
     },
     {
       "title": "CUPRA GPS 100 H00 | Peakz Padel Paderborn",
@@ -765,7 +938,11 @@
       "type": "TN tournament",
       "label": "TN tournament",
       "id": "t_b26531fc",
-      "geocodeQuery": "Peakz Padel Paderborn, Paderborn, Germany"
+      "geocodeQuery": "Peakz Padel Paderborn, Paderborn, Germany",
+      "lat": 51.7177044,
+      "lon": 8.752653,
+      "geocodeDisplay": "Paderborn, Kreis Paderborn, North Rhine-Westphalia, Germany",
+      "geocodeQueryUsed": "Paderborn, Germany"
     },
     {
       "title": "CUPRA GPS 250 in der Padelschmiede Rastatt",
@@ -778,7 +955,11 @@
       "type": "TN tournament",
       "label": "TN tournament",
       "id": "t_6da7d2e8",
-      "geocodeQuery": "PADELschmiede Rastatt, Rastatt, Germany"
+      "geocodeQuery": "PADELschmiede Rastatt, Rastatt, Germany",
+      "lat": 48.8672308,
+      "lon": 8.1843707,
+      "geocodeDisplay": "76437, Rastatt, VVG der Stadt Rastatt, Landkreis Rastatt, Baden-Württemberg, Germany",
+      "geocodeQueryUsed": "76437 Rastatt, Germany"
     },
     {
       "title": "CUPRA GPS 100 Herren - padel amigos Jesteburg",
@@ -791,7 +972,11 @@
       "type": "TN tournament",
       "label": "TN tournament",
       "id": "t_ba680528",
-      "geocodeQuery": "padel amigos Jesteburg, Jesteburg, Germany"
+      "geocodeQuery": "padel amigos Jesteburg, Jesteburg, Germany",
+      "lat": 53.3057419,
+      "lon": 9.9400615,
+      "geocodeDisplay": "21266, Osterberg, Jesteburg, Samtgemeinde Jesteburg, Landkreis Harburg, Lower Saxony, Germany",
+      "geocodeQueryUsed": "21266 Jesteburg, Germany"
     },
     {
       "title": "CUPRA GPS 100 HERREN - PADEL LOFT MAGDEBURG - ALL INCLUSIVE (bei 8 Teams)",
@@ -804,7 +989,11 @@
       "type": "TN tournament",
       "label": "TN tournament",
       "id": "t_a7287504",
-      "geocodeQuery": "Padel Loft - Magdeburg, Magdeburg, Germany"
+      "geocodeQuery": "Padel Loft - Magdeburg, Magdeburg, Germany",
+      "lat": 52.1884874,
+      "lon": 11.6571488,
+      "geocodeDisplay": "39126, Rothensee, Magdeburg, Saxony-Anhalt, Germany",
+      "geocodeQueryUsed": "39126 Magdeburg, Germany"
     },
     {
       "title": "CUPRA GPS 350 DAMEN - PADEL LOFT MAGDEBURG - ALL INCLUSIVE (bei 8 Teams)",
@@ -817,7 +1006,11 @@
       "type": "TN tournament",
       "label": "TN tournament",
       "id": "t_3de96694",
-      "geocodeQuery": "Padel Loft - Magdeburg, Magdeburg, Germany"
+      "geocodeQuery": "Padel Loft - Magdeburg, Magdeburg, Germany",
+      "lat": 52.1884874,
+      "lon": 11.6571488,
+      "geocodeDisplay": "39126, Rothensee, Magdeburg, Saxony-Anhalt, Germany",
+      "geocodeQueryUsed": "39126 Magdeburg, Germany"
     },
     {
       "title": "CUPRA GPS 500 Herren || Padel Planet in Schönebeck (bei Magdeburg)",
@@ -830,7 +1023,11 @@
       "type": "TN tournament",
       "label": "TN tournament",
       "id": "t_16910ce4",
-      "geocodeQuery": "Padel Planet, Schönebeck (Elbe), Germany"
+      "geocodeQuery": "Padel Planet, Schönebeck (Elbe), Germany",
+      "lat": 52.0205998,
+      "lon": 11.7383277,
+      "geocodeDisplay": "Schönebeck (Elbe), Salzlandkreis, Saxony-Anhalt, Germany",
+      "geocodeQueryUsed": "Schönebeck (Elbe), Germany"
     },
     {
       "title": "CUPRA GPS 50 Herren || Padel Planet in Schönebeck (bei Magdeburg)",
@@ -843,7 +1040,11 @@
       "type": "TN tournament",
       "label": "TN tournament",
       "id": "t_5a596468",
-      "geocodeQuery": "Padel Planet, Schönebeck (Elbe), Germany"
+      "geocodeQuery": "Padel Planet, Schönebeck (Elbe), Germany",
+      "lat": 52.0205998,
+      "lon": 11.7383277,
+      "geocodeDisplay": "Schönebeck (Elbe), Salzlandkreis, Saxony-Anhalt, Germany",
+      "geocodeQueryUsed": "Schönebeck (Elbe), Germany"
     },
     {
       "title": "CUPRA GPS 100 & 350 Herren - HALL OF PADEL Braunschweig",
@@ -859,7 +1060,8 @@
       "geocodeQuery": "HALL OF PADEL Braunschweig, Braunschweig, Germany",
       "lat": 52.2831289,
       "lon": 10.5180077,
-      "geocodeDisplay": "Hall of Padel, Hamburger Straße, Schwarzer Berg, Nordstadt-Schunteraue, Brunswick, Lower Saxony, 38114, Germany"
+      "geocodeDisplay": "Hall of Padel, Hamburger Straße, Schwarzer Berg, Nordstadt-Schunteraue, Brunswick, Lower Saxony, 38114, Germany",
+      "geocodeQueryUsed": "HALL OF PADEL Braunschweig, Braunschweig, Germany"
     },
     {
       "title": "CUPRA GPS 1000 D00 & H00 - PadelCity Dortmund",
@@ -872,7 +1074,11 @@
       "type": "TN tournament",
       "label": "TN tournament",
       "id": "t_7ad85420",
-      "geocodeQuery": "PadelCity Dortmund, Dortmund, Germany"
+      "geocodeQuery": "PadelCity Dortmund, Dortmund, Germany",
+      "lat": 51.5142273,
+      "lon": 7.4652789,
+      "geocodeDisplay": "Dortmund, North Rhine-Westphalia, Germany",
+      "geocodeQueryUsed": "Dortmund, Germany"
     },
     {
       "title": "CUPRA GPS 50 Herren + Damen by padelBOX Bergisch Gladbach",
@@ -885,7 +1091,11 @@
       "type": "TN tournament",
       "label": "TN tournament",
       "id": "t_f0c3fe7c",
-      "geocodeQuery": "padelBOX Bergisch Gladbach, Bergisch Gladbach, Germany"
+      "geocodeQuery": "padelBOX Bergisch Gladbach, Bergisch Gladbach, Germany",
+      "lat": 50.9929303,
+      "lon": 7.1277379,
+      "geocodeDisplay": "Bergisch Gladbach, Rheinisch-Bergischer Kreis, North Rhine-Westphalia, Germany",
+      "geocodeQueryUsed": "Bergisch Gladbach, Germany"
     },
     {
       "title": "CUPRA GPS 250 Herren by padelBOX Ahlen",
@@ -901,7 +1111,8 @@
       "geocodeQuery": "padelBOX Ahlen, Ahlen, Germany",
       "lat": 51.7509072,
       "lon": 7.9033359,
-      "geocodeDisplay": "Padelbox, 33, Sachsenstraße, Zechensiedlung (Neustadt), Ahlen, Kreis Warendorf, North Rhine-Westphalia, 59229, Germany"
+      "geocodeDisplay": "Padelbox, 33, Sachsenstraße, Zechensiedlung (Neustadt), Ahlen, Kreis Warendorf, North Rhine-Westphalia, 59229, Germany",
+      "geocodeQueryUsed": "padelBOX Ahlen, Ahlen, Germany"
     },
     {
       "title": "CUPRA GPS 500 H45 by padelBOX Köln-Weiden",
@@ -914,7 +1125,11 @@
       "type": "TN tournament",
       "label": "TN tournament",
       "id": "t_2138ae46",
-      "geocodeQuery": "padelBOX Köln-Weiden, Köln, Germany"
+      "geocodeQuery": "padelBOX Köln-Weiden, Köln, Germany",
+      "lat": 50.938361,
+      "lon": 6.959974,
+      "geocodeDisplay": "Cologne, North Rhine-Westphalia, Germany",
+      "geocodeQueryUsed": "Köln, Germany"
     },
     {
       "title": "CUPRA GPS 100 Herren - The Padellers Essen",
@@ -930,7 +1145,8 @@
       "geocodeQuery": "The Padellers Essen, Essen, Germany",
       "lat": 51.4492857,
       "lon": 6.9937766,
-      "geocodeDisplay": "The Padellers, 59, Schederhofstraße, Holsterhausen, Stadtbezirk III, Essen, North Rhine-Westphalia, 45145, Germany"
+      "geocodeDisplay": "The Padellers, 59, Schederhofstraße, Holsterhausen, Stadtbezirk III, Essen, North Rhine-Westphalia, 45145, Germany",
+      "geocodeQueryUsed": "The Padellers Essen, Essen, Germany"
     },
     {
       "title": "CUPRA GPS 50 Mixed by The Cube",
@@ -943,7 +1159,11 @@
       "type": "TN tournament",
       "label": "TN tournament",
       "id": "t_e8180464",
-      "geocodeQuery": "The Cube Padel, Köln, Germany"
+      "geocodeQuery": "The Cube Padel, Köln, Germany",
+      "lat": 50.9673086,
+      "lon": 7.0142068,
+      "geocodeDisplay": "51063, Mülheim, Cologne, North Rhine-Westphalia, Germany",
+      "geocodeQueryUsed": "51063 Köln, Germany"
     },
     {
       "title": "CUPRA GPS 500 Herren Samstag - Padelarena Wertheim",
@@ -956,7 +1176,11 @@
       "type": "TN tournament",
       "label": "TN tournament",
       "id": "t_7421aa70",
-      "geocodeQuery": "PadelArena Würzburg Grombühl, Wertheim, Germany"
+      "geocodeQuery": "PadelArena Würzburg Grombühl, Wertheim, Germany",
+      "lat": 49.741955,
+      "lon": 9.52596,
+      "geocodeDisplay": "97877, Waldenhausen, Wertheim, Main-Tauber-Kreis, Baden-Württemberg, Germany",
+      "geocodeQueryUsed": "97877 Wertheim, Germany"
     },
     {
       "title": "CUPRA GPS 250 Herren - Terminal Padel & Social Club Rösrath",
@@ -969,7 +1193,11 @@
       "type": "TN tournament",
       "label": "TN tournament",
       "id": "t_9f670390",
-      "geocodeQuery": "Terminal Padel & Social Club, Rösrath, Germany"
+      "geocodeQuery": "Terminal Padel & Social Club, Rösrath, Germany",
+      "lat": 50.9051654,
+      "lon": 7.1821589,
+      "geocodeDisplay": "51503, Vierkotten, Hoffnungsthal, Rösrath, Rheinisch-Bergischer Kreis, North Rhine-Westphalia, Germany",
+      "geocodeQueryUsed": "51503 Rösrath, Germany"
     },
     {
       "title": "GPS 350+250 || D00/H00 || STC OBERLAND/ SPORTCENTER HAHN (Bei München)",
@@ -982,7 +1210,11 @@
       "type": "TN tournament",
       "label": "TN tournament",
       "id": "t_bffc0a",
-      "geocodeQuery": "STC Oberland, Geretsried, Germany"
+      "geocodeQuery": "STC Oberland, Geretsried, Germany",
+      "lat": 47.8646925,
+      "lon": 11.479351,
+      "geocodeDisplay": "Geretsried, Landkreis Bad Tölz-Wolfratshausen, Bavaria, 82538, Germany",
+      "geocodeQueryUsed": "Geretsried, Germany"
     },
     {
       "title": "CUPRA GPS 350 Mixed || Padel Planet in Schönebeck (bei Magdeburg)",
@@ -995,7 +1227,11 @@
       "type": "TN tournament",
       "label": "TN tournament",
       "id": "t_72a8a1d0",
-      "geocodeQuery": "Padel Planet, Schönebeck (Elbe), Germany"
+      "geocodeQuery": "Padel Planet, Schönebeck (Elbe), Germany",
+      "lat": 52.0205998,
+      "lon": 11.7383277,
+      "geocodeDisplay": "Schönebeck (Elbe), Salzlandkreis, Saxony-Anhalt, Germany",
+      "geocodeQueryUsed": "Schönebeck (Elbe), Germany"
     },
     {
       "title": "CUPRA GPS 50 Mixed || Padel Planet in Schönebeck (bei Magdeburg)",
@@ -1008,7 +1244,11 @@
       "type": "TN tournament",
       "label": "TN tournament",
       "id": "t_26581e4",
-      "geocodeQuery": "Padel Planet, Schönebeck (Elbe), Germany"
+      "geocodeQuery": "Padel Planet, Schönebeck (Elbe), Germany",
+      "lat": 52.0205998,
+      "lon": 11.7383277,
+      "geocodeDisplay": "Schönebeck (Elbe), Salzlandkreis, Saxony-Anhalt, Germany",
+      "geocodeQueryUsed": "Schönebeck (Elbe), Germany"
     },
     {
       "title": "CUPRA GPS 250 Mixed - PadelCity Fürth",
@@ -1021,7 +1261,11 @@
       "type": "TN tournament",
       "label": "TN tournament",
       "id": "t_4620de60",
-      "geocodeQuery": "PadelCity Fürth, Am Schallerseck 33-35, Germany"
+      "geocodeQuery": "PadelCity Fürth, Am Schallerseck 33-35, Germany",
+      "lat": 49.5041735,
+      "lon": 11.0037324,
+      "geocodeDisplay": "Am Schallerseck, Sack, Braunsbach, Bislohe, Steinach, Nord-Ost, Fürth, Bavaria, 90765, Germany",
+      "geocodeQueryUsed": "Am Schallerseck 33-35, Germany"
     },
     {
       "title": "CUPRA GPS 50 H00 / GPS 250 D00 - Gladius Games - Sportmühle Hilden",
@@ -1037,7 +1281,8 @@
       "geocodeQuery": "Sportmühle Hilden, Hilden, Germany",
       "lat": 51.1699471,
       "lon": 6.9448796,
-      "geocodeDisplay": "Sportmühle, 55, Berliner Straße, Pungshaus, Hilden, Kreis Mettmann, North Rhine-Westphalia, 40724, Germany"
+      "geocodeDisplay": "Sportmühle, 55, Berliner Straße, Pungshaus, Hilden, Kreis Mettmann, North Rhine-Westphalia, 40724, Germany",
+      "geocodeQueryUsed": "Sportmühle Hilden, Hilden, Germany"
     },
     {
       "title": "CUPRA GPS 50 Herren by APC || Class: Herren offen",
@@ -1053,7 +1298,8 @@
       "geocodeQuery": "Alsdorf, Germany",
       "lat": 49.8885782,
       "lon": 6.4643156,
-      "geocodeDisplay": "Alsdorf, Südeifel, Eifelkreis Bitburg-Prüm, Rhineland-Palatinate, Germany"
+      "geocodeDisplay": "Alsdorf, Südeifel, Eifelkreis Bitburg-Prüm, Rhineland-Palatinate, Germany",
+      "geocodeQueryUsed": "Alsdorf, Germany"
     },
     {
       "title": "CUPRA GPS 100 Mixed by padelBOX Niederkassel",
@@ -1066,7 +1312,11 @@
       "type": "TN tournament",
       "label": "TN tournament",
       "id": "t_98373ec0",
-      "geocodeQuery": "padelBOX Niederkassel, Niederkassel, Germany"
+      "geocodeQuery": "padelBOX Niederkassel, Niederkassel, Germany",
+      "lat": 50.8137102,
+      "lon": 7.0351942,
+      "geocodeDisplay": "Niederkassel, Rhein-Sieg-Kreis, North Rhine-Westphalia, 53859, Germany",
+      "geocodeQueryUsed": "Niederkassel, Germany"
     },
     {
       "title": "CUPRA GPS 50 Herren by padelBOX Werne",
@@ -1079,7 +1329,11 @@
       "type": "TN tournament",
       "label": "TN tournament",
       "id": "t_7126b7f",
-      "geocodeQuery": "padelBOX Werne, Werne, Germany"
+      "geocodeQuery": "padelBOX Werne, Werne, Germany",
+      "lat": 51.66268,
+      "lon": 7.6355052,
+      "geocodeDisplay": "Werne, Kreis Unna, North Rhine-Westphalia, 59368, Germany",
+      "geocodeQueryUsed": "Werne, Germany"
     },
     {
       "title": "CUPRA GPS 250 H00 / 500 H00 / 350 D00 - HALL OF PADEL Wolfenbüttel",
@@ -1092,7 +1346,11 @@
       "type": "TN tournament",
       "label": "TN tournament",
       "id": "t_b72af0f4",
-      "geocodeQuery": "HALL OF PADEL Wolfenbüttel, Wolfenbüttel, Germany"
+      "geocodeQuery": "HALL OF PADEL Wolfenbüttel, Wolfenbüttel, Germany",
+      "lat": 52.1625283,
+      "lon": 10.5348215,
+      "geocodeDisplay": "Wolfenbüttel, Landkreis Wolfenbüttel, Lower Saxony, Germany",
+      "geocodeQueryUsed": "Wolfenbüttel, Germany"
     },
     {
       "title": "CUPRA GPS 100 Herren - Terminal Padel & Social Club Rösrath",
@@ -1105,7 +1363,11 @@
       "type": "TN tournament",
       "label": "TN tournament",
       "id": "t_78c672e8",
-      "geocodeQuery": "Terminal Padel & Social Club, Rösrath, Germany"
+      "geocodeQuery": "Terminal Padel & Social Club, Rösrath, Germany",
+      "lat": 50.9051654,
+      "lon": 7.1821589,
+      "geocodeDisplay": "51503, Vierkotten, Hoffnungsthal, Rösrath, Rheinisch-Bergischer Kreis, North Rhine-Westphalia, Germany",
+      "geocodeQueryUsed": "51503 Rösrath, Germany"
     },
     {
       "title": "CUPRA GPS 250 Herren - Early Bird - by padelBOX Niederkassel",
@@ -1118,7 +1380,11 @@
       "type": "TN tournament",
       "label": "TN tournament",
       "id": "t_e3b7f8dc",
-      "geocodeQuery": "padelBOX Niederkassel, Niederkassel, Germany"
+      "geocodeQuery": "padelBOX Niederkassel, Niederkassel, Germany",
+      "lat": 50.8137102,
+      "lon": 7.0351942,
+      "geocodeDisplay": "Niederkassel, Rhein-Sieg-Kreis, North Rhine-Westphalia, 53859, Germany",
+      "geocodeQueryUsed": "Niederkassel, Germany"
     },
     {
       "title": "CUPRA GPS 50 Herren - [EARLY BIRD] - Padelon Gelsenkirchen",
@@ -1131,7 +1397,11 @@
       "type": "TN tournament",
       "label": "TN tournament",
       "id": "t_e9d4302a",
-      "geocodeQuery": "Padelon Gelsenkirchen, Gelsenkirchen, Germany, Germany"
+      "geocodeQuery": "Padelon Gelsenkirchen, Gelsenkirchen, Germany",
+      "lat": 51.6052256,
+      "lon": 7.0368796,
+      "geocodeDisplay": "45896, Hassel, Gelsenkirchen-Nord, Gelsenkirchen, North Rhine-Westphalia, Germany",
+      "geocodeQueryUsed": "45896 Gelsenkirchen, Germany"
     },
     {
       "title": "CUPRA GPS 350 Herren - Padel Patas Torneo (Hanse Padel - Curslack - Hamburg)",
@@ -1144,7 +1414,11 @@
       "type": "TN tournament",
       "label": "TN tournament",
       "id": "t_d9c0e5b8",
-      "geocodeQuery": "Hanse Padel Hamburg, Hamburg, Germany"
+      "geocodeQuery": "Hanse Padel Hamburg, Hamburg, Germany",
+      "lat": 53.4536506,
+      "lon": 10.2681676,
+      "geocodeDisplay": "21039, Bergedorf, Hamburg, Germany",
+      "geocodeQueryUsed": "21039 Hamburg, Germany"
     },
     {
       "title": "CUPRA GPS 250 Herren - padel amigos Jesteburg",
@@ -1157,7 +1431,11 @@
       "type": "TN tournament",
       "label": "TN tournament",
       "id": "t_11db7204",
-      "geocodeQuery": "padel amigos Jesteburg, Jesteburg, Germany"
+      "geocodeQuery": "padel amigos Jesteburg, Jesteburg, Germany",
+      "lat": 53.3057419,
+      "lon": 9.9400615,
+      "geocodeDisplay": "21266, Osterberg, Jesteburg, Samtgemeinde Jesteburg, Landkreis Harburg, Lower Saxony, Germany",
+      "geocodeQueryUsed": "21266 Jesteburg, Germany"
     },
     {
       "title": "CUPRA GPS 250 Herren - [EARLY BIRD] - Padelon Mülheim",
@@ -1173,7 +1451,8 @@
       "geocodeQuery": "Mülheim an der Ruhr, Germany",
       "lat": 51.4272925,
       "lon": 6.8829192,
-      "geocodeDisplay": "Mülheim an der Ruhr, North Rhine-Westphalia, Germany"
+      "geocodeDisplay": "Mülheim an der Ruhr, North Rhine-Westphalia, Germany",
+      "geocodeQueryUsed": "Mülheim an der Ruhr, Germany"
     },
     {
       "title": "CUPRA GPS 100 Herren - PADELON Bergisch Land",
@@ -1186,7 +1465,11 @@
       "type": "TN tournament",
       "label": "TN tournament",
       "id": "t_4b0d5b20",
-      "geocodeQuery": "Padelon Bergisch Land, Remscheid, Germany"
+      "geocodeQuery": "Padelon Bergisch Land, Remscheid, Germany",
+      "lat": 51.1935244,
+      "lon": 7.1936535,
+      "geocodeDisplay": "42855, Alt-Remscheid, Remscheid, North Rhine-Westphalia, Germany",
+      "geocodeQueryUsed": "42855 Remscheid, Germany"
     },
     {
       "title": "CUPRA GPS 50 Herren - PADELON Essen",
@@ -1202,7 +1485,8 @@
       "geocodeQuery": "Essen, Germany",
       "lat": 51.4582235,
       "lon": 7.0158171,
-      "geocodeDisplay": "Essen, North Rhine-Westphalia, Germany"
+      "geocodeDisplay": "Essen, North Rhine-Westphalia, Germany",
+      "geocodeQueryUsed": "Essen, Germany"
     },
     {
       "title": "CUPRA GPS 250 Herren - Padellers Herdecke",
@@ -1215,7 +1499,11 @@
       "type": "TN tournament",
       "label": "TN tournament",
       "id": "t_9b955a98",
-      "geocodeQuery": "Padellers Herdecke, Herdecke, Deutschland, Germany"
+      "geocodeQuery": "Padellers Herdecke, Herdecke, Germany",
+      "lat": 51.3930121,
+      "lon": 7.4334038,
+      "geocodeDisplay": "The Padellers Herdecke, Vorhaller Weg, Sonnenstein, Herdecke, Hagen-Nord, Herdecke, Ennepe-Ruhr-Kreis, North Rhine-Westphalia, 58313, Germany",
+      "geocodeQueryUsed": "Padellers Herdecke, Herdecke, Germany"
     },
     {
       "title": "CUPRA GPS 50 Herren - Early Bird - by padelBOX Köln-Weiden",
@@ -1228,7 +1516,11 @@
       "type": "TN tournament",
       "label": "TN tournament",
       "id": "t_642a8720",
-      "geocodeQuery": "padelBOX Köln-Weiden, Köln, Germany"
+      "geocodeQuery": "padelBOX Köln-Weiden, Köln, Germany",
+      "lat": 50.938361,
+      "lon": 6.959974,
+      "geocodeDisplay": "Cologne, North Rhine-Westphalia, Germany",
+      "geocodeQueryUsed": "Köln, Germany"
     },
     {
       "title": "CUPRA GPS 350 Herren - [LATE NIGHT SESSION] - Padelon Gelsenkirchen",
@@ -1241,7 +1533,11 @@
       "type": "TN tournament",
       "label": "TN tournament",
       "id": "t_60154a1c",
-      "geocodeQuery": "Padelon Gelsenkirchen, Gelsenkirchen, Germany, Germany"
+      "geocodeQuery": "Padelon Gelsenkirchen, Gelsenkirchen, Germany",
+      "lat": 51.6052256,
+      "lon": 7.0368796,
+      "geocodeDisplay": "45896, Hassel, Gelsenkirchen-Nord, Gelsenkirchen, North Rhine-Westphalia, Germany",
+      "geocodeQueryUsed": "45896 Gelsenkirchen, Germany"
     },
     {
       "title": "CUPRA GPS 250 Herren by The Cube",
@@ -1254,7 +1550,11 @@
       "type": "TN tournament",
       "label": "TN tournament",
       "id": "t_e7c8bf78",
-      "geocodeQuery": "The Cube Padel, Köln, Germany"
+      "geocodeQuery": "The Cube Padel, Köln, Germany",
+      "lat": 50.9673086,
+      "lon": 7.0142068,
+      "geocodeDisplay": "51063, Mülheim, Cologne, North Rhine-Westphalia, Germany",
+      "geocodeQueryUsed": "51063 Köln, Germany"
     },
     {
       "title": "CUPRA GPS 50 Mixed || The Smash Lounge (bei Stuttgart)",
@@ -1267,7 +1567,11 @@
       "type": "TN tournament",
       "label": "TN tournament",
       "id": "t_55f23f4",
-      "geocodeQuery": "The Smash Lounge, Altdorf, Germany"
+      "geocodeQuery": "The Smash Lounge, Altdorf, Germany",
+      "lat": 49.2863021,
+      "lon": 8.2164153,
+      "geocodeDisplay": "Altdorf, Edenkoben, Landkreis Südliche Weinstraße, Rhineland-Palatinate, 67482, Germany",
+      "geocodeQueryUsed": "Altdorf, Germany"
     },
     {
       "title": "CUPRA GPS 50 H00 | Peakz Padel Paderborn",
@@ -1280,7 +1584,11 @@
       "type": "TN tournament",
       "label": "TN tournament",
       "id": "t_5df28ae0",
-      "geocodeQuery": "Peakz Padel Paderborn, Paderborn, Germany"
+      "geocodeQuery": "Peakz Padel Paderborn, Paderborn, Germany",
+      "lat": 51.7177044,
+      "lon": 8.752653,
+      "geocodeDisplay": "Paderborn, Kreis Paderborn, North Rhine-Westphalia, Germany",
+      "geocodeQueryUsed": "Paderborn, Germany"
     },
     {
       "title": "CUPRA GPS 100 Herren in der Padelschmiede Rastatt",
@@ -1293,7 +1601,11 @@
       "type": "TN tournament",
       "label": "TN tournament",
       "id": "t_d43443d0",
-      "geocodeQuery": "PADELschmiede Rastatt, Rastatt, Germany"
+      "geocodeQuery": "PADELschmiede Rastatt, Rastatt, Germany",
+      "lat": 48.8672308,
+      "lon": 8.1843707,
+      "geocodeDisplay": "76437, Rastatt, VVG der Stadt Rastatt, Landkreis Rastatt, Baden-Württemberg, Germany",
+      "geocodeQueryUsed": "76437 Rastatt, Germany"
     },
     {
       "title": "CUPRA GPS 250 H00 | Padelcity Regensburg",
@@ -1306,7 +1618,11 @@
       "type": "TN tournament",
       "label": "TN tournament",
       "id": "t_43faaecc",
-      "geocodeQuery": "PadelCity Regensburg, Obertraubling, Germany"
+      "geocodeQuery": "PadelCity Regensburg, Obertraubling, Germany",
+      "lat": 48.9657993,
+      "lon": 12.1671324,
+      "geocodeDisplay": "Obertraubling, Landkreis Regensburg, Bavaria, 93083, Germany",
+      "geocodeQueryUsed": "Obertraubling, Germany"
     },
     {
       "title": "CUPRA GPS 500 MIXED - PADEL LOFT MAGDEBURG - JAHRESABSCHLUSS TURNIER",
@@ -1319,7 +1635,11 @@
       "type": "TN tournament",
       "label": "TN tournament",
       "id": "t_6e8f321f",
-      "geocodeQuery": "Padel Loft - Magdeburg, Magdeburg, Germany"
+      "geocodeQuery": "Padel Loft - Magdeburg, Magdeburg, Germany",
+      "lat": 52.1884874,
+      "lon": 11.6571488,
+      "geocodeDisplay": "39126, Rothensee, Magdeburg, Saxony-Anhalt, Germany",
+      "geocodeQueryUsed": "39126 Magdeburg, Germany"
     },
     {
       "title": "CUPRA GPS 250 Herren || Padel Planet in Schönebeck (bei Magdeburg)",
@@ -1332,7 +1652,11 @@
       "type": "TN tournament",
       "label": "TN tournament",
       "id": "t_cb8a57e8",
-      "geocodeQuery": "Padel Planet, Schönebeck (Elbe), Germany"
+      "geocodeQuery": "Padel Planet, Schönebeck (Elbe), Germany",
+      "lat": 52.0205998,
+      "lon": 11.7383277,
+      "geocodeDisplay": "Schönebeck (Elbe), Salzlandkreis, Saxony-Anhalt, Germany",
+      "geocodeQueryUsed": "Schönebeck (Elbe), Germany"
     },
     {
       "title": "CUPRA GPS 50 Herren || Padel Planet in Schönebeck (bei Magdeburg)",
@@ -1345,7 +1669,11 @@
       "type": "TN tournament",
       "label": "TN tournament",
       "id": "t_fcac0730",
-      "geocodeQuery": "Padel Planet, Schönebeck (Elbe), Germany"
+      "geocodeQuery": "Padel Planet, Schönebeck (Elbe), Germany",
+      "lat": 52.0205998,
+      "lon": 11.7383277,
+      "geocodeDisplay": "Schönebeck (Elbe), Salzlandkreis, Saxony-Anhalt, Germany",
+      "geocodeQueryUsed": "Schönebeck (Elbe), Germany"
     },
     {
       "title": "CUPRA GPS 250 Herren & GPS 500 Herren - Maba! Padel Mannheim",
@@ -1358,7 +1686,11 @@
       "type": "TN tournament",
       "label": "TN tournament",
       "id": "t_ab50dbb7",
-      "geocodeQuery": "maba! Padel Mannheim, Mannheim, Germany"
+      "geocodeQuery": "maba! Padel Mannheim, Mannheim, Germany",
+      "lat": 49.4892913,
+      "lon": 8.4673098,
+      "geocodeDisplay": "Mannheim, Baden-Württemberg, Germany",
+      "geocodeQueryUsed": "Mannheim, Germany"
     },
     {
       "title": "CUPRA GPS 50 Herren by padelBOX Niederkassel",
@@ -1371,7 +1703,11 @@
       "type": "TN tournament",
       "label": "TN tournament",
       "id": "t_dd645a44",
-      "geocodeQuery": "padelBOX Niederkassel, Niederkassel, Germany"
+      "geocodeQuery": "padelBOX Niederkassel, Niederkassel, Germany",
+      "lat": 50.8137102,
+      "lon": 7.0351942,
+      "geocodeDisplay": "Niederkassel, Rhein-Sieg-Kreis, North Rhine-Westphalia, 53859, Germany",
+      "geocodeQueryUsed": "Niederkassel, Germany"
     },
     {
       "title": "CUPRA GPS 100 Damen by padelBOX Werne",
@@ -1384,7 +1720,11 @@
       "type": "TN tournament",
       "label": "TN tournament",
       "id": "t_b7083fe8",
-      "geocodeQuery": "padelBOX Werne, Werne, Germany"
+      "geocodeQuery": "padelBOX Werne, Werne, Germany",
+      "lat": 51.66268,
+      "lon": 7.6355052,
+      "geocodeDisplay": "Werne, Kreis Unna, North Rhine-Westphalia, 59368, Germany",
+      "geocodeQueryUsed": "Werne, Germany"
     },
     {
       "title": "CUPRA GPS 100 HERREN - KERPEN - RACKET ARENA",
@@ -1400,7 +1740,8 @@
       "geocodeQuery": "Racket Arena Rhein-Erft, Kerpen, Germany",
       "lat": 50.872395,
       "lon": 6.6770206,
-      "geocodeDisplay": "Racket Arena, 1, Heidefließ, Langenich, Kerpen, Rhein-Erft-Kreis, North Rhine-Westphalia, 50171, Germany"
+      "geocodeDisplay": "Racket Arena, 1, Heidefließ, Langenich, Kerpen, Rhein-Erft-Kreis, North Rhine-Westphalia, 50171, Germany",
+      "geocodeQueryUsed": "Racket Arena Rhein-Erft, Kerpen, Germany"
     },
     {
       "title": "CUPRA GPS 100 H00 / 350 H00 / 250 Mixed - HALL OF PADEL Wolfenbüttel",
@@ -1413,7 +1754,11 @@
       "type": "TN tournament",
       "label": "TN tournament",
       "id": "t_33c5518",
-      "geocodeQuery": "HALL OF PADEL Wolfenbüttel, Wolfenbüttel, Germany"
+      "geocodeQuery": "HALL OF PADEL Wolfenbüttel, Wolfenbüttel, Germany",
+      "lat": 52.1625283,
+      "lon": 10.5348215,
+      "geocodeDisplay": "Wolfenbüttel, Landkreis Wolfenbüttel, Lower Saxony, Germany",
+      "geocodeQueryUsed": "Wolfenbüttel, Germany"
     },
     {
       "title": "CUPRA GPS 500 Herren by The Cube Padel",
@@ -1426,7 +1771,11 @@
       "type": "TN tournament",
       "label": "TN tournament",
       "id": "t_e68b82ec",
-      "geocodeQuery": "The Cube Padel, Köln, Germany"
+      "geocodeQuery": "The Cube Padel, Köln, Germany",
+      "lat": 50.9673086,
+      "lon": 7.0142068,
+      "geocodeDisplay": "51063, Mülheim, Cologne, North Rhine-Westphalia, Germany",
+      "geocodeQueryUsed": "51063 Köln, Germany"
     },
     {
       "title": "CUPRA GPS 100 Herren - Padelon Gelsenkirchen",
@@ -1439,7 +1788,11 @@
       "type": "TN tournament",
       "label": "TN tournament",
       "id": "t_43d07802",
-      "geocodeQuery": "Padelon Gelsenkirchen, Gelsenkirchen, Germany, Germany"
+      "geocodeQuery": "Padelon Gelsenkirchen, Gelsenkirchen, Germany",
+      "lat": 51.6052256,
+      "lon": 7.0368796,
+      "geocodeDisplay": "45896, Hassel, Gelsenkirchen-Nord, Gelsenkirchen, North Rhine-Westphalia, Germany",
+      "geocodeQueryUsed": "45896 Gelsenkirchen, Germany"
     },
     {
       "title": "CUPRA GPS 50 & 100 Herren by Padel Haus Bonn",
@@ -1452,7 +1805,11 @@
       "type": "TN tournament",
       "label": "TN tournament",
       "id": "t_63cb2988",
-      "geocodeQuery": "Padel Haus Bonn, Bornheim, Germany"
+      "geocodeQuery": "Padel Haus Bonn, Bornheim, Germany",
+      "lat": 50.7627913,
+      "lon": 6.9890508,
+      "geocodeDisplay": "Bornheim, Rhein-Sieg-Kreis, North Rhine-Westphalia, 53332, Germany",
+      "geocodeQueryUsed": "Bornheim, Germany"
     },
     {
       "title": "CUPRA GPS 500 Herren 55 - PadelCity Recklinghausen",
@@ -1465,7 +1822,11 @@
       "type": "TN tournament",
       "label": "TN tournament",
       "id": "t_995bccde",
-      "geocodeQuery": "PadelCity Recklinghausen, Recklinghausen, Germany"
+      "geocodeQuery": "PadelCity Recklinghausen, Recklinghausen, Germany",
+      "lat": 51.6188947,
+      "lon": 7.1894942,
+      "geocodeDisplay": "45657, Westviertel, Recklinghausen, Kreis Recklinghausen, North Rhine-Westphalia, Germany",
+      "geocodeQueryUsed": "45657 Recklinghausen, Germany"
     },
     {
       "title": "CUPRA GPS 100 H00 - Padel Pulse Arnsberg",
@@ -1478,7 +1839,11 @@
       "type": "TN tournament",
       "label": "TN tournament",
       "id": "t_5f86f124",
-      "geocodeQuery": "Padel Pulse Arnsberg, Arnsberg, Germany"
+      "geocodeQuery": "Padel Pulse Arnsberg, Arnsberg, Germany",
+      "lat": 51.4002384,
+      "lon": 8.0605908,
+      "geocodeDisplay": "Arnsberg, Hochsauerlandkreis, North Rhine-Westphalia, Germany",
+      "geocodeQueryUsed": "Arnsberg, Germany"
     },
     {
       "title": "CUPRA GPS 100 Damen / 100 Herren || The Smash Lounge (bei Stuttgart)",
@@ -1491,7 +1856,11 @@
       "type": "TN tournament",
       "label": "TN tournament",
       "id": "t_cbf653a0",
-      "geocodeQuery": "The Smash Lounge, Altdorf, Germany"
+      "geocodeQuery": "The Smash Lounge, Altdorf, Germany",
+      "lat": 49.2863021,
+      "lon": 8.2164153,
+      "geocodeDisplay": "Altdorf, Edenkoben, Landkreis Südliche Weinstraße, Rhineland-Palatinate, 67482, Germany",
+      "geocodeQueryUsed": "Altdorf, Germany"
     },
     {
       "title": "CUPRA GPS 500 Herren - halle11",
@@ -1507,7 +1876,8 @@
       "geocodeQuery": "Berg, Germany",
       "lat": 50.2538917,
       "lon": 7.8130745,
-      "geocodeDisplay": "Berg, Nastätten, Rhein-Lahn-Kreis, Rhineland-Palatinate, Germany"
+      "geocodeDisplay": "Berg, Nastätten, Rhein-Lahn-Kreis, Rhineland-Palatinate, Germany",
+      "geocodeQueryUsed": "Berg, Germany"
     },
     {
       "title": "CUPRA GPS 100 Herren - halle11",
@@ -1523,7 +1893,8 @@
       "geocodeQuery": "Berg, Germany",
       "lat": 50.2538917,
       "lon": 7.8130745,
-      "geocodeDisplay": "Berg, Nastätten, Rhein-Lahn-Kreis, Rhineland-Palatinate, Germany"
+      "geocodeDisplay": "Berg, Nastätten, Rhein-Lahn-Kreis, Rhineland-Palatinate, Germany",
+      "geocodeQueryUsed": "Berg, Germany"
     },
     {
       "title": "CUPRA GPS 350 & 50 H00 - by VAMOS! Padelhalle Delmenhorst",
@@ -1536,7 +1907,11 @@
       "type": "TN tournament",
       "label": "TN tournament",
       "id": "t_48d1548",
-      "geocodeQuery": "VAMOS! Padelhalle Delmenhorst, Delmenhorst, Germany"
+      "geocodeQuery": "VAMOS! Padelhalle Delmenhorst, Delmenhorst, Germany",
+      "lat": 53.0154334,
+      "lon": 8.6468296,
+      "geocodeDisplay": "27755, Hasport/Annenheide, Delmenhorst, Lower Saxony, Germany",
+      "geocodeQueryUsed": "27755 Delmenhorst, Germany"
     },
     {
       "title": "CUPRA GPS 100 Mixed || Padel Planet in Schönebeck (bei Magdeburg)",
@@ -1549,7 +1924,11 @@
       "type": "TN tournament",
       "label": "TN tournament",
       "id": "t_b77efad0",
-      "geocodeQuery": "Padel Planet, Schönebeck (Elbe), Germany"
+      "geocodeQuery": "Padel Planet, Schönebeck (Elbe), Germany",
+      "lat": 52.0205998,
+      "lon": 11.7383277,
+      "geocodeDisplay": "Schönebeck (Elbe), Salzlandkreis, Saxony-Anhalt, Germany",
+      "geocodeQueryUsed": "Schönebeck (Elbe), Germany"
     },
     {
       "title": "CUPRA GPS 250 Mixed || Padel Planet in Schönebeck (bei Magdeburg)",
@@ -1562,7 +1941,11 @@
       "type": "TN tournament",
       "label": "TN tournament",
       "id": "t_2acfb918",
-      "geocodeQuery": "Padel Planet, Schönebeck (Elbe), Germany"
+      "geocodeQuery": "Padel Planet, Schönebeck (Elbe), Germany",
+      "lat": 52.0205998,
+      "lon": 11.7383277,
+      "geocodeDisplay": "Schönebeck (Elbe), Salzlandkreis, Saxony-Anhalt, Germany",
+      "geocodeQueryUsed": "Schönebeck (Elbe), Germany"
     },
     {
       "title": "CUPRA GPS 250 & 500 Herren - HALL OF PADEL Braunschweig",
@@ -1578,7 +1961,8 @@
       "geocodeQuery": "HALL OF PADEL Braunschweig, Braunschweig, Germany",
       "lat": 52.2831289,
       "lon": 10.5180077,
-      "geocodeDisplay": "Hall of Padel, Hamburger Straße, Schwarzer Berg, Nordstadt-Schunteraue, Brunswick, Lower Saxony, 38114, Germany"
+      "geocodeDisplay": "Hall of Padel, Hamburger Straße, Schwarzer Berg, Nordstadt-Schunteraue, Brunswick, Lower Saxony, 38114, Germany",
+      "geocodeQueryUsed": "HALL OF PADEL Braunschweig, Braunschweig, Germany"
     },
     {
       "title": "CUPRA GPS 250 Herren Ü45 by padelBOX Niederkassel",
@@ -1591,7 +1975,11 @@
       "type": "TN tournament",
       "label": "TN tournament",
       "id": "t_12007bac",
-      "geocodeQuery": "padelBOX Niederkassel, Niederkassel, Germany"
+      "geocodeQuery": "padelBOX Niederkassel, Niederkassel, Germany",
+      "lat": 50.8137102,
+      "lon": 7.0351942,
+      "geocodeDisplay": "Niederkassel, Rhein-Sieg-Kreis, North Rhine-Westphalia, 53859, Germany",
+      "geocodeQueryUsed": "Niederkassel, Germany"
     },
     {
       "title": "CUPRA GPS 250 Herren by padelBOX Bergisch Gladbach",
@@ -1604,7 +1992,11 @@
       "type": "TN tournament",
       "label": "TN tournament",
       "id": "t_98476434",
-      "geocodeQuery": "padelBOX Bergisch Gladbach, Bergisch Gladbach, Germany"
+      "geocodeQuery": "padelBOX Bergisch Gladbach, Bergisch Gladbach, Germany",
+      "lat": 50.9929303,
+      "lon": 7.1277379,
+      "geocodeDisplay": "Bergisch Gladbach, Rheinisch-Bergischer Kreis, North Rhine-Westphalia, Germany",
+      "geocodeQueryUsed": "Bergisch Gladbach, Germany"
     },
     {
       "title": "CUPRA GPS 250 HERREN - MAGDEBURG - PADEL LOFT",
@@ -1617,7 +2009,11 @@
       "type": "TN tournament",
       "label": "TN tournament",
       "id": "t_bc45a1f4",
-      "geocodeQuery": "Padel Loft - Magdeburg, Magdeburg, Germany"
+      "geocodeQuery": "Padel Loft - Magdeburg, Magdeburg, Germany",
+      "lat": 52.1884874,
+      "lon": 11.6571488,
+      "geocodeDisplay": "39126, Rothensee, Magdeburg, Saxony-Anhalt, Germany",
+      "geocodeQueryUsed": "39126 Magdeburg, Germany"
     },
     {
       "title": "CUPRA GPS 50 & 100 H00 - Padel Verde in Herten",
@@ -1630,7 +2026,11 @@
       "type": "TN tournament",
       "label": "TN tournament",
       "id": "t_c4d68688",
-      "geocodeQuery": "padel verde, Herten, Germany"
+      "geocodeQuery": "padel verde, Herten, Germany",
+      "lat": 51.6110697,
+      "lon": 7.0946173,
+      "geocodeDisplay": "45701, Langenbochum, Westerholt, Herten, Kreis Recklinghausen, North Rhine-Westphalia, Germany",
+      "geocodeQueryUsed": "45701 Herten, Germany"
     },
     {
       "title": "CUPRA GPS 100 & 250 Herren - Padel Port Schwäbisch Gmünd",
@@ -1643,7 +2043,11 @@
       "type": "TN tournament",
       "label": "TN tournament",
       "id": "t_dde93134",
-      "geocodeQuery": "Padel Port Schwäbisch Gmünd, Waldstetten, Germany"
+      "geocodeQuery": "Padel Port Schwäbisch Gmünd, Waldstetten, Germany",
+      "lat": 48.7513851,
+      "lon": 9.8268347,
+      "geocodeDisplay": "73550, Edelhof, Weilerstoffel, Waldstetten, VVG der Stadt Schwäbisch Gmünd, Ostalbkreis, Baden-Württemberg, Germany",
+      "geocodeQueryUsed": "73550 Waldstetten, Germany"
     },
     {
       "title": "CUPRA GPS 250 H00 - Padel Pulse Arnsberg",
@@ -1652,11 +2056,15 @@
       "postcode": "",
       "city": "Arnsberg",
       "club": "Padel Pulse Arnsberg",
-      "status": "Sign in closed",
+      "status": "join",
       "type": "TN tournament",
       "label": "TN tournament",
       "id": "t_5198cb7c",
-      "geocodeQuery": "Padel Pulse Arnsberg, Arnsberg, Germany"
+      "geocodeQuery": "Padel Pulse Arnsberg, Arnsberg, Germany",
+      "lat": 51.4002384,
+      "lon": 8.0605908,
+      "geocodeDisplay": "Arnsberg, Hochsauerlandkreis, North Rhine-Westphalia, Germany",
+      "geocodeQueryUsed": "Arnsberg, Germany"
     },
     {
       "title": "CUPRA GPS 250 / 500 Herren || The Smash Lounge (bei Stuttgart)",
@@ -1669,7 +2077,11 @@
       "type": "TN tournament",
       "label": "TN tournament",
       "id": "t_13c104b4",
-      "geocodeQuery": "The Smash Lounge, Altdorf, Germany"
+      "geocodeQuery": "The Smash Lounge, Altdorf, Germany",
+      "lat": 49.2863021,
+      "lon": 8.2164153,
+      "geocodeDisplay": "Altdorf, Edenkoben, Landkreis Südliche Weinstraße, Rhineland-Palatinate, 67482, Germany",
+      "geocodeQueryUsed": "Altdorf, Germany"
     },
     {
       "title": "CUPRA GPS 250 H00 | Peakz Padel Paderborn",
@@ -1682,7 +2094,11 @@
       "type": "TN tournament",
       "label": "TN tournament",
       "id": "t_ac1e0d18",
-      "geocodeQuery": "Peakz Padel Paderborn, Paderborn, Germany"
+      "geocodeQuery": "Peakz Padel Paderborn, Paderborn, Germany",
+      "lat": 51.7177044,
+      "lon": 8.752653,
+      "geocodeDisplay": "Paderborn, Kreis Paderborn, North Rhine-Westphalia, Germany",
+      "geocodeQueryUsed": "Paderborn, Germany"
     },
     {
       "title": "CUPRA GPS 250 & 50 H00 + GPS 100 D00 - by VAMOS! Padelhalle Delmenhorst",
@@ -1695,7 +2111,11 @@
       "type": "TN tournament",
       "label": "TN tournament",
       "id": "t_31c61dcc",
-      "geocodeQuery": "VAMOS! Padelhalle Delmenhorst, Delmenhorst, Germany"
+      "geocodeQuery": "VAMOS! Padelhalle Delmenhorst, Delmenhorst, Germany",
+      "lat": 53.0154334,
+      "lon": 8.6468296,
+      "geocodeDisplay": "27755, Hasport/Annenheide, Delmenhorst, Lower Saxony, Germany",
+      "geocodeQueryUsed": "27755 Delmenhorst, Germany"
     },
     {
       "title": "CUPRA GPS 250 Herren - Peakz Padel Kleve",
@@ -1708,7 +2128,11 @@
       "type": "TN tournament",
       "label": "TN tournament",
       "id": "t_70883e6e",
-      "geocodeQuery": "Peakz Padel Kleve, Kleve, Germany"
+      "geocodeQuery": "Peakz Padel Kleve, Kleve, Germany",
+      "lat": 51.7986928,
+      "lon": 6.1449935,
+      "geocodeDisplay": "47533, Cleves, Rindern, Cleves, Bedburg-Hau, Kreis Kleve, North Rhine-Westphalia, Germany",
+      "geocodeQueryUsed": "47533 Kleve, Germany"
     },
     {
       "title": "CUPRA GPS 250 H55 - Padel Pulse Arnsberg",
@@ -1721,7 +2145,11 @@
       "type": "TN tournament",
       "label": "TN tournament",
       "id": "t_3e3e9df3",
-      "geocodeQuery": "Padel Pulse Arnsberg, Arnsberg, Germany"
+      "geocodeQuery": "Padel Pulse Arnsberg, Arnsberg, Germany",
+      "lat": 51.4002384,
+      "lon": 8.0605908,
+      "geocodeDisplay": "Arnsberg, Hochsauerlandkreis, North Rhine-Westphalia, Germany",
+      "geocodeQueryUsed": "Arnsberg, Germany"
     },
     {
       "title": "CUPRA GPS 350 Herren - padel amigos Jesteburg",
@@ -1734,7 +2162,11 @@
       "type": "TN tournament",
       "label": "TN tournament",
       "id": "t_1b50fb05",
-      "geocodeQuery": "padel amigos Jesteburg, Jesteburg, Germany"
+      "geocodeQuery": "padel amigos Jesteburg, Jesteburg, Germany",
+      "lat": 53.3057419,
+      "lon": 9.9400615,
+      "geocodeDisplay": "21266, Osterberg, Jesteburg, Samtgemeinde Jesteburg, Landkreis Harburg, Lower Saxony, Germany",
+      "geocodeQueryUsed": "21266 Jesteburg, Germany"
     },
     {
       "title": "CUPRA GPS 100 Damen / GPS 50 Herren | Padelcity Regensburg",
@@ -1747,7 +2179,11 @@
       "type": "TN tournament",
       "label": "TN tournament",
       "id": "t_a491e4cc",
-      "geocodeQuery": "PadelCity Regensburg, Obertraubling, Germany"
+      "geocodeQuery": "PadelCity Regensburg, Obertraubling, Germany",
+      "lat": 48.9657993,
+      "lon": 12.1671324,
+      "geocodeDisplay": "Obertraubling, Landkreis Regensburg, Bavaria, 93083, Germany",
+      "geocodeQueryUsed": "Obertraubling, Germany"
     },
     {
       "title": "CUPRA GPS 350 Herren Ü35 by padelBOX Niederkassel",
@@ -1760,7 +2196,11 @@
       "type": "TN tournament",
       "label": "TN tournament",
       "id": "t_21b80f38",
-      "geocodeQuery": "padelBOX Niederkassel, Niederkassel, Germany"
+      "geocodeQuery": "padelBOX Niederkassel, Niederkassel, Germany",
+      "lat": 50.8137102,
+      "lon": 7.0351942,
+      "geocodeDisplay": "Niederkassel, Rhein-Sieg-Kreis, North Rhine-Westphalia, 53859, Germany",
+      "geocodeQueryUsed": "Niederkassel, Germany"
     },
     {
       "title": "CUPRA GPS 100 Herren - Early Bird - by padelBOX Köln-Weiden",
@@ -1773,7 +2213,11 @@
       "type": "TN tournament",
       "label": "TN tournament",
       "id": "t_75c534b8",
-      "geocodeQuery": "padelBOX Köln-Weiden, Köln, Germany"
+      "geocodeQuery": "padelBOX Köln-Weiden, Köln, Germany",
+      "lat": 50.938361,
+      "lon": 6.959974,
+      "geocodeDisplay": "Cologne, North Rhine-Westphalia, Germany",
+      "geocodeQueryUsed": "Köln, Germany"
     },
     {
       "title": "CUPRA GPS 250 Herren - Padellers Herdecke",
@@ -1786,7 +2230,11 @@
       "type": "TN tournament",
       "label": "TN tournament",
       "id": "t_40024bd0",
-      "geocodeQuery": "Padellers Herdecke, Herdecke, Deutschland, Germany"
+      "geocodeQuery": "Padellers Herdecke, Herdecke, Germany",
+      "lat": 51.3930121,
+      "lon": 7.4334038,
+      "geocodeDisplay": "The Padellers Herdecke, Vorhaller Weg, Sonnenstein, Herdecke, Hagen-Nord, Herdecke, Ennepe-Ruhr-Kreis, North Rhine-Westphalia, 58313, Germany",
+      "geocodeQueryUsed": "Padellers Herdecke, Herdecke, Germany"
     },
     {
       "title": "CUPRA GPS 250 Mixed in der Padelschmiede Rastatt",
@@ -1799,7 +2247,11 @@
       "type": "TN tournament",
       "label": "TN tournament",
       "id": "t_5543f784",
-      "geocodeQuery": "PADELschmiede Rastatt, Rastatt, Germany"
+      "geocodeQuery": "PADELschmiede Rastatt, Rastatt, Germany",
+      "lat": 48.8672308,
+      "lon": 8.1843707,
+      "geocodeDisplay": "76437, Rastatt, VVG der Stadt Rastatt, Landkreis Rastatt, Baden-Württemberg, Germany",
+      "geocodeQueryUsed": "76437 Rastatt, Germany"
     },
     {
       "title": "CUPRA GPS 100 Herren - EARLY BIRD - Terminal Padel & Social Club Rösrath",
@@ -1812,7 +2264,11 @@
       "type": "TN tournament",
       "label": "TN tournament",
       "id": "t_a93573fa",
-      "geocodeQuery": "Terminal Padel & Social Club, Rösrath, Germany"
+      "geocodeQuery": "Terminal Padel & Social Club, Rösrath, Germany",
+      "lat": 50.9051654,
+      "lon": 7.1821589,
+      "geocodeDisplay": "51503, Vierkotten, Hoffnungsthal, Rösrath, Rheinisch-Bergischer Kreis, North Rhine-Westphalia, Germany",
+      "geocodeQueryUsed": "51503 Rösrath, Germany"
     },
     {
       "title": "CUPRA GPS 50 H00 | Peakz Padel Paderborn",
@@ -1821,11 +2277,15 @@
       "postcode": "",
       "city": "Paderborn",
       "club": "Peakz Padel Paderborn",
-      "status": "join",
+      "status": "Signup Closed",
       "type": "TN tournament",
       "label": "TN tournament",
       "id": "t_9f583b48",
-      "geocodeQuery": "Peakz Padel Paderborn, Paderborn, Germany"
+      "geocodeQuery": "Peakz Padel Paderborn, Paderborn, Germany",
+      "lat": 51.7177044,
+      "lon": 8.752653,
+      "geocodeDisplay": "Paderborn, Kreis Paderborn, North Rhine-Westphalia, Germany",
+      "geocodeQueryUsed": "Paderborn, Germany"
     },
     {
       "title": "CUPRA GPS 100 Mixed / GPS 100 Herren | Padelcity Regensburg",
@@ -1838,7 +2298,11 @@
       "type": "TN tournament",
       "label": "TN tournament",
       "id": "t_78e0472c",
-      "geocodeQuery": "PadelCity Regensburg, Obertraubling, Germany"
+      "geocodeQuery": "PadelCity Regensburg, Obertraubling, Germany",
+      "lat": 48.9657993,
+      "lon": 12.1671324,
+      "geocodeDisplay": "Obertraubling, Landkreis Regensburg, Bavaria, 93083, Germany",
+      "geocodeQueryUsed": "Obertraubling, Germany"
     },
     {
       "title": "CUPRA GPS 500 Herren || Padel Planet in Schönebeck (bei Magdeburg)",
@@ -1851,7 +2315,11 @@
       "type": "TN tournament",
       "label": "TN tournament",
       "id": "t_bb65bb30",
-      "geocodeQuery": "Padel Planet, Schönebeck (Elbe), Germany"
+      "geocodeQuery": "Padel Planet, Schönebeck (Elbe), Germany",
+      "lat": 52.0205998,
+      "lon": 11.7383277,
+      "geocodeDisplay": "Schönebeck (Elbe), Salzlandkreis, Saxony-Anhalt, Germany",
+      "geocodeQueryUsed": "Schönebeck (Elbe), Germany"
     },
     {
       "title": "CUPRA GPS 100 Herren || Padel Planet in Schönebeck (bei Magdeburg)",
@@ -1864,7 +2332,11 @@
       "type": "TN tournament",
       "label": "TN tournament",
       "id": "t_b39d5e8c",
-      "geocodeQuery": "Padel Planet, Schönebeck (Elbe), Germany"
+      "geocodeQuery": "Padel Planet, Schönebeck (Elbe), Germany",
+      "lat": 52.0205998,
+      "lon": 11.7383277,
+      "geocodeDisplay": "Schönebeck (Elbe), Salzlandkreis, Saxony-Anhalt, Germany",
+      "geocodeQueryUsed": "Schönebeck (Elbe), Germany"
     },
     {
       "title": "CUPRA GPS 500 H00 || PadelCity Leipzig",
@@ -1880,7 +2352,8 @@
       "geocodeQuery": "PadelCity Leipzig, Leipzig, Germany",
       "lat": 51.3421223,
       "lon": 12.312699,
-      "geocodeDisplay": "PadelCity Leipzig, 3a, Franz-Flemming-Straße, Altlindenau, Altwest, Leipzig, Saxony, 04179, Germany"
+      "geocodeDisplay": "PadelCity Leipzig, 3a, Franz-Flemming-Straße, Altlindenau, Altwest, Leipzig, Saxony, 04179, Germany",
+      "geocodeQueryUsed": "PadelCity Leipzig, Leipzig, Germany"
     },
     {
       "title": "CUPRA GPS 350 Herren/Damen - Maba! Padel Mannheim",
@@ -1893,7 +2366,11 @@
       "type": "TN tournament",
       "label": "TN tournament",
       "id": "t_5070fd84",
-      "geocodeQuery": "maba! Padel Mannheim, Mannheim, Germany"
+      "geocodeQuery": "maba! Padel Mannheim, Mannheim, Germany",
+      "lat": 49.4892913,
+      "lon": 8.4673098,
+      "geocodeDisplay": "Mannheim, Baden-Württemberg, Germany",
+      "geocodeQueryUsed": "Mannheim, Germany"
     },
     {
       "title": "CUPRA GPS 100 Mixed by padelBOX Niederkassel",
@@ -1906,7 +2383,11 @@
       "type": "TN tournament",
       "label": "TN tournament",
       "id": "t_c34589a8",
-      "geocodeQuery": "padelBOX Niederkassel, Niederkassel, Germany"
+      "geocodeQuery": "padelBOX Niederkassel, Niederkassel, Germany",
+      "lat": 50.8137102,
+      "lon": 7.0351942,
+      "geocodeDisplay": "Niederkassel, Rhein-Sieg-Kreis, North Rhine-Westphalia, 53859, Germany",
+      "geocodeQueryUsed": "Niederkassel, Germany"
     },
     {
       "title": "CUPRA GPS 100 Mixed by padelBOX Werne",
@@ -1919,7 +2400,11 @@
       "type": "TN tournament",
       "label": "TN tournament",
       "id": "t_5b1f7654",
-      "geocodeQuery": "padelBOX Werne, Werne, Germany"
+      "geocodeQuery": "padelBOX Werne, Werne, Germany",
+      "lat": 51.66268,
+      "lon": 7.6355052,
+      "geocodeDisplay": "Werne, Kreis Unna, North Rhine-Westphalia, 59368, Germany",
+      "geocodeQueryUsed": "Werne, Germany"
     },
     {
       "title": "CUPRA GPS 500 DAMEN - MAGDEBURG-PADEL LOFT",
@@ -1932,7 +2417,11 @@
       "type": "TN tournament",
       "label": "TN tournament",
       "id": "t_2e54974",
-      "geocodeQuery": "Padel Loft - Magdeburg, Magdeburg, Germany"
+      "geocodeQuery": "Padel Loft - Magdeburg, Magdeburg, Germany",
+      "lat": 52.1884874,
+      "lon": 11.6571488,
+      "geocodeDisplay": "39126, Rothensee, Magdeburg, Saxony-Anhalt, Germany",
+      "geocodeQueryUsed": "39126 Magdeburg, Germany"
     },
     {
       "title": "CUPRA GPS 100 MIXED - MAGDEBURG - PADEL LOFT",
@@ -1945,7 +2434,11 @@
       "type": "TN tournament",
       "label": "TN tournament",
       "id": "t_e5067d4f",
-      "geocodeQuery": "Padel Loft - Magdeburg, Magdeburg, Germany"
+      "geocodeQuery": "Padel Loft - Magdeburg, Magdeburg, Germany",
+      "lat": 52.1884874,
+      "lon": 11.6571488,
+      "geocodeDisplay": "39126, Rothensee, Magdeburg, Saxony-Anhalt, Germany",
+      "geocodeQueryUsed": "39126 Magdeburg, Germany"
     },
     {
       "title": "CUPRA GPS 100 H00 - PadelCity Heilsbronn (Ansbach)",
@@ -1958,7 +2451,11 @@
       "type": "TN tournament",
       "label": "TN tournament",
       "id": "t_d3d66ba8",
-      "geocodeQuery": "PadelCity Heilsbronn (Ansbach), Heilsbronn, Germany"
+      "geocodeQuery": "PadelCity Heilsbronn (Ansbach), Heilsbronn, Germany",
+      "lat": 49.3378853,
+      "lon": 10.7887166,
+      "geocodeDisplay": "Heilsbronn, Ansbach (district), Bavaria, 91560, Germany",
+      "geocodeQueryUsed": "Heilsbronn, Germany"
     },
     {
       "title": "CUPRA GPS 500 || D00/H00/Mixed || STC OBERLAND/ SPORTCENTER HAHN (Bei München)",
@@ -1971,7 +2468,11 @@
       "type": "TN tournament",
       "label": "TN tournament",
       "id": "t_6ea8205c",
-      "geocodeQuery": "STC Oberland, Geretsried, Germany"
+      "geocodeQuery": "STC Oberland, Geretsried, Germany",
+      "lat": 47.8646925,
+      "lon": 11.479351,
+      "geocodeDisplay": "Geretsried, Landkreis Bad Tölz-Wolfratshausen, Bavaria, 82538, Germany",
+      "geocodeQueryUsed": "Geretsried, Germany"
     },
     {
       "title": "CUPRA GPS 500 - Terminal Padel & Social Club",
@@ -1984,7 +2485,11 @@
       "type": "TN tournament",
       "label": "TN tournament",
       "id": "t_87859604",
-      "geocodeQuery": "Terminal Padel & Social Club, Rösrath, Germany"
+      "geocodeQuery": "Terminal Padel & Social Club, Rösrath, Germany",
+      "lat": 50.9051654,
+      "lon": 7.1821589,
+      "geocodeDisplay": "51503, Vierkotten, Hoffnungsthal, Rösrath, Rheinisch-Bergischer Kreis, North Rhine-Westphalia, Germany",
+      "geocodeQueryUsed": "51503 Rösrath, Germany"
     },
     {
       "title": "CUPRA GPS 350 Mixed || Padel Planet in Schönebeck (bei Magdeburg)",
@@ -1997,7 +2502,11 @@
       "type": "TN tournament",
       "label": "TN tournament",
       "id": "t_7b166060",
-      "geocodeQuery": "Padel Planet, Schönebeck (Elbe), Germany"
+      "geocodeQuery": "Padel Planet, Schönebeck (Elbe), Germany",
+      "lat": 52.0205998,
+      "lon": 11.7383277,
+      "geocodeDisplay": "Schönebeck (Elbe), Salzlandkreis, Saxony-Anhalt, Germany",
+      "geocodeQueryUsed": "Schönebeck (Elbe), Germany"
     },
     {
       "title": "CUPRA GPS 50 Mixed || Padel Planet in Schönebeck (bei Magdeburg)",
@@ -2010,7 +2519,11 @@
       "type": "TN tournament",
       "label": "TN tournament",
       "id": "t_6c4fa5d0",
-      "geocodeQuery": "Padel Planet, Schönebeck (Elbe), Germany"
+      "geocodeQuery": "Padel Planet, Schönebeck (Elbe), Germany",
+      "lat": 52.0205998,
+      "lon": 11.7383277,
+      "geocodeDisplay": "Schönebeck (Elbe), Salzlandkreis, Saxony-Anhalt, Germany",
+      "geocodeQueryUsed": "Schönebeck (Elbe), Germany"
     },
     {
       "title": "CUPRA GPS 100 H00 || PadelCity Leipzig",
@@ -2026,7 +2539,8 @@
       "geocodeQuery": "PadelCity Leipzig, Leipzig, Germany",
       "lat": 51.3421223,
       "lon": 12.312699,
-      "geocodeDisplay": "PadelCity Leipzig, 3a, Franz-Flemming-Straße, Altlindenau, Altwest, Leipzig, Saxony, 04179, Germany"
+      "geocodeDisplay": "PadelCity Leipzig, 3a, Franz-Flemming-Straße, Altlindenau, Altwest, Leipzig, Saxony, 04179, Germany",
+      "geocodeQueryUsed": "PadelCity Leipzig, Leipzig, Germany"
     },
     {
       "title": "CUPRA GPS 50 Mixed by padelBOX Bergisch Gladbach",
@@ -2039,7 +2553,11 @@
       "type": "TN tournament",
       "label": "TN tournament",
       "id": "t_9a1968b0",
-      "geocodeQuery": "padelBOX Bergisch Gladbach, Bergisch Gladbach, Germany"
+      "geocodeQuery": "padelBOX Bergisch Gladbach, Bergisch Gladbach, Germany",
+      "lat": 50.9929303,
+      "lon": 7.1277379,
+      "geocodeDisplay": "Bergisch Gladbach, Rheinisch-Bergischer Kreis, North Rhine-Westphalia, Germany",
+      "geocodeQueryUsed": "Bergisch Gladbach, Germany"
     },
     {
       "title": "CUPRA GPS 250 Herren by padelBOX Ahlen",
@@ -2055,7 +2573,8 @@
       "geocodeQuery": "padelBOX Ahlen, Ahlen, Germany",
       "lat": 51.7509072,
       "lon": 7.9033359,
-      "geocodeDisplay": "Padelbox, 33, Sachsenstraße, Zechensiedlung (Neustadt), Ahlen, Kreis Warendorf, North Rhine-Westphalia, 59229, Germany"
+      "geocodeDisplay": "Padelbox, 33, Sachsenstraße, Zechensiedlung (Neustadt), Ahlen, Kreis Warendorf, North Rhine-Westphalia, 59229, Germany",
+      "geocodeQueryUsed": "padelBOX Ahlen, Ahlen, Germany"
     },
     {
       "title": "CUPRA GPS 50 MIXED - MAGDEBURG - PADEL LOFT",
@@ -2068,7 +2587,11 @@
       "type": "TN tournament",
       "label": "TN tournament",
       "id": "t_b4343410",
-      "geocodeQuery": "Padel Loft - Magdeburg, Magdeburg, Germany"
+      "geocodeQuery": "Padel Loft - Magdeburg, Magdeburg, Germany",
+      "lat": 52.1884874,
+      "lon": 11.6571488,
+      "geocodeDisplay": "39126, Rothensee, Magdeburg, Saxony-Anhalt, Germany",
+      "geocodeQueryUsed": "39126 Magdeburg, Germany"
     },
     {
       "title": "CUPRA GPS 250 Herren - Terminal Padel & Social Club Rösrath",
@@ -2081,7 +2604,11 @@
       "type": "TN tournament",
       "label": "TN tournament",
       "id": "t_698c4500",
-      "geocodeQuery": "Terminal Padel & Social Club, Rösrath, Germany"
+      "geocodeQuery": "Terminal Padel & Social Club, Rösrath, Germany",
+      "lat": 50.9051654,
+      "lon": 7.1821589,
+      "geocodeDisplay": "51503, Vierkotten, Hoffnungsthal, Rösrath, Rheinisch-Bergischer Kreis, North Rhine-Westphalia, Germany",
+      "geocodeQueryUsed": "51503 Rösrath, Germany"
     },
     {
       "title": "CUPRA GPS 350 H00 | Peakz Padel Paderborn",
@@ -2094,7 +2621,11 @@
       "type": "TN tournament",
       "label": "TN tournament",
       "id": "t_435ca48",
-      "geocodeQuery": "Peakz Padel Paderborn, Paderborn, Germany"
+      "geocodeQuery": "Peakz Padel Paderborn, Paderborn, Germany",
+      "lat": 51.7177044,
+      "lon": 8.752653,
+      "geocodeDisplay": "Paderborn, Kreis Paderborn, North Rhine-Westphalia, Germany",
+      "geocodeQueryUsed": "Paderborn, Germany"
     },
     {
       "title": "CUPRA GPS 50 Herren - EARLY BIRD - Terminal Padel & Social Club Rösrath",
@@ -2107,7 +2638,11 @@
       "type": "TN tournament",
       "label": "TN tournament",
       "id": "t_abec6bc8",
-      "geocodeQuery": "Terminal Padel & Social Club, Rösrath, Germany"
+      "geocodeQuery": "Terminal Padel & Social Club, Rösrath, Germany",
+      "lat": 50.9051654,
+      "lon": 7.1821589,
+      "geocodeDisplay": "51503, Vierkotten, Hoffnungsthal, Rösrath, Rheinisch-Bergischer Kreis, North Rhine-Westphalia, Germany",
+      "geocodeQueryUsed": "51503 Rösrath, Germany"
     },
     {
       "title": "CUPRA GPS 350 Herren by padelBOX Bergisch Gladbach",
@@ -2120,7 +2655,11 @@
       "type": "TN tournament",
       "label": "TN tournament",
       "id": "t_5e55bb90",
-      "geocodeQuery": "padelBOX Bergisch Gladbach, Bergisch Gladbach, Germany"
+      "geocodeQuery": "padelBOX Bergisch Gladbach, Bergisch Gladbach, Germany",
+      "lat": 50.9929303,
+      "lon": 7.1277379,
+      "geocodeDisplay": "Bergisch Gladbach, Rheinisch-Bergischer Kreis, North Rhine-Westphalia, Germany",
+      "geocodeQueryUsed": "Bergisch Gladbach, Germany"
     },
     {
       "title": "CUPRA GPS 250 H00 + H35 - Early Bird - by padelBOX Köln-Weiden",
@@ -2133,7 +2672,11 @@
       "type": "TN tournament",
       "label": "TN tournament",
       "id": "t_66f04a5e",
-      "geocodeQuery": "padelBOX Köln-Weiden, Köln, Germany"
+      "geocodeQuery": "padelBOX Köln-Weiden, Köln, Germany",
+      "lat": 50.938361,
+      "lon": 6.959974,
+      "geocodeDisplay": "Cologne, North Rhine-Westphalia, Germany",
+      "geocodeQueryUsed": "Köln, Germany"
     },
     {
       "title": "CUPRA GPS 250 Herren - Padellers Herdecke",
@@ -2146,7 +2689,11 @@
       "type": "TN tournament",
       "label": "TN tournament",
       "id": "t_3ca6855b",
-      "geocodeQuery": "Padellers Herdecke, Herdecke, Deutschland, Germany"
+      "geocodeQuery": "Padellers Herdecke, Herdecke, Germany",
+      "lat": 51.3930121,
+      "lon": 7.4334038,
+      "geocodeDisplay": "The Padellers Herdecke, Vorhaller Weg, Sonnenstein, Herdecke, Hagen-Nord, Herdecke, Ennepe-Ruhr-Kreis, North Rhine-Westphalia, 58313, Germany",
+      "geocodeQueryUsed": "Padellers Herdecke, Herdecke, Germany"
     },
     {
       "title": "CUPRA GPS 350 Herren Ü45 in der Padelschmiede Rastatt",
@@ -2159,7 +2706,11 @@
       "type": "TN tournament",
       "label": "TN tournament",
       "id": "t_bf2ca338",
-      "geocodeQuery": "PADELschmiede Rastatt, Rastatt, Germany"
+      "geocodeQuery": "PADELschmiede Rastatt, Rastatt, Germany",
+      "lat": 48.8672308,
+      "lon": 8.1843707,
+      "geocodeDisplay": "76437, Rastatt, VVG der Stadt Rastatt, Landkreis Rastatt, Baden-Württemberg, Germany",
+      "geocodeQueryUsed": "76437 Rastatt, Germany"
     },
     {
       "title": "CUPRA GPS 250 Herren - EARLY BIRD - Terminal Padel & Social Club Rösrath",
@@ -2172,7 +2723,11 @@
       "type": "TN tournament",
       "label": "TN tournament",
       "id": "t_a052a988",
-      "geocodeQuery": "Terminal Padel & Social Club, Rösrath, Germany"
+      "geocodeQuery": "Terminal Padel & Social Club, Rösrath, Germany",
+      "lat": 50.9051654,
+      "lon": 7.1821589,
+      "geocodeDisplay": "51503, Vierkotten, Hoffnungsthal, Rösrath, Rheinisch-Bergischer Kreis, North Rhine-Westphalia, Germany",
+      "geocodeQueryUsed": "51503 Rösrath, Germany"
     },
     {
       "title": "CUPRA GPS 500 H00/D00 + GPS 100 H00/D00 - 2. Scheck Padel Open 2026",
@@ -2188,7 +2743,8 @@
       "geocodeQuery": "Scheck Club, Unterföhring, Germany",
       "lat": 48.1806372,
       "lon": 11.6299167,
-      "geocodeDisplay": "Scheck Club, 15, Münchner Straße, Unterföhring, Landkreis München, Bavaria, 85774, Germany"
+      "geocodeDisplay": "Scheck Club, 15, Münchner Straße, Unterföhring, Landkreis München, Bavaria, 85774, Germany",
+      "geocodeQueryUsed": "Scheck Club, Unterföhring, Germany"
     },
     {
       "title": "CUPRA GPS 250 Herren || Padel Planet in Schönebeck (bei Magdeburg)",
@@ -2201,7 +2757,11 @@
       "type": "TN tournament",
       "label": "TN tournament",
       "id": "t_f33503dc",
-      "geocodeQuery": "Padel Planet, Schönebeck (Elbe), Germany"
+      "geocodeQuery": "Padel Planet, Schönebeck (Elbe), Germany",
+      "lat": 52.0205998,
+      "lon": 11.7383277,
+      "geocodeDisplay": "Schönebeck (Elbe), Salzlandkreis, Saxony-Anhalt, Germany",
+      "geocodeQueryUsed": "Schönebeck (Elbe), Germany"
     },
     {
       "title": "CUPRA GPS 50 Herren || Padel Planet in Schönebeck (bei Magdeburg)",
@@ -2214,7 +2774,11 @@
       "type": "TN tournament",
       "label": "TN tournament",
       "id": "t_10816cdc",
-      "geocodeQuery": "Padel Planet, Schönebeck (Elbe), Germany"
+      "geocodeQuery": "Padel Planet, Schönebeck (Elbe), Germany",
+      "lat": 52.0205998,
+      "lon": 11.7383277,
+      "geocodeDisplay": "Schönebeck (Elbe), Salzlandkreis, Saxony-Anhalt, Germany",
+      "geocodeQueryUsed": "Schönebeck (Elbe), Germany"
     },
     {
       "title": "CUPRA GPS 100 Herren & GPS 500 Herren - Maba! Padel Mannheim",
@@ -2227,7 +2791,11 @@
       "type": "TN tournament",
       "label": "TN tournament",
       "id": "t_c54891d0",
-      "geocodeQuery": "maba! Padel Mannheim, Mannheim, Germany"
+      "geocodeQuery": "maba! Padel Mannheim, Mannheim, Germany",
+      "lat": 49.4892913,
+      "lon": 8.4673098,
+      "geocodeDisplay": "Mannheim, Baden-Württemberg, Germany",
+      "geocodeQueryUsed": "Mannheim, Germany"
     },
     {
       "title": "CUPRA GPS 50 Herren by padelBOX Bergisch Gladbach",
@@ -2240,7 +2808,11 @@
       "type": "TN tournament",
       "label": "TN tournament",
       "id": "t_e6ef2728",
-      "geocodeQuery": "padelBOX Bergisch Gladbach, Bergisch Gladbach, Germany"
+      "geocodeQuery": "padelBOX Bergisch Gladbach, Bergisch Gladbach, Germany",
+      "lat": 50.9929303,
+      "lon": 7.1277379,
+      "geocodeDisplay": "Bergisch Gladbach, Rheinisch-Bergischer Kreis, North Rhine-Westphalia, Germany",
+      "geocodeQueryUsed": "Bergisch Gladbach, Germany"
     },
     {
       "title": "CUPRA GPS 50 Mixed by padelBOX Ahlen",
@@ -2256,7 +2828,8 @@
       "geocodeQuery": "padelBOX Ahlen, Ahlen, Germany",
       "lat": 51.7509072,
       "lon": 7.9033359,
-      "geocodeDisplay": "Padelbox, 33, Sachsenstraße, Zechensiedlung (Neustadt), Ahlen, Kreis Warendorf, North Rhine-Westphalia, 59229, Germany"
+      "geocodeDisplay": "Padelbox, 33, Sachsenstraße, Zechensiedlung (Neustadt), Ahlen, Kreis Warendorf, North Rhine-Westphalia, 59229, Germany",
+      "geocodeQueryUsed": "padelBOX Ahlen, Ahlen, Germany"
     },
     {
       "title": "CUPRA GPS 100 HERREN - MAGDEBURG - PADEL LOFT",
@@ -2269,7 +2842,11 @@
       "type": "TN tournament",
       "label": "TN tournament",
       "id": "t_e77384a4",
-      "geocodeQuery": "Padel Loft - Magdeburg, Magdeburg, Germany"
+      "geocodeQuery": "Padel Loft - Magdeburg, Magdeburg, Germany",
+      "lat": 52.1884874,
+      "lon": 11.6571488,
+      "geocodeDisplay": "39126, Rothensee, Magdeburg, Saxony-Anhalt, Germany",
+      "geocodeQueryUsed": "39126 Magdeburg, Germany"
     },
     {
       "title": "CUPRA GPS 50 MIXED - MAGDEBURG PADEL LOFT",
@@ -2282,7 +2859,11 @@
       "type": "TN tournament",
       "label": "TN tournament",
       "id": "t_67bb8898",
-      "geocodeQuery": "Padel Loft - Magdeburg, Magdeburg, Germany"
+      "geocodeQuery": "Padel Loft - Magdeburg, Magdeburg, Germany",
+      "lat": 52.1884874,
+      "lon": 11.6571488,
+      "geocodeDisplay": "39126, Rothensee, Magdeburg, Saxony-Anhalt, Germany",
+      "geocodeQueryUsed": "39126 Magdeburg, Germany"
     },
     {
       "title": "CUPRA GPS 100 & 350 Herren - HALL OF PADEL Braunschweig",
@@ -2298,7 +2879,8 @@
       "geocodeQuery": "HALL OF PADEL Braunschweig, Braunschweig, Germany",
       "lat": 52.2831289,
       "lon": 10.5180077,
-      "geocodeDisplay": "Hall of Padel, Hamburger Straße, Schwarzer Berg, Nordstadt-Schunteraue, Brunswick, Lower Saxony, 38114, Germany"
+      "geocodeDisplay": "Hall of Padel, Hamburger Straße, Schwarzer Berg, Nordstadt-Schunteraue, Brunswick, Lower Saxony, 38114, Germany",
+      "geocodeQueryUsed": "HALL OF PADEL Braunschweig, Braunschweig, Germany"
     },
     {
       "title": "CUPRA GPS 100 Mixed || Padel Planet in Schönebeck (bei Magdeburg)",
@@ -2311,7 +2893,11 @@
       "type": "TN tournament",
       "label": "TN tournament",
       "id": "t_c80da9f4",
-      "geocodeQuery": "Padel Planet, Schönebeck (Elbe), Germany"
+      "geocodeQuery": "Padel Planet, Schönebeck (Elbe), Germany",
+      "lat": 52.0205998,
+      "lon": 11.7383277,
+      "geocodeDisplay": "Schönebeck (Elbe), Salzlandkreis, Saxony-Anhalt, Germany",
+      "geocodeQueryUsed": "Schönebeck (Elbe), Germany"
     },
     {
       "title": "CUPRA GPS 250 Mixed || Padel Planet in Schönebeck (bei Magdeburg)",
@@ -2324,7 +2910,11 @@
       "type": "TN tournament",
       "label": "TN tournament",
       "id": "t_7fdc6028",
-      "geocodeQuery": "Padel Planet, Schönebeck (Elbe), Germany"
+      "geocodeQuery": "Padel Planet, Schönebeck (Elbe), Germany",
+      "lat": 52.0205998,
+      "lon": 11.7383277,
+      "geocodeDisplay": "Schönebeck (Elbe), Salzlandkreis, Saxony-Anhalt, Germany",
+      "geocodeQueryUsed": "Schönebeck (Elbe), Germany"
     },
     {
       "title": "CUPRA GPS 250 H00 / GPS 100 Mixed - Gladius Games - Sportmühle Hilden",
@@ -2340,7 +2930,8 @@
       "geocodeQuery": "Sportmühle Hilden, Hilden, Germany",
       "lat": 51.1699471,
       "lon": 6.9448796,
-      "geocodeDisplay": "Sportmühle, 55, Berliner Straße, Pungshaus, Hilden, Kreis Mettmann, North Rhine-Westphalia, 40724, Germany"
+      "geocodeDisplay": "Sportmühle, 55, Berliner Straße, Pungshaus, Hilden, Kreis Mettmann, North Rhine-Westphalia, 40724, Germany",
+      "geocodeQueryUsed": "Sportmühle Hilden, Hilden, Germany"
     },
     {
       "title": "CUPRA GPS 100 Damen by padelBOX Niederkassel",
@@ -2353,7 +2944,11 @@
       "type": "TN tournament",
       "label": "TN tournament",
       "id": "t_950adff4",
-      "geocodeQuery": "padelBOX Niederkassel, Niederkassel, Germany"
+      "geocodeQuery": "padelBOX Niederkassel, Niederkassel, Germany",
+      "lat": 50.8137102,
+      "lon": 7.0351942,
+      "geocodeDisplay": "Niederkassel, Rhein-Sieg-Kreis, North Rhine-Westphalia, 53859, Germany",
+      "geocodeQueryUsed": "Niederkassel, Germany"
     },
     {
       "title": "CUPRA GPS 500 Herren + Damen by padelBOX Köln-Weiden",
@@ -2366,7 +2961,11 @@
       "type": "TN tournament",
       "label": "TN tournament",
       "id": "t_1137a718",
-      "geocodeQuery": "padelBOX Köln-Weiden, Köln, Germany"
+      "geocodeQuery": "padelBOX Köln-Weiden, Köln, Germany",
+      "lat": 50.938361,
+      "lon": 6.959974,
+      "geocodeDisplay": "Cologne, North Rhine-Westphalia, Germany",
+      "geocodeQueryUsed": "Köln, Germany"
     },
     {
       "title": "CUPRA GPS 50 Herren by padelBOX Werne",
@@ -2379,7 +2978,11 @@
       "type": "TN tournament",
       "label": "TN tournament",
       "id": "t_fea62704",
-      "geocodeQuery": "padelBOX Werne, Werne, Germany"
+      "geocodeQuery": "padelBOX Werne, Werne, Germany",
+      "lat": 51.66268,
+      "lon": 7.6355052,
+      "geocodeDisplay": "Werne, Kreis Unna, North Rhine-Westphalia, 59368, Germany",
+      "geocodeQueryUsed": "Werne, Germany"
     },
     {
       "title": "CUPRA GPS 100 Mixed - Terminal Padel & Social Club Rösrath",
@@ -2392,7 +2995,11 @@
       "type": "TN tournament",
       "label": "TN tournament",
       "id": "t_9917e388",
-      "geocodeQuery": "Terminal Padel & Social Club, Rösrath, Germany"
+      "geocodeQuery": "Terminal Padel & Social Club, Rösrath, Germany",
+      "lat": 50.9051654,
+      "lon": 7.1821589,
+      "geocodeDisplay": "51503, Vierkotten, Hoffnungsthal, Rösrath, Rheinisch-Bergischer Kreis, North Rhine-Westphalia, Germany",
+      "geocodeQueryUsed": "51503 Rösrath, Germany"
     },
     {
       "title": "CUPRA GPS 50 Herren - EARLY BIRD - Terminal Padel & Social Club Rösrath",
@@ -2405,7 +3012,11 @@
       "type": "TN tournament",
       "label": "TN tournament",
       "id": "t_c6d9b0ae",
-      "geocodeQuery": "Terminal Padel & Social Club, Rösrath, Germany"
+      "geocodeQuery": "Terminal Padel & Social Club, Rösrath, Germany",
+      "lat": 50.9051654,
+      "lon": 7.1821589,
+      "geocodeDisplay": "51503, Vierkotten, Hoffnungsthal, Rösrath, Rheinisch-Bergischer Kreis, North Rhine-Westphalia, Germany",
+      "geocodeQueryUsed": "51503 Rösrath, Germany"
     },
     {
       "title": "CUPRA GPS 250 Herren - Early Bird - by padelBOX Bergisch Gladbach",
@@ -2418,7 +3029,11 @@
       "type": "TN tournament",
       "label": "TN tournament",
       "id": "t_3699fd90",
-      "geocodeQuery": "padelBOX Bergisch Gladbach, Bergisch Gladbach, Germany"
+      "geocodeQuery": "padelBOX Bergisch Gladbach, Bergisch Gladbach, Germany",
+      "lat": 50.9929303,
+      "lon": 7.1277379,
+      "geocodeDisplay": "Bergisch Gladbach, Rheinisch-Bergischer Kreis, North Rhine-Westphalia, Germany",
+      "geocodeQueryUsed": "Bergisch Gladbach, Germany"
     },
     {
       "title": "CUPRA GPS 100 Herren in der Padelschmiede Rastatt",
@@ -2431,7 +3046,11 @@
       "type": "TN tournament",
       "label": "TN tournament",
       "id": "t_55ba82f4",
-      "geocodeQuery": "PADELschmiede Rastatt, Rastatt, Germany"
+      "geocodeQuery": "PADELschmiede Rastatt, Rastatt, Germany",
+      "lat": 48.8672308,
+      "lon": 8.1843707,
+      "geocodeDisplay": "76437, Rastatt, VVG der Stadt Rastatt, Landkreis Rastatt, Baden-Württemberg, Germany",
+      "geocodeQueryUsed": "76437 Rastatt, Germany"
     },
     {
       "title": "CUPRA GPS 100 H00 | Peakz Padel Paderborn",
@@ -2444,7 +3063,11 @@
       "type": "TN tournament",
       "label": "TN tournament",
       "id": "t_a46253be",
-      "geocodeQuery": "Peakz Padel Paderborn, Paderborn, Germany"
+      "geocodeQuery": "Peakz Padel Paderborn, Paderborn, Germany",
+      "lat": 51.7177044,
+      "lon": 8.752653,
+      "geocodeDisplay": "Paderborn, Kreis Paderborn, North Rhine-Westphalia, Germany",
+      "geocodeQueryUsed": "Paderborn, Germany"
     },
     {
       "title": "CUPRA GPS 100 Herren || Padel Planet in Schönebeck (bei Magdeburg)",
@@ -2457,7 +3080,11 @@
       "type": "TN tournament",
       "label": "TN tournament",
       "id": "t_d9cb934c",
-      "geocodeQuery": "Padel Planet, Schönebeck (Elbe), Germany"
+      "geocodeQuery": "Padel Planet, Schönebeck (Elbe), Germany",
+      "lat": 52.0205998,
+      "lon": 11.7383277,
+      "geocodeDisplay": "Schönebeck (Elbe), Salzlandkreis, Saxony-Anhalt, Germany",
+      "geocodeQueryUsed": "Schönebeck (Elbe), Germany"
     },
     {
       "title": "CUPRA GPS 100 Damen || Padel Planet in Schönebeck (bei Magdeburg)",
@@ -2470,7 +3097,11 @@
       "type": "TN tournament",
       "label": "TN tournament",
       "id": "t_a5b66270",
-      "geocodeQuery": "Padel Planet, Schönebeck (Elbe), Germany"
+      "geocodeQuery": "Padel Planet, Schönebeck (Elbe), Germany",
+      "lat": 52.0205998,
+      "lon": 11.7383277,
+      "geocodeDisplay": "Schönebeck (Elbe), Salzlandkreis, Saxony-Anhalt, Germany",
+      "geocodeQueryUsed": "Schönebeck (Elbe), Germany"
     },
     {
       "title": "CUPRA GPS 50 Mixed by padelBOX Niederkassel",
@@ -2483,7 +3114,11 @@
       "type": "TN tournament",
       "label": "TN tournament",
       "id": "t_70abbdc0",
-      "geocodeQuery": "padelBOX Niederkassel, Niederkassel, Germany"
+      "geocodeQuery": "padelBOX Niederkassel, Niederkassel, Germany",
+      "lat": 50.8137102,
+      "lon": 7.0351942,
+      "geocodeDisplay": "Niederkassel, Rhein-Sieg-Kreis, North Rhine-Westphalia, 53859, Germany",
+      "geocodeQueryUsed": "Niederkassel, Germany"
     },
     {
       "title": "CUPRA GPS 500 H35 by padelBOX Bergisch Gladbach",
@@ -2496,7 +3131,11 @@
       "type": "TN tournament",
       "label": "TN tournament",
       "id": "t_ca0478c",
-      "geocodeQuery": "padelBOX Bergisch Gladbach, Bergisch Gladbach, Germany"
+      "geocodeQuery": "padelBOX Bergisch Gladbach, Bergisch Gladbach, Germany",
+      "lat": 50.9929303,
+      "lon": 7.1277379,
+      "geocodeDisplay": "Bergisch Gladbach, Rheinisch-Bergischer Kreis, North Rhine-Westphalia, Germany",
+      "geocodeQueryUsed": "Bergisch Gladbach, Germany"
     },
     {
       "title": "CUPRA GPS 250 Herren by padelBOX Werne",
@@ -2509,7 +3148,11 @@
       "type": "TN tournament",
       "label": "TN tournament",
       "id": "t_29fc09f8",
-      "geocodeQuery": "padelBOX Werne, Werne, Germany"
+      "geocodeQuery": "padelBOX Werne, Werne, Germany",
+      "lat": 51.66268,
+      "lon": 7.6355052,
+      "geocodeDisplay": "Werne, Kreis Unna, North Rhine-Westphalia, 59368, Germany",
+      "geocodeQueryUsed": "Werne, Germany"
     },
     {
       "title": "CUPRA GPS 250 HERREN - MAGDEBURG - PADEL LOFT - NO LONG WAITINGS - 4 COURTS",
@@ -2522,7 +3165,11 @@
       "type": "TN tournament",
       "label": "TN tournament",
       "id": "t_cf971bcc",
-      "geocodeQuery": "Padel Loft - Magdeburg, Magdeburg, Germany"
+      "geocodeQuery": "Padel Loft - Magdeburg, Magdeburg, Germany",
+      "lat": 52.1884874,
+      "lon": 11.6571488,
+      "geocodeDisplay": "39126, Rothensee, Magdeburg, Saxony-Anhalt, Germany",
+      "geocodeQueryUsed": "39126 Magdeburg, Germany"
     },
     {
       "title": "CUPRA GPS 50 HERREN - MAGDEBURG- PADEL LOFT - NO LONG WAITINGS - 4 COURTS",
@@ -2535,7 +3182,11 @@
       "type": "TN tournament",
       "label": "TN tournament",
       "id": "t_49d87970",
-      "geocodeQuery": "Padel Loft - Magdeburg, Magdeburg, Germany"
+      "geocodeQuery": "Padel Loft - Magdeburg, Magdeburg, Germany",
+      "lat": 52.1884874,
+      "lon": 11.6571488,
+      "geocodeDisplay": "39126, Rothensee, Magdeburg, Saxony-Anhalt, Germany",
+      "geocodeQueryUsed": "39126 Magdeburg, Germany"
     },
     {
       "title": "CUPRA GPS 250 H00 - PadelCity Heilsbronn (Ansbach)",
@@ -2548,7 +3199,11 @@
       "type": "TN tournament",
       "label": "TN tournament",
       "id": "t_5774a108",
-      "geocodeQuery": "PadelCity Heilsbronn (Ansbach), Heilsbronn, Germany"
+      "geocodeQuery": "PadelCity Heilsbronn (Ansbach), Heilsbronn, Germany",
+      "lat": 49.3378853,
+      "lon": 10.7887166,
+      "geocodeDisplay": "Heilsbronn, Ansbach (district), Bavaria, 91560, Germany",
+      "geocodeQueryUsed": "Heilsbronn, Germany"
     },
     {
       "title": "GPS 50+100 || D00/H00 || STC OBERLAND/ SPORTCENTER HAHN (Bei München)",
@@ -2561,7 +3216,11 @@
       "type": "TN tournament",
       "label": "TN tournament",
       "id": "t_200bf318",
-      "geocodeQuery": "STC Oberland, Geretsried, Germany"
+      "geocodeQuery": "STC Oberland, Geretsried, Germany",
+      "lat": 47.8646925,
+      "lon": 11.479351,
+      "geocodeDisplay": "Geretsried, Landkreis Bad Tölz-Wolfratshausen, Bavaria, 82538, Germany",
+      "geocodeQueryUsed": "Geretsried, Germany"
     },
     {
       "title": "CUPRA GPS 350 Herren || Padel Planet in Schönebeck (bei Magdeburg)",
@@ -2574,7 +3233,11 @@
       "type": "TN tournament",
       "label": "TN tournament",
       "id": "t_de8fc886",
-      "geocodeQuery": "Padel Planet, Schönebeck (Elbe), Germany"
+      "geocodeQuery": "Padel Planet, Schönebeck (Elbe), Germany",
+      "lat": 52.0205998,
+      "lon": 11.7383277,
+      "geocodeDisplay": "Schönebeck (Elbe), Salzlandkreis, Saxony-Anhalt, Germany",
+      "geocodeQueryUsed": "Schönebeck (Elbe), Germany"
     },
     {
       "title": "CUPRA GPS 100 Mixed || Padel Planet in Schönebeck (bei Magdeburg)",
@@ -2587,7 +3250,11 @@
       "type": "TN tournament",
       "label": "TN tournament",
       "id": "t_1d691238",
-      "geocodeQuery": "Padel Planet, Schönebeck (Elbe), Germany"
+      "geocodeQuery": "Padel Planet, Schönebeck (Elbe), Germany",
+      "lat": 52.0205998,
+      "lon": 11.7383277,
+      "geocodeDisplay": "Schönebeck (Elbe), Salzlandkreis, Saxony-Anhalt, Germany",
+      "geocodeQueryUsed": "Schönebeck (Elbe), Germany"
     },
     {
       "title": "CUPRA GPS 350 Damen by padelBOX Bergisch Gladbach",
@@ -2600,7 +3267,11 @@
       "type": "TN tournament",
       "label": "TN tournament",
       "id": "t_41b98314",
-      "geocodeQuery": "padelBOX Bergisch Gladbach, Bergisch Gladbach, Germany"
+      "geocodeQuery": "padelBOX Bergisch Gladbach, Bergisch Gladbach, Germany",
+      "lat": 50.9929303,
+      "lon": 7.1277379,
+      "geocodeDisplay": "Bergisch Gladbach, Rheinisch-Bergischer Kreis, North Rhine-Westphalia, Germany",
+      "geocodeQueryUsed": "Bergisch Gladbach, Germany"
     },
     {
       "title": "CUPRA GPS 100 Herren by padelBOX Ahlen",
@@ -2616,7 +3287,8 @@
       "geocodeQuery": "padelBOX Ahlen, Ahlen, Germany",
       "lat": 51.7509072,
       "lon": 7.9033359,
-      "geocodeDisplay": "Padelbox, 33, Sachsenstraße, Zechensiedlung (Neustadt), Ahlen, Kreis Warendorf, North Rhine-Westphalia, 59229, Germany"
+      "geocodeDisplay": "Padelbox, 33, Sachsenstraße, Zechensiedlung (Neustadt), Ahlen, Kreis Warendorf, North Rhine-Westphalia, 59229, Germany",
+      "geocodeQueryUsed": "padelBOX Ahlen, Ahlen, Germany"
     },
     {
       "title": "CUPRA GPS 500 Herren & Damen by padelBOX Niederkassel",
@@ -2629,7 +3301,11 @@
       "type": "TN tournament",
       "label": "TN tournament",
       "id": "t_fa2d437c",
-      "geocodeQuery": "padelBOX Niederkassel, Niederkassel, Germany"
+      "geocodeQuery": "padelBOX Niederkassel, Niederkassel, Germany",
+      "lat": 50.8137102,
+      "lon": 7.0351942,
+      "geocodeDisplay": "Niederkassel, Rhein-Sieg-Kreis, North Rhine-Westphalia, 53859, Germany",
+      "geocodeQueryUsed": "Niederkassel, Germany"
     },
     {
       "title": "CUPRA GPS 250 & 500 Herren - HALL OF PADEL Braunschweig",
@@ -2645,7 +3321,8 @@
       "geocodeQuery": "HALL OF PADEL Braunschweig, Braunschweig, Germany",
       "lat": 52.2831289,
       "lon": 10.5180077,
-      "geocodeDisplay": "Hall of Padel, Hamburger Straße, Schwarzer Berg, Nordstadt-Schunteraue, Brunswick, Lower Saxony, 38114, Germany"
+      "geocodeDisplay": "Hall of Padel, Hamburger Straße, Schwarzer Berg, Nordstadt-Schunteraue, Brunswick, Lower Saxony, 38114, Germany",
+      "geocodeQueryUsed": "HALL OF PADEL Braunschweig, Braunschweig, Germany"
     },
     {
       "title": "CUPRA GPS 250 H00 | Peakz Padel Paderborn",
@@ -2658,7 +3335,11 @@
       "type": "TN tournament",
       "label": "TN tournament",
       "id": "t_8f6adaf8",
-      "geocodeQuery": "Peakz Padel Paderborn, Paderborn, Germany"
+      "geocodeQuery": "Peakz Padel Paderborn, Paderborn, Germany",
+      "lat": 51.7177044,
+      "lon": 8.752653,
+      "geocodeDisplay": "Paderborn, Kreis Paderborn, North Rhine-Westphalia, Germany",
+      "geocodeQueryUsed": "Paderborn, Germany"
     },
     {
       "title": "CUPRA GPS 250 Herren - Early Bird - by padelBOX Niederkassel",
@@ -2671,7 +3352,11 @@
       "type": "TN tournament",
       "label": "TN tournament",
       "id": "t_1f5bb950",
-      "geocodeQuery": "padelBOX Niederkassel, Niederkassel, Germany"
+      "geocodeQuery": "padelBOX Niederkassel, Niederkassel, Germany",
+      "lat": 50.8137102,
+      "lon": 7.0351942,
+      "geocodeDisplay": "Niederkassel, Rhein-Sieg-Kreis, North Rhine-Westphalia, 53859, Germany",
+      "geocodeQueryUsed": "Niederkassel, Germany"
     },
     {
       "title": "CUPRA GPS 350 H35 by padelBOX Bergisch Gladbach",
@@ -2684,7 +3369,11 @@
       "type": "TN tournament",
       "label": "TN tournament",
       "id": "t_701db664",
-      "geocodeQuery": "padelBOX Bergisch Gladbach, Bergisch Gladbach, Germany"
+      "geocodeQuery": "padelBOX Bergisch Gladbach, Bergisch Gladbach, Germany",
+      "lat": 50.9929303,
+      "lon": 7.1277379,
+      "geocodeDisplay": "Bergisch Gladbach, Rheinisch-Bergischer Kreis, North Rhine-Westphalia, Germany",
+      "geocodeQueryUsed": "Bergisch Gladbach, Germany"
     },
     {
       "title": "CUPRA GPS 100 Herren - Early Bird - by padelBOX Köln-Weiden",
@@ -2697,7 +3386,11 @@
       "type": "TN tournament",
       "label": "TN tournament",
       "id": "t_ec29fe8a",
-      "geocodeQuery": "padelBOX Köln-Weiden, Köln, Germany"
+      "geocodeQuery": "padelBOX Köln-Weiden, Köln, Germany",
+      "lat": 50.938361,
+      "lon": 6.959974,
+      "geocodeDisplay": "Cologne, North Rhine-Westphalia, Germany",
+      "geocodeQueryUsed": "Köln, Germany"
     },
     {
       "title": "CUPRA GPS 250 Mixed & GPS 500 Herren - Maba! Padel Mannheim",
@@ -2710,7 +3403,11 @@
       "type": "TN tournament",
       "label": "TN tournament",
       "id": "t_67d6b2cb",
-      "geocodeQuery": "maba! Padel Mannheim, Mannheim, Germany"
+      "geocodeQuery": "maba! Padel Mannheim, Mannheim, Germany",
+      "lat": 49.4892913,
+      "lon": 8.4673098,
+      "geocodeDisplay": "Mannheim, Baden-Württemberg, Germany",
+      "geocodeQueryUsed": "Mannheim, Germany"
     },
     {
       "title": "CUPRA GPS 250 D00 / GPS 100 H00 - Gladius Games - Sportmühle Hilden",
@@ -2726,7 +3423,8 @@
       "geocodeQuery": "Sportmühle Hilden, Hilden, Germany",
       "lat": 51.1699471,
       "lon": 6.9448796,
-      "geocodeDisplay": "Sportmühle, 55, Berliner Straße, Pungshaus, Hilden, Kreis Mettmann, North Rhine-Westphalia, 40724, Germany"
+      "geocodeDisplay": "Sportmühle, 55, Berliner Straße, Pungshaus, Hilden, Kreis Mettmann, North Rhine-Westphalia, 40724, Germany",
+      "geocodeQueryUsed": "Sportmühle Hilden, Hilden, Germany"
     },
     {
       "title": "CUPRA GPS 100 Mixed by padelBOX Bergisch Gladbach",
@@ -2739,7 +3437,11 @@
       "type": "TN tournament",
       "label": "TN tournament",
       "id": "t_e97e718c",
-      "geocodeQuery": "padelBOX Bergisch Gladbach, Bergisch Gladbach, Germany"
+      "geocodeQuery": "padelBOX Bergisch Gladbach, Bergisch Gladbach, Germany",
+      "lat": 50.9929303,
+      "lon": 7.1277379,
+      "geocodeDisplay": "Bergisch Gladbach, Rheinisch-Bergischer Kreis, North Rhine-Westphalia, Germany",
+      "geocodeQueryUsed": "Bergisch Gladbach, Germany"
     },
     {
       "title": "CUPRA GPS 50 Herren by padelBOX Ahlen",
@@ -2755,7 +3457,8 @@
       "geocodeQuery": "padelBOX Ahlen, Ahlen, Germany",
       "lat": 51.7509072,
       "lon": 7.9033359,
-      "geocodeDisplay": "Padelbox, 33, Sachsenstraße, Zechensiedlung (Neustadt), Ahlen, Kreis Warendorf, North Rhine-Westphalia, 59229, Germany"
+      "geocodeDisplay": "Padelbox, 33, Sachsenstraße, Zechensiedlung (Neustadt), Ahlen, Kreis Warendorf, North Rhine-Westphalia, 59229, Germany",
+      "geocodeQueryUsed": "padelBOX Ahlen, Ahlen, Germany"
     },
     {
       "title": "CUPRA GPS 50 MIXED - MAGDEBURG CITY - PADEL LOFT- NO LONG WAITINGS 4 COURTS",
@@ -2768,7 +3471,11 @@
       "type": "TN tournament",
       "label": "TN tournament",
       "id": "t_fee0b51b",
-      "geocodeQuery": "Padel Loft - Magdeburg, Magdeburg, Germany"
+      "geocodeQuery": "Padel Loft - Magdeburg, Magdeburg, Germany",
+      "lat": 52.1884874,
+      "lon": 11.6571488,
+      "geocodeDisplay": "39126, Rothensee, Magdeburg, Saxony-Anhalt, Germany",
+      "geocodeQueryUsed": "39126 Magdeburg, Germany"
     },
     {
       "title": "CUPRA GPS 100 MIXED - MAGDEBURG- PADEL LOFT",
@@ -2781,7 +3488,11 @@
       "type": "TN tournament",
       "label": "TN tournament",
       "id": "t_52af2424",
-      "geocodeQuery": "Padel Loft - Magdeburg, Magdeburg, Germany"
+      "geocodeQuery": "Padel Loft - Magdeburg, Magdeburg, Germany",
+      "lat": 52.1884874,
+      "lon": 11.6571488,
+      "geocodeDisplay": "39126, Rothensee, Magdeburg, Saxony-Anhalt, Germany",
+      "geocodeQueryUsed": "39126 Magdeburg, Germany"
     },
     {
       "title": "CUPRA GPS 250 & 500 Herren - HALL OF PADEL Braunschweig",
@@ -2797,7 +3508,8 @@
       "geocodeQuery": "HALL OF PADEL Braunschweig, Braunschweig, Germany",
       "lat": 52.2831289,
       "lon": 10.5180077,
-      "geocodeDisplay": "Hall of Padel, Hamburger Straße, Schwarzer Berg, Nordstadt-Schunteraue, Brunswick, Lower Saxony, 38114, Germany"
+      "geocodeDisplay": "Hall of Padel, Hamburger Straße, Schwarzer Berg, Nordstadt-Schunteraue, Brunswick, Lower Saxony, 38114, Germany",
+      "geocodeQueryUsed": "HALL OF PADEL Braunschweig, Braunschweig, Germany"
     },
     {
       "title": "CUPRA GPS 50 Herren by padelBOX Niederkassel",
@@ -2810,7 +3522,11 @@
       "type": "TN tournament",
       "label": "TN tournament",
       "id": "t_aefc99b0",
-      "geocodeQuery": "padelBOX Niederkassel, Niederkassel, Germany"
+      "geocodeQuery": "padelBOX Niederkassel, Niederkassel, Germany",
+      "lat": 50.8137102,
+      "lon": 7.0351942,
+      "geocodeDisplay": "Niederkassel, Rhein-Sieg-Kreis, North Rhine-Westphalia, 53859, Germany",
+      "geocodeQueryUsed": "Niederkassel, Germany"
     },
     {
       "title": "CUPRA GPS 350 Herren by padelBOX Köln-Weiden",
@@ -2823,7 +3539,11 @@
       "type": "TN tournament",
       "label": "TN tournament",
       "id": "t_665b38f6",
-      "geocodeQuery": "padelBOX Köln-Weiden, Köln, Germany"
+      "geocodeQuery": "padelBOX Köln-Weiden, Köln, Germany",
+      "lat": 50.938361,
+      "lon": 6.959974,
+      "geocodeDisplay": "Cologne, North Rhine-Westphalia, Germany",
+      "geocodeQueryUsed": "Köln, Germany"
     },
     {
       "title": "CUPRA GPS 50 Mixed by padelBOX Werne",
@@ -2836,7 +3556,11 @@
       "type": "TN tournament",
       "label": "TN tournament",
       "id": "t_48ec7d64",
-      "geocodeQuery": "padelBOX Werne, Werne, Germany"
+      "geocodeQuery": "padelBOX Werne, Werne, Germany",
+      "lat": 51.66268,
+      "lon": 7.6355052,
+      "geocodeDisplay": "Werne, Kreis Unna, North Rhine-Westphalia, 59368, Germany",
+      "geocodeQueryUsed": "Werne, Germany"
     },
     {
       "title": "CUPRA GPS 500 H45 by padelBOX Bergisch Gladbach",
@@ -2849,7 +3573,11 @@
       "type": "TN tournament",
       "label": "TN tournament",
       "id": "t_b3850e58",
-      "geocodeQuery": "padelBOX Bergisch Gladbach, Bergisch Gladbach, Germany"
+      "geocodeQuery": "padelBOX Bergisch Gladbach, Bergisch Gladbach, Germany",
+      "lat": 50.9929303,
+      "lon": 7.1277379,
+      "geocodeDisplay": "Bergisch Gladbach, Rheinisch-Bergischer Kreis, North Rhine-Westphalia, Germany",
+      "geocodeQueryUsed": "Bergisch Gladbach, Germany"
     },
     {
       "title": "CUPRA GPS 50 & 100 H00 - Padel Verde in Herten",
@@ -2862,7 +3590,11 @@
       "type": "TN tournament",
       "label": "TN tournament",
       "id": "t_678d8dc",
-      "geocodeQuery": "padel verde, Herten, Germany"
+      "geocodeQuery": "padel verde, Herten, Germany",
+      "lat": 51.6110697,
+      "lon": 7.0946173,
+      "geocodeDisplay": "45701, Langenbochum, Westerholt, Herten, Kreis Recklinghausen, North Rhine-Westphalia, Germany",
+      "geocodeQueryUsed": "45701 Herten, Germany"
     },
     {
       "title": "CUPRA GPS 350 Herren by padelBOX Niederkassel",
@@ -2875,7 +3607,11 @@
       "type": "TN tournament",
       "label": "TN tournament",
       "id": "t_3b2e36e4",
-      "geocodeQuery": "padelBOX Niederkassel, Niederkassel, Germany"
+      "geocodeQuery": "padelBOX Niederkassel, Niederkassel, Germany",
+      "lat": 50.8137102,
+      "lon": 7.0351942,
+      "geocodeDisplay": "Niederkassel, Rhein-Sieg-Kreis, North Rhine-Westphalia, 53859, Germany",
+      "geocodeQueryUsed": "Niederkassel, Germany"
     },
     {
       "title": "CUPRA GPS 250 Herren - Early Bird - by padelBOX Köln-Weiden",
@@ -2888,7 +3624,11 @@
       "type": "TN tournament",
       "label": "TN tournament",
       "id": "t_287433a6",
-      "geocodeQuery": "padelBOX Köln-Weiden, Köln, Germany"
+      "geocodeQuery": "padelBOX Köln-Weiden, Köln, Germany",
+      "lat": 50.938361,
+      "lon": 6.959974,
+      "geocodeDisplay": "Cologne, North Rhine-Westphalia, Germany",
+      "geocodeQueryUsed": "Köln, Germany"
     },
     {
       "title": "CUPRA GPS 250 Herren in der Padelschmiede",
@@ -2901,7 +3641,11 @@
       "type": "TN tournament",
       "label": "TN tournament",
       "id": "t_e4f51c20",
-      "geocodeQuery": "PADELschmiede Rastatt, Rastatt, Germany"
+      "geocodeQuery": "PADELschmiede Rastatt, Rastatt, Germany",
+      "lat": 48.8672308,
+      "lon": 8.1843707,
+      "geocodeDisplay": "76437, Rastatt, VVG der Stadt Rastatt, Landkreis Rastatt, Baden-Württemberg, Germany",
+      "geocodeQueryUsed": "76437 Rastatt, Germany"
     },
     {
       "title": "CUPRA GPS 50 H00 | Peakz Padel Paderborn",
@@ -2914,7 +3658,11 @@
       "type": "TN tournament",
       "label": "TN tournament",
       "id": "t_2dab1168",
-      "geocodeQuery": "Peakz Padel Paderborn, Paderborn, Germany"
+      "geocodeQuery": "Peakz Padel Paderborn, Paderborn, Germany",
+      "lat": 51.7177044,
+      "lon": 8.752653,
+      "geocodeDisplay": "Paderborn, Kreis Paderborn, North Rhine-Westphalia, Germany",
+      "geocodeQueryUsed": "Paderborn, Germany"
     },
     {
       "title": "CUPRA GPS 350 H00 || PadelCity Leipzig",
@@ -2930,7 +3678,8 @@
       "geocodeQuery": "PadelCity Leipzig, Leipzig, Germany",
       "lat": 51.3421223,
       "lon": 12.312699,
-      "geocodeDisplay": "PadelCity Leipzig, 3a, Franz-Flemming-Straße, Altlindenau, Altwest, Leipzig, Saxony, 04179, Germany"
+      "geocodeDisplay": "PadelCity Leipzig, 3a, Franz-Flemming-Straße, Altlindenau, Altwest, Leipzig, Saxony, 04179, Germany",
+      "geocodeQueryUsed": "PadelCity Leipzig, Leipzig, Germany"
     },
     {
       "title": "CUPRA GPS 100 Herren by padelBOX Niederkassel",
@@ -2943,7 +3692,11 @@
       "type": "TN tournament",
       "label": "TN tournament",
       "id": "t_c1115cc",
-      "geocodeQuery": "padelBOX Niederkassel, Niederkassel, Germany"
+      "geocodeQuery": "padelBOX Niederkassel, Niederkassel, Germany",
+      "lat": 50.8137102,
+      "lon": 7.0351942,
+      "geocodeDisplay": "Niederkassel, Rhein-Sieg-Kreis, North Rhine-Westphalia, 53859, Germany",
+      "geocodeQueryUsed": "Niederkassel, Germany"
     },
     {
       "title": "CUPRA GPS 100 Herren by padelBOX Werne",
@@ -2956,7 +3709,11 @@
       "type": "TN tournament",
       "label": "TN tournament",
       "id": "t_ae7ef1c0",
-      "geocodeQuery": "padelBOX Werne, Werne, Germany"
+      "geocodeQuery": "padelBOX Werne, Werne, Germany",
+      "lat": 51.66268,
+      "lon": 7.6355052,
+      "geocodeDisplay": "Werne, Kreis Unna, North Rhine-Westphalia, 59368, Germany",
+      "geocodeQueryUsed": "Werne, Germany"
     },
     {
       "title": "CUPRA GPS 350 DAMEN - MAGDEBURG CITY - PADEL LOFT",
@@ -2969,7 +3726,11 @@
       "type": "TN tournament",
       "label": "TN tournament",
       "id": "t_d0419a3c",
-      "geocodeQuery": "Padel Loft - Magdeburg, Magdeburg, Germany"
+      "geocodeQuery": "Padel Loft - Magdeburg, Magdeburg, Germany",
+      "lat": 52.1884874,
+      "lon": 11.6571488,
+      "geocodeDisplay": "39126, Rothensee, Magdeburg, Saxony-Anhalt, Germany",
+      "geocodeQueryUsed": "39126 Magdeburg, Germany"
     },
     {
       "title": "CUPRA GPS 350 HERREN - MAGDEBURG CITY - PADEL LOFT - NO LONG WAITINGS 4 COURTS",
@@ -2982,7 +3743,11 @@
       "type": "TN tournament",
       "label": "TN tournament",
       "id": "t_26b68c85",
-      "geocodeQuery": "Padel Loft - Magdeburg, Magdeburg, Germany"
+      "geocodeQuery": "Padel Loft - Magdeburg, Magdeburg, Germany",
+      "lat": 52.1884874,
+      "lon": 11.6571488,
+      "geocodeDisplay": "39126, Rothensee, Magdeburg, Saxony-Anhalt, Germany",
+      "geocodeQueryUsed": "39126 Magdeburg, Germany"
     },
     {
       "title": "GPS 350+250 || D00/H00 || STC OBERLAND/ SPORTCENTER HAHN (Bei München)",
@@ -2995,7 +3760,11 @@
       "type": "TN tournament",
       "label": "TN tournament",
       "id": "t_c46e64ac",
-      "geocodeQuery": "STC Oberland, Geretsried, Germany"
+      "geocodeQuery": "STC Oberland, Geretsried, Germany",
+      "lat": 47.8646925,
+      "lon": 11.479351,
+      "geocodeDisplay": "Geretsried, Landkreis Bad Tölz-Wolfratshausen, Bavaria, 82538, Germany",
+      "geocodeQueryUsed": "Geretsried, Germany"
     },
     {
       "title": "CUPRA GPS 250 Mixed || PadelCity Leipzig",
@@ -3011,7 +3780,8 @@
       "geocodeQuery": "PadelCity Leipzig, Leipzig, Germany",
       "lat": 51.3421223,
       "lon": 12.312699,
-      "geocodeDisplay": "PadelCity Leipzig, 3a, Franz-Flemming-Straße, Altlindenau, Altwest, Leipzig, Saxony, 04179, Germany"
+      "geocodeDisplay": "PadelCity Leipzig, 3a, Franz-Flemming-Straße, Altlindenau, Altwest, Leipzig, Saxony, 04179, Germany",
+      "geocodeQueryUsed": "PadelCity Leipzig, Leipzig, Germany"
     },
     {
       "title": "CUPRA GPS 100 Damen by padelBOX Bergisch Gladbach",
@@ -3024,7 +3794,11 @@
       "type": "TN tournament",
       "label": "TN tournament",
       "id": "t_e9368898",
-      "geocodeQuery": "padelBOX Bergisch Gladbach, Bergisch Gladbach, Germany"
+      "geocodeQuery": "padelBOX Bergisch Gladbach, Bergisch Gladbach, Germany",
+      "lat": 50.9929303,
+      "lon": 7.1277379,
+      "geocodeDisplay": "Bergisch Gladbach, Rheinisch-Bergischer Kreis, North Rhine-Westphalia, Germany",
+      "geocodeQueryUsed": "Bergisch Gladbach, Germany"
     },
     {
       "title": "CUPRA GPS 350 Damen by padelBOX Ahlen",
@@ -3040,7 +3814,8 @@
       "geocodeQuery": "padelBOX Ahlen, Ahlen, Germany",
       "lat": 51.7509072,
       "lon": 7.9033359,
-      "geocodeDisplay": "Padelbox, 33, Sachsenstraße, Zechensiedlung (Neustadt), Ahlen, Kreis Warendorf, North Rhine-Westphalia, 59229, Germany"
+      "geocodeDisplay": "Padelbox, 33, Sachsenstraße, Zechensiedlung (Neustadt), Ahlen, Kreis Warendorf, North Rhine-Westphalia, 59229, Germany",
+      "geocodeQueryUsed": "padelBOX Ahlen, Ahlen, Germany"
     },
     {
       "title": "CUPRA GPS 100 HERREN - MAGDEBURG CITY - PADEL LOFT - NO LONG WAITINGS 4 COURTS",
@@ -3053,7 +3828,11 @@
       "type": "TN tournament",
       "label": "TN tournament",
       "id": "t_866cc36d",
-      "geocodeQuery": "Padel Loft - Magdeburg, Magdeburg, Germany"
+      "geocodeQuery": "Padel Loft - Magdeburg, Magdeburg, Germany",
+      "lat": 52.1884874,
+      "lon": 11.6571488,
+      "geocodeDisplay": "39126, Rothensee, Magdeburg, Saxony-Anhalt, Germany",
+      "geocodeQueryUsed": "39126 Magdeburg, Germany"
     },
     {
       "title": "CUPRA GPS 350 H00 | Peakz Padel Paderborn",
@@ -3066,7 +3845,11 @@
       "type": "TN tournament",
       "label": "TN tournament",
       "id": "t_37f796a0",
-      "geocodeQuery": "Peakz Padel Paderborn, Paderborn, Germany"
+      "geocodeQuery": "Peakz Padel Paderborn, Paderborn, Germany",
+      "lat": 51.7177044,
+      "lon": 8.752653,
+      "geocodeDisplay": "Paderborn, Kreis Paderborn, North Rhine-Westphalia, Germany",
+      "geocodeQueryUsed": "Paderborn, Germany"
     },
     {
       "title": "CUPRA GPS 350 Herren by padelBOX Bergisch Gladbach",
@@ -3079,7 +3862,11 @@
       "type": "TN tournament",
       "label": "TN tournament",
       "id": "t_b8040a83",
-      "geocodeQuery": "padelBOX Bergisch Gladbach, Bergisch Gladbach, Germany"
+      "geocodeQuery": "padelBOX Bergisch Gladbach, Bergisch Gladbach, Germany",
+      "lat": 50.9929303,
+      "lon": 7.1277379,
+      "geocodeDisplay": "Bergisch Gladbach, Rheinisch-Bergischer Kreis, North Rhine-Westphalia, Germany",
+      "geocodeQueryUsed": "Bergisch Gladbach, Germany"
     },
     {
       "title": "CUPRA GPS 100 Herren - Early Bird - by padelBOX Köln-Weiden",
@@ -3092,7 +3879,11 @@
       "type": "TN tournament",
       "label": "TN tournament",
       "id": "t_f619c16",
-      "geocodeQuery": "padelBOX Köln-Weiden, Köln, Germany"
+      "geocodeQuery": "padelBOX Köln-Weiden, Köln, Germany",
+      "lat": 50.938361,
+      "lon": 6.959974,
+      "geocodeDisplay": "Cologne, North Rhine-Westphalia, Germany",
+      "geocodeQueryUsed": "Köln, Germany"
     },
     {
       "title": "CUPRA GPS 350 in der Padelschmiede Rastatt",
@@ -3105,7 +3896,11 @@
       "type": "TN tournament",
       "label": "TN tournament",
       "id": "t_aee397f4",
-      "geocodeQuery": "PADELschmiede Rastatt, Rastatt, Germany"
+      "geocodeQuery": "PADELschmiede Rastatt, Rastatt, Germany",
+      "lat": 48.8672308,
+      "lon": 8.1843707,
+      "geocodeDisplay": "76437, Rastatt, VVG der Stadt Rastatt, Landkreis Rastatt, Baden-Württemberg, Germany",
+      "geocodeQueryUsed": "76437 Rastatt, Germany"
     },
     {
       "title": "CUPRA GPS 250 H00 & GPS 500 H00 - Maba! Padel Mannheim",
@@ -3118,7 +3913,11 @@
       "type": "TN tournament",
       "label": "TN tournament",
       "id": "t_192cabc",
-      "geocodeQuery": "maba! Padel Mannheim, Mannheim, Germany"
+      "geocodeQuery": "maba! Padel Mannheim, Mannheim, Germany",
+      "lat": 49.4892913,
+      "lon": 8.4673098,
+      "geocodeDisplay": "Mannheim, Baden-Württemberg, Germany",
+      "geocodeQueryUsed": "Mannheim, Germany"
     },
     {
       "title": "CUPRA GPS 50 Herren by padelBOX Bergisch Gladbach",
@@ -3131,7 +3930,11 @@
       "type": "TN tournament",
       "label": "TN tournament",
       "id": "t_fed0ec34",
-      "geocodeQuery": "padelBOX Bergisch Gladbach, Bergisch Gladbach, Germany"
+      "geocodeQuery": "padelBOX Bergisch Gladbach, Bergisch Gladbach, Germany",
+      "lat": 50.9929303,
+      "lon": 7.1277379,
+      "geocodeDisplay": "Bergisch Gladbach, Rheinisch-Bergischer Kreis, North Rhine-Westphalia, Germany",
+      "geocodeQueryUsed": "Bergisch Gladbach, Germany"
     },
     {
       "title": "CUPRA GPS 100 Herren by padelBOX Ahlen",
@@ -3147,7 +3950,8 @@
       "geocodeQuery": "padelBOX Ahlen, Ahlen, Germany",
       "lat": 51.7509072,
       "lon": 7.9033359,
-      "geocodeDisplay": "Padelbox, 33, Sachsenstraße, Zechensiedlung (Neustadt), Ahlen, Kreis Warendorf, North Rhine-Westphalia, 59229, Germany"
+      "geocodeDisplay": "Padelbox, 33, Sachsenstraße, Zechensiedlung (Neustadt), Ahlen, Kreis Warendorf, North Rhine-Westphalia, 59229, Germany",
+      "geocodeQueryUsed": "padelBOX Ahlen, Ahlen, Germany"
     },
     {
       "title": "CUPRA GPS 500 H45 by padelBOX Köln-Weiden",
@@ -3160,7 +3964,11 @@
       "type": "TN tournament",
       "label": "TN tournament",
       "id": "t_d9fbf294",
-      "geocodeQuery": "padelBOX Köln-Weiden, Köln, Germany"
+      "geocodeQuery": "padelBOX Köln-Weiden, Köln, Germany",
+      "lat": 50.938361,
+      "lon": 6.959974,
+      "geocodeDisplay": "Cologne, North Rhine-Westphalia, Germany",
+      "geocodeQueryUsed": "Köln, Germany"
     },
     {
       "title": "CUPRA GPS 250 HERREN - MAGDEBURG CITY - PADEL LOFT - NO LONG WAITINGS",
@@ -3173,7 +3981,11 @@
       "type": "TN tournament",
       "label": "TN tournament",
       "id": "t_f424eb2c",
-      "geocodeQuery": "Padel Loft - Magdeburg, Magdeburg, Germany"
+      "geocodeQuery": "Padel Loft - Magdeburg, Magdeburg, Germany",
+      "lat": 52.1884874,
+      "lon": 11.6571488,
+      "geocodeDisplay": "39126, Rothensee, Magdeburg, Saxony-Anhalt, Germany",
+      "geocodeQueryUsed": "39126 Magdeburg, Germany"
     },
     {
       "title": "CUPRA GPS 250 MIXED - MAGDEBURG CITY - PADEL LOFT - NO LONG WAITINGS",
@@ -3186,7 +3998,11 @@
       "type": "TN tournament",
       "label": "TN tournament",
       "id": "t_5c17a3bd",
-      "geocodeQuery": "Padel Loft - Magdeburg, Magdeburg, Germany"
+      "geocodeQuery": "Padel Loft - Magdeburg, Magdeburg, Germany",
+      "lat": 52.1884874,
+      "lon": 11.6571488,
+      "geocodeDisplay": "39126, Rothensee, Magdeburg, Saxony-Anhalt, Germany",
+      "geocodeQueryUsed": "39126 Magdeburg, Germany"
     },
     {
       "title": "CUPRA GPS 350 H00 - PadelCity Heilsbronn (Ansbach)",
@@ -3199,7 +4015,11 @@
       "type": "TN tournament",
       "label": "TN tournament",
       "id": "t_8b2ec570",
-      "geocodeQuery": "PadelCity Heilsbronn (Ansbach), Heilsbronn, Germany"
+      "geocodeQuery": "PadelCity Heilsbronn (Ansbach), Heilsbronn, Germany",
+      "lat": 49.3378853,
+      "lon": 10.7887166,
+      "geocodeDisplay": "Heilsbronn, Ansbach (district), Bavaria, 91560, Germany",
+      "geocodeQueryUsed": "Heilsbronn, Germany"
     },
     {
       "title": "GPS 500 || D00/H00/Mixed || STC OBERLAND/ SPORTCENTER HAHN (Bei München)",
@@ -3212,7 +4032,11 @@
       "type": "TN tournament",
       "label": "TN tournament",
       "id": "t_ea892750",
-      "geocodeQuery": "STC Oberland, Geretsried, Germany"
+      "geocodeQuery": "STC Oberland, Geretsried, Germany",
+      "lat": 47.8646925,
+      "lon": 11.479351,
+      "geocodeDisplay": "Geretsried, Landkreis Bad Tölz-Wolfratshausen, Bavaria, 82538, Germany",
+      "geocodeQueryUsed": "Geretsried, Germany"
     },
     {
       "title": "CUPRA GPS 100 & 350 Herren - HALL OF PADEL Braunschweig",
@@ -3228,7 +4052,8 @@
       "geocodeQuery": "HALL OF PADEL Braunschweig, Braunschweig, Germany",
       "lat": 52.2831289,
       "lon": 10.5180077,
-      "geocodeDisplay": "Hall of Padel, Hamburger Straße, Schwarzer Berg, Nordstadt-Schunteraue, Brunswick, Lower Saxony, 38114, Germany"
+      "geocodeDisplay": "Hall of Padel, Hamburger Straße, Schwarzer Berg, Nordstadt-Schunteraue, Brunswick, Lower Saxony, 38114, Germany",
+      "geocodeQueryUsed": "HALL OF PADEL Braunschweig, Braunschweig, Germany"
     },
     {
       "title": "CUPRA GPS 100 Mixed by padelBOX Niederkassel",
@@ -3241,7 +4066,11 @@
       "type": "TN tournament",
       "label": "TN tournament",
       "id": "t_75a2558",
-      "geocodeQuery": "padelBOX Niederkassel, Niederkassel, Germany"
+      "geocodeQuery": "padelBOX Niederkassel, Niederkassel, Germany",
+      "lat": 50.8137102,
+      "lon": 7.0351942,
+      "geocodeDisplay": "Niederkassel, Rhein-Sieg-Kreis, North Rhine-Westphalia, 53859, Germany",
+      "geocodeQueryUsed": "Niederkassel, Germany"
     },
     {
       "title": "CUPRA GPS 50 Damen by padelBOX Werne",
@@ -3254,7 +4083,11 @@
       "type": "TN tournament",
       "label": "TN tournament",
       "id": "t_6d689190",
-      "geocodeQuery": "padelBOX Werne, Werne, Germany"
+      "geocodeQuery": "padelBOX Werne, Werne, Germany",
+      "lat": 51.66268,
+      "lon": 7.6355052,
+      "geocodeDisplay": "Werne, Kreis Unna, North Rhine-Westphalia, 59368, Germany",
+      "geocodeQueryUsed": "Werne, Germany"
     },
     {
       "title": "CUPRA GPS 100 H00 | Peakz Padel Paderborn",
@@ -3267,7 +4100,11 @@
       "type": "TN tournament",
       "label": "TN tournament",
       "id": "t_b87ef8c0",
-      "geocodeQuery": "Peakz Padel Paderborn, Paderborn, Germany"
+      "geocodeQuery": "Peakz Padel Paderborn, Paderborn, Germany",
+      "lat": 51.7177044,
+      "lon": 8.752653,
+      "geocodeDisplay": "Paderborn, Kreis Paderborn, North Rhine-Westphalia, Germany",
+      "geocodeQueryUsed": "Paderborn, Germany"
     },
     {
       "title": "CUPRA GPS 250 Herren - Early Bird - by padelBOX Bergisch Gladbach",
@@ -3280,7 +4117,11 @@
       "type": "TN tournament",
       "label": "TN tournament",
       "id": "t_34da0898",
-      "geocodeQuery": "padelBOX Bergisch Gladbach, Bergisch Gladbach, Germany"
+      "geocodeQuery": "padelBOX Bergisch Gladbach, Bergisch Gladbach, Germany",
+      "lat": 50.9929303,
+      "lon": 7.1277379,
+      "geocodeDisplay": "Bergisch Gladbach, Rheinisch-Bergischer Kreis, North Rhine-Westphalia, Germany",
+      "geocodeQueryUsed": "Bergisch Gladbach, Germany"
     },
     {
       "title": "CUPRA GPS 50 Herren - Early Bird - by padelBOX Köln-Weiden",
@@ -3293,7 +4134,11 @@
       "type": "TN tournament",
       "label": "TN tournament",
       "id": "t_a0ce796e",
-      "geocodeQuery": "padelBOX Köln-Weiden, Köln, Germany"
+      "geocodeQuery": "padelBOX Köln-Weiden, Köln, Germany",
+      "lat": 50.938361,
+      "lon": 6.959974,
+      "geocodeDisplay": "Cologne, North Rhine-Westphalia, Germany",
+      "geocodeQueryUsed": "Köln, Germany"
     },
     {
       "title": "CUPRA GPS 50 Herren by padelBOX Niederkassel",
@@ -3306,7 +4151,11 @@
       "type": "TN tournament",
       "label": "TN tournament",
       "id": "t_a66c78b8",
-      "geocodeQuery": "padelBOX Niederkassel, Niederkassel, Germany"
+      "geocodeQuery": "padelBOX Niederkassel, Niederkassel, Germany",
+      "lat": 50.8137102,
+      "lon": 7.0351942,
+      "geocodeDisplay": "Niederkassel, Rhein-Sieg-Kreis, North Rhine-Westphalia, 53859, Germany",
+      "geocodeQueryUsed": "Niederkassel, Germany"
     },
     {
       "title": "CUPRA GPS 50 Herren by padelBOX Werne",
@@ -3319,7 +4168,11 @@
       "type": "TN tournament",
       "label": "TN tournament",
       "id": "t_4485bcc8",
-      "geocodeQuery": "padelBOX Werne, Werne, Germany"
+      "geocodeQuery": "padelBOX Werne, Werne, Germany",
+      "lat": 51.66268,
+      "lon": 7.6355052,
+      "geocodeDisplay": "Werne, Kreis Unna, North Rhine-Westphalia, 59368, Germany",
+      "geocodeQueryUsed": "Werne, Germany"
     },
     {
       "title": "CUPRA GPS 500 DAMEN - MAGDEBURG CITY - PADEL LOFT - NO LONG WAITINGS",
@@ -3332,7 +4185,11 @@
       "type": "TN tournament",
       "label": "TN tournament",
       "id": "t_12ee1444",
-      "geocodeQuery": "Padel Loft - Magdeburg, Magdeburg, Germany"
+      "geocodeQuery": "Padel Loft - Magdeburg, Magdeburg, Germany",
+      "lat": 52.1884874,
+      "lon": 11.6571488,
+      "geocodeDisplay": "39126, Rothensee, Magdeburg, Saxony-Anhalt, Germany",
+      "geocodeQueryUsed": "39126 Magdeburg, Germany"
     },
     {
       "title": "CUPRA GPS 100 MIXED - MAGDEBURG CITY - PADEL LOFT - NO LONG WAITINGS",
@@ -3345,7 +4202,11 @@
       "type": "TN tournament",
       "label": "TN tournament",
       "id": "t_b6360548",
-      "geocodeQuery": "Padel Loft - Magdeburg, Magdeburg, Germany"
+      "geocodeQuery": "Padel Loft - Magdeburg, Magdeburg, Germany",
+      "lat": 52.1884874,
+      "lon": 11.6571488,
+      "geocodeDisplay": "39126, Rothensee, Magdeburg, Saxony-Anhalt, Germany",
+      "geocodeQueryUsed": "39126 Magdeburg, Germany"
     },
     {
       "title": "CUPRA GPS 500 D00 | Peakz Padel Paderborn",
@@ -3358,7 +4219,11 @@
       "type": "TN tournament",
       "label": "TN tournament",
       "id": "t_d3029ff8",
-      "geocodeQuery": "Peakz Padel Paderborn, Paderborn, Germany"
+      "geocodeQuery": "Peakz Padel Paderborn, Paderborn, Germany",
+      "lat": 51.7177044,
+      "lon": 8.752653,
+      "geocodeDisplay": "Paderborn, Kreis Paderborn, North Rhine-Westphalia, Germany",
+      "geocodeQueryUsed": "Paderborn, Germany"
     },
     {
       "title": "CUPRA GPS 250 H00 / M00 - Gladius Games - Sportmühle Hilden",
@@ -3374,7 +4239,8 @@
       "geocodeQuery": "Sportmühle Hilden, Hilden, Germany",
       "lat": 51.1699471,
       "lon": 6.9448796,
-      "geocodeDisplay": "Sportmühle, 55, Berliner Straße, Pungshaus, Hilden, Kreis Mettmann, North Rhine-Westphalia, 40724, Germany"
+      "geocodeDisplay": "Sportmühle, 55, Berliner Straße, Pungshaus, Hilden, Kreis Mettmann, North Rhine-Westphalia, 40724, Germany",
+      "geocodeQueryUsed": "Sportmühle Hilden, Hilden, Germany"
     },
     {
       "title": "CUPRA GPS 250 Mixed by padelBOX Bergisch Gladbach",
@@ -3387,7 +4253,11 @@
       "type": "TN tournament",
       "label": "TN tournament",
       "id": "t_9de1ecb3",
-      "geocodeQuery": "padelBOX Bergisch Gladbach, Bergisch Gladbach, Germany"
+      "geocodeQuery": "padelBOX Bergisch Gladbach, Bergisch Gladbach, Germany",
+      "lat": 50.9929303,
+      "lon": 7.1277379,
+      "geocodeDisplay": "Bergisch Gladbach, Rheinisch-Bergischer Kreis, North Rhine-Westphalia, Germany",
+      "geocodeQueryUsed": "Bergisch Gladbach, Germany"
     },
     {
       "title": "CUPRA GPS 250 Herren by padelBOX Ahlen",
@@ -3403,7 +4273,8 @@
       "geocodeQuery": "padelBOX Ahlen, Ahlen, Germany",
       "lat": 51.7509072,
       "lon": 7.9033359,
-      "geocodeDisplay": "Padelbox, 33, Sachsenstraße, Zechensiedlung (Neustadt), Ahlen, Kreis Warendorf, North Rhine-Westphalia, 59229, Germany"
+      "geocodeDisplay": "Padelbox, 33, Sachsenstraße, Zechensiedlung (Neustadt), Ahlen, Kreis Warendorf, North Rhine-Westphalia, 59229, Germany",
+      "geocodeQueryUsed": "padelBOX Ahlen, Ahlen, Germany"
     },
     {
       "title": "CUPRA GPS 500 H00 | Peakz Padel Paderborn",
@@ -3416,7 +4287,11 @@
       "type": "TN tournament",
       "label": "TN tournament",
       "id": "t_38773690",
-      "geocodeQuery": "Peakz Padel Paderborn, Paderborn, Germany"
+      "geocodeQuery": "Peakz Padel Paderborn, Paderborn, Germany",
+      "lat": 51.7177044,
+      "lon": 8.752653,
+      "geocodeDisplay": "Paderborn, Kreis Paderborn, North Rhine-Westphalia, Germany",
+      "geocodeQueryUsed": "Paderborn, Germany"
     },
     {
       "title": "CUPRA GPS 100 HERREN - AFTERWORK TURNIER - MAGDEBURG - PADEL LOFT",
@@ -3429,7 +4304,11 @@
       "type": "TN tournament",
       "label": "TN tournament",
       "id": "t_a28e3a1",
-      "geocodeQuery": "Padel Loft - Magdeburg, Magdeburg, Germany"
+      "geocodeQuery": "Padel Loft - Magdeburg, Magdeburg, Germany",
+      "lat": 52.1884874,
+      "lon": 11.6571488,
+      "geocodeDisplay": "39126, Rothensee, Magdeburg, Saxony-Anhalt, Germany",
+      "geocodeQueryUsed": "39126 Magdeburg, Germany"
     },
     {
       "title": "CUPRA GPS 250 HERREN - MAGDEBURG KARFREITAG - NO LONG WAITINGS - 4 COURTS TOURNAMENT",
@@ -3442,7 +4321,11 @@
       "type": "TN tournament",
       "label": "TN tournament",
       "id": "t_7763809c",
-      "geocodeQuery": "Padel Loft - Magdeburg, Magdeburg, Germany"
+      "geocodeQuery": "Padel Loft - Magdeburg, Magdeburg, Germany",
+      "lat": 52.1884874,
+      "lon": 11.6571488,
+      "geocodeDisplay": "39126, Rothensee, Magdeburg, Saxony-Anhalt, Germany",
+      "geocodeQueryUsed": "39126 Magdeburg, Germany"
     },
     {
       "title": "CUPRA GPS 250 DAMEN - MAGDEBURG KARFREITAG - NO LONG WAITINGS - 4 COURTS TOURNAMENT",
@@ -3455,7 +4338,11 @@
       "type": "TN tournament",
       "label": "TN tournament",
       "id": "t_17e6e89d",
-      "geocodeQuery": "Padel Loft - Magdeburg, Magdeburg, Germany"
+      "geocodeQuery": "Padel Loft - Magdeburg, Magdeburg, Germany",
+      "lat": 52.1884874,
+      "lon": 11.6571488,
+      "geocodeDisplay": "39126, Rothensee, Magdeburg, Saxony-Anhalt, Germany",
+      "geocodeQueryUsed": "39126 Magdeburg, Germany"
     },
     {
       "title": "CUPRA GPS 50 HERREN - MAGDEBURG CITY - PADEL LOFT - NO LONG WAITINGS - 4 COURTS TOURNAMENT",
@@ -3468,7 +4355,11 @@
       "type": "TN tournament",
       "label": "TN tournament",
       "id": "t_33300ed1",
-      "geocodeQuery": "Padel Loft - Magdeburg, Magdeburg, Germany"
+      "geocodeQuery": "Padel Loft - Magdeburg, Magdeburg, Germany",
+      "lat": 52.1884874,
+      "lon": 11.6571488,
+      "geocodeDisplay": "39126, Rothensee, Magdeburg, Saxony-Anhalt, Germany",
+      "geocodeQueryUsed": "39126 Magdeburg, Germany"
     },
     {
       "title": "CUPRA GPS 50 MIXED - MAGDEBURG CITY - PADEL LOFT - NO LONG WAITINGS - 4 COURTS TOURNAMENT",
@@ -3481,7 +4372,11 @@
       "type": "TN tournament",
       "label": "TN tournament",
       "id": "t_2cc1d6c4",
-      "geocodeQuery": "Padel Loft - Magdeburg, Magdeburg, Germany"
+      "geocodeQuery": "Padel Loft - Magdeburg, Magdeburg, Germany",
+      "lat": 52.1884874,
+      "lon": 11.6571488,
+      "geocodeDisplay": "39126, Rothensee, Magdeburg, Saxony-Anhalt, Germany",
+      "geocodeQueryUsed": "39126 Magdeburg, Germany"
     },
     {
       "title": "CUPRA GPS 50 & 100 H00 - Padel Verde in Herten",
@@ -3494,7 +4389,11 @@
       "type": "TN tournament",
       "label": "TN tournament",
       "id": "t_b8e501c",
-      "geocodeQuery": "padel verde, Herten, Germany"
+      "geocodeQuery": "padel verde, Herten, Germany",
+      "lat": 51.6110697,
+      "lon": 7.0946173,
+      "geocodeDisplay": "45701, Langenbochum, Westerholt, Herten, Kreis Recklinghausen, North Rhine-Westphalia, Germany",
+      "geocodeQueryUsed": "45701 Herten, Germany"
     },
     {
       "title": "CUPRA GPS 350 HERREN - MAGDEBURG OSTERMONTAG - PADEL LOFT",
@@ -3507,7 +4406,11 @@
       "type": "TN tournament",
       "label": "TN tournament",
       "id": "t_616646d4",
-      "geocodeQuery": "Padel Loft - Magdeburg, Magdeburg, Germany"
+      "geocodeQuery": "Padel Loft - Magdeburg, Magdeburg, Germany",
+      "lat": 52.1884874,
+      "lon": 11.6571488,
+      "geocodeDisplay": "39126, Rothensee, Magdeburg, Saxony-Anhalt, Germany",
+      "geocodeQueryUsed": "39126 Magdeburg, Germany"
     },
     {
       "title": "CUPRA GPS 350 DAMEN - MAGDEBURG OSTERMONTAG - PADEL LOFT",
@@ -3520,7 +4423,11 @@
       "type": "TN tournament",
       "label": "TN tournament",
       "id": "t_9aba309c",
-      "geocodeQuery": "Padel Loft - Magdeburg, Magdeburg, Germany"
+      "geocodeQuery": "Padel Loft - Magdeburg, Magdeburg, Germany",
+      "lat": 52.1884874,
+      "lon": 11.6571488,
+      "geocodeDisplay": "39126, Rothensee, Magdeburg, Saxony-Anhalt, Germany",
+      "geocodeQueryUsed": "39126 Magdeburg, Germany"
     },
     {
       "title": "CUPRA GPS 350 H00 / GPS 50 D00 - Gladius Games - Sportmühle Hilden",
@@ -3536,7 +4443,8 @@
       "geocodeQuery": "Sportmühle Hilden, Hilden, Germany",
       "lat": 51.1699471,
       "lon": 6.9448796,
-      "geocodeDisplay": "Sportmühle, 55, Berliner Straße, Pungshaus, Hilden, Kreis Mettmann, North Rhine-Westphalia, 40724, Germany"
+      "geocodeDisplay": "Sportmühle, 55, Berliner Straße, Pungshaus, Hilden, Kreis Mettmann, North Rhine-Westphalia, 40724, Germany",
+      "geocodeQueryUsed": "Sportmühle Hilden, Hilden, Germany"
     },
     {
       "title": "CUPRA GPS 100 H00 - PadelCity Heilsbronn (Ansbach)",
@@ -3549,7 +4457,11 @@
       "type": "TN tournament",
       "label": "TN tournament",
       "id": "t_523e3b2c",
-      "geocodeQuery": "PadelCity Heilsbronn (Ansbach), Heilsbronn, Germany"
+      "geocodeQuery": "PadelCity Heilsbronn (Ansbach), Heilsbronn, Germany",
+      "lat": 49.3378853,
+      "lon": 10.7887166,
+      "geocodeDisplay": "Heilsbronn, Ansbach (district), Bavaria, 91560, Germany",
+      "geocodeQueryUsed": "Heilsbronn, Germany"
     },
     {
       "title": "CUPRA GPS 250 HERREN - MAGDEBURG CITY - PADEL LOFT - NO LONG WAITINGS - 4 COURTS TOURNAMENT",
@@ -3562,7 +4474,11 @@
       "type": "TN tournament",
       "label": "TN tournament",
       "id": "t_45b45d0c",
-      "geocodeQuery": "Padel Loft - Magdeburg, Magdeburg, Germany"
+      "geocodeQuery": "Padel Loft - Magdeburg, Magdeburg, Germany",
+      "lat": 52.1884874,
+      "lon": 11.6571488,
+      "geocodeDisplay": "39126, Rothensee, Magdeburg, Saxony-Anhalt, Germany",
+      "geocodeQueryUsed": "39126 Magdeburg, Germany"
     },
     {
       "title": "CUPRA GPS 500 H00 || PadelCity Leipzig",
@@ -3578,7 +4494,8 @@
       "geocodeQuery": "PadelCity Leipzig, Leipzig, Germany",
       "lat": 51.3421223,
       "lon": 12.312699,
-      "geocodeDisplay": "PadelCity Leipzig, 3a, Franz-Flemming-Straße, Altlindenau, Altwest, Leipzig, Saxony, 04179, Germany"
+      "geocodeDisplay": "PadelCity Leipzig, 3a, Franz-Flemming-Straße, Altlindenau, Altwest, Leipzig, Saxony, 04179, Germany",
+      "geocodeQueryUsed": "PadelCity Leipzig, Leipzig, Germany"
     },
     {
       "title": "CUPRA GPS 250 HERREN Ü45 - MAGDEBURG CITY - PADEL LOFT",
@@ -3591,7 +4508,11 @@
       "type": "TN tournament",
       "label": "TN tournament",
       "id": "t_2cb5ef84",
-      "geocodeQuery": "Padel Loft - Magdeburg, Magdeburg, Germany"
+      "geocodeQuery": "Padel Loft - Magdeburg, Magdeburg, Germany",
+      "lat": 52.1884874,
+      "lon": 11.6571488,
+      "geocodeDisplay": "39126, Rothensee, Magdeburg, Saxony-Anhalt, Germany",
+      "geocodeQueryUsed": "39126 Magdeburg, Germany"
     },
     {
       "title": "CUPRA GPS 100 HERREN - MAGDEBURG CITY - PADEL LOFT - NO LONG WAITINGS - 4 COURTS TOURNAMENT",
@@ -3604,7 +4525,11 @@
       "type": "TN tournament",
       "label": "TN tournament",
       "id": "t_1d75c620",
-      "geocodeQuery": "Padel Loft - Magdeburg, Magdeburg, Germany"
+      "geocodeQuery": "Padel Loft - Magdeburg, Magdeburg, Germany",
+      "lat": 52.1884874,
+      "lon": 11.6571488,
+      "geocodeDisplay": "39126, Rothensee, Magdeburg, Saxony-Anhalt, Germany",
+      "geocodeQueryUsed": "39126 Magdeburg, Germany"
     },
     {
       "title": "CUPRA GPS 100 DAMEN - MAGDEBURG CITY - NO LONG WAITINGS - 4 COURTS TOURNAMENT",
@@ -3617,7 +4542,11 @@
       "type": "TN tournament",
       "label": "TN tournament",
       "id": "t_d8d366ac",
-      "geocodeQuery": "Padel Loft - Magdeburg, Magdeburg, Germany"
+      "geocodeQuery": "Padel Loft - Magdeburg, Magdeburg, Germany",
+      "lat": 52.1884874,
+      "lon": 11.6571488,
+      "geocodeDisplay": "39126, Rothensee, Magdeburg, Saxony-Anhalt, Germany",
+      "geocodeQueryUsed": "39126 Magdeburg, Germany"
     },
     {
       "title": "CUPRA GPS 500 HERREN - MAGDEBURG CITY - PADEL LOFT - 4 COURTS TOURNAMENT",
@@ -3630,7 +4559,11 @@
       "type": "TN tournament",
       "label": "TN tournament",
       "id": "t_10e2895",
-      "geocodeQuery": "Padel Loft - Magdeburg, Magdeburg, Germany"
+      "geocodeQuery": "Padel Loft - Magdeburg, Magdeburg, Germany",
+      "lat": 52.1884874,
+      "lon": 11.6571488,
+      "geocodeDisplay": "39126, Rothensee, Magdeburg, Saxony-Anhalt, Germany",
+      "geocodeQueryUsed": "39126 Magdeburg, Germany"
     },
     {
       "title": "CUPRA GPS 500 DAMEN - MAGDEBURG CITY - PADEL LOFT - 4 COURTS TOURNAMENT",
@@ -3643,7 +4576,11 @@
       "type": "TN tournament",
       "label": "TN tournament",
       "id": "t_6eb79d6c",
-      "geocodeQuery": "Padel Loft - Magdeburg, Magdeburg, Germany"
+      "geocodeQuery": "Padel Loft - Magdeburg, Magdeburg, Germany",
+      "lat": 52.1884874,
+      "lon": 11.6571488,
+      "geocodeDisplay": "39126, Rothensee, Magdeburg, Saxony-Anhalt, Germany",
+      "geocodeQueryUsed": "39126 Magdeburg, Germany"
     },
     {
       "title": "CUPRA GPS 500 MIXED - MAGDEBURG - TAG DER ARBEIT - PADEL LOFT",
@@ -3656,7 +4593,11 @@
       "type": "TN tournament",
       "label": "TN tournament",
       "id": "t_92949fd4",
-      "geocodeQuery": "Padel Loft - Magdeburg, Magdeburg, Germany"
+      "geocodeQuery": "Padel Loft - Magdeburg, Magdeburg, Germany",
+      "lat": 52.1884874,
+      "lon": 11.6571488,
+      "geocodeDisplay": "39126, Rothensee, Magdeburg, Saxony-Anhalt, Germany",
+      "geocodeQueryUsed": "39126 Magdeburg, Germany"
     },
     {
       "title": "CUPRA GPS 350 H00 || PadelCity Leipzig",
@@ -3672,7 +4613,8 @@
       "geocodeQuery": "PadelCity Leipzig, Leipzig, Germany",
       "lat": 51.3421223,
       "lon": 12.312699,
-      "geocodeDisplay": "PadelCity Leipzig, 3a, Franz-Flemming-Straße, Altlindenau, Altwest, Leipzig, Saxony, 04179, Germany"
+      "geocodeDisplay": "PadelCity Leipzig, 3a, Franz-Flemming-Straße, Altlindenau, Altwest, Leipzig, Saxony, 04179, Germany",
+      "geocodeQueryUsed": "PadelCity Leipzig, Leipzig, Germany"
     },
     {
       "title": "CUPRA GPS 250 D00 / GPS 50 H00 - Gladius Games - Sportmühle Hilden",
@@ -3688,7 +4630,8 @@
       "geocodeQuery": "Sportmühle Hilden, Hilden, Germany",
       "lat": 51.1699471,
       "lon": 6.9448796,
-      "geocodeDisplay": "Sportmühle, 55, Berliner Straße, Pungshaus, Hilden, Kreis Mettmann, North Rhine-Westphalia, 40724, Germany"
+      "geocodeDisplay": "Sportmühle, 55, Berliner Straße, Pungshaus, Hilden, Kreis Mettmann, North Rhine-Westphalia, 40724, Germany",
+      "geocodeQueryUsed": "Sportmühle Hilden, Hilden, Germany"
     },
     {
       "title": "CUPRA GPS 250 H00 - PadelCity Heilsbronn (Ansbach)",
@@ -3701,7 +4644,11 @@
       "type": "TN tournament",
       "label": "TN tournament",
       "id": "t_ac5a5120",
-      "geocodeQuery": "PadelCity Heilsbronn (Ansbach), Heilsbronn, Germany"
+      "geocodeQuery": "PadelCity Heilsbronn (Ansbach), Heilsbronn, Germany",
+      "lat": 49.3378853,
+      "lon": 10.7887166,
+      "geocodeDisplay": "Heilsbronn, Ansbach (district), Bavaria, 91560, Germany",
+      "geocodeQueryUsed": "Heilsbronn, Germany"
     },
     {
       "title": "CUPRA GPS 250 Mixed || PadelCity Leipzig",
@@ -3717,7 +4664,8 @@
       "geocodeQuery": "PadelCity Leipzig, Leipzig, Germany",
       "lat": 51.3421223,
       "lon": 12.312699,
-      "geocodeDisplay": "PadelCity Leipzig, 3a, Franz-Flemming-Straße, Altlindenau, Altwest, Leipzig, Saxony, 04179, Germany"
+      "geocodeDisplay": "PadelCity Leipzig, 3a, Franz-Flemming-Straße, Altlindenau, Altwest, Leipzig, Saxony, 04179, Germany",
+      "geocodeQueryUsed": "PadelCity Leipzig, Leipzig, Germany"
     },
     {
       "title": "CUPRA GPS 350 H00 - PadelCity Heilsbronn (Ansbach)",
@@ -3730,7 +4678,11 @@
       "type": "TN tournament",
       "label": "TN tournament",
       "id": "t_50841134",
-      "geocodeQuery": "PadelCity Heilsbronn (Ansbach), Heilsbronn, Germany"
+      "geocodeQuery": "PadelCity Heilsbronn (Ansbach), Heilsbronn, Germany",
+      "lat": 49.3378853,
+      "lon": 10.7887166,
+      "geocodeDisplay": "Heilsbronn, Ansbach (district), Bavaria, 91560, Germany",
+      "geocodeQueryUsed": "Heilsbronn, Germany"
     },
     {
       "title": "CUPRA GPS 100 H00 / D00 / M00 - Gladius Games - Sportmühle Hilden",
@@ -3746,7 +4698,8 @@
       "geocodeQuery": "Sportmühle Hilden, Hilden, Germany",
       "lat": 51.1699471,
       "lon": 6.9448796,
-      "geocodeDisplay": "Sportmühle, 55, Berliner Straße, Pungshaus, Hilden, Kreis Mettmann, North Rhine-Westphalia, 40724, Germany"
+      "geocodeDisplay": "Sportmühle, 55, Berliner Straße, Pungshaus, Hilden, Kreis Mettmann, North Rhine-Westphalia, 40724, Germany",
+      "geocodeQueryUsed": "Sportmühle Hilden, Hilden, Germany"
     },
     {
       "title": "CUPRA GPS 250 D00 / GPS 100 H00 - Gladius Games - Sportmühle Hilden",
@@ -3762,7 +4715,8 @@
       "geocodeQuery": "Sportmühle Hilden, Hilden, Germany",
       "lat": 51.1699471,
       "lon": 6.9448796,
-      "geocodeDisplay": "Sportmühle, 55, Berliner Straße, Pungshaus, Hilden, Kreis Mettmann, North Rhine-Westphalia, 40724, Germany"
+      "geocodeDisplay": "Sportmühle, 55, Berliner Straße, Pungshaus, Hilden, Kreis Mettmann, North Rhine-Westphalia, 40724, Germany",
+      "geocodeQueryUsed": "Sportmühle Hilden, Hilden, Germany"
     },
     {
       "title": "CUPRA GPS 100 H00 / D00 / M00 - Gladius Games - Sportmühle Hilden",
@@ -3778,7 +4732,8 @@
       "geocodeQuery": "Sportmühle Hilden, Hilden, Germany",
       "lat": 51.1699471,
       "lon": 6.9448796,
-      "geocodeDisplay": "Sportmühle, 55, Berliner Straße, Pungshaus, Hilden, Kreis Mettmann, North Rhine-Westphalia, 40724, Germany"
+      "geocodeDisplay": "Sportmühle, 55, Berliner Straße, Pungshaus, Hilden, Kreis Mettmann, North Rhine-Westphalia, 40724, Germany",
+      "geocodeQueryUsed": "Sportmühle Hilden, Hilden, Germany"
     },
     {
       "title": "DPV Padel 2. Bundesliga 2025",
@@ -3794,7 +4749,8 @@
       "geocodeQuery": "Hamburg, Germany",
       "lat": 53.550341,
       "lon": 10.000654,
-      "geocodeDisplay": "Hamburg, Germany"
+      "geocodeDisplay": "Hamburg, Germany",
+      "geocodeQueryUsed": "Hamburg, Germany"
     },
     {
       "title": "DPV Padel Regionalliga 2025",
@@ -3810,7 +4766,8 @@
       "geocodeQuery": "Hamburg, Germany",
       "lat": 53.550341,
       "lon": 10.000654,
-      "geocodeDisplay": "Hamburg, Germany"
+      "geocodeDisplay": "Hamburg, Germany",
+      "geocodeQueryUsed": "Hamburg, Germany"
     },
     {
       "title": "CUPRA GPS 350 H00 / D00 - Gladius Games - Sportmühle Hilden",
@@ -3826,7 +4783,8 @@
       "geocodeQuery": "Sportmühle Hilden, Hilden, Germany",
       "lat": 51.1699471,
       "lon": 6.9448796,
-      "geocodeDisplay": "Sportmühle, 55, Berliner Straße, Pungshaus, Hilden, Kreis Mettmann, North Rhine-Westphalia, 40724, Germany"
+      "geocodeDisplay": "Sportmühle, 55, Berliner Straße, Pungshaus, Hilden, Kreis Mettmann, North Rhine-Westphalia, 40724, Germany",
+      "geocodeQueryUsed": "Sportmühle Hilden, Hilden, Germany"
     }
   ]
 }

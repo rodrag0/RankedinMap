@@ -57,14 +57,57 @@ export async function geocodeMany(items, { userAgent = 'rankedin-padel-map/1.0 (
     return out;
   }
 
-  for(const t of items){
-    if(typeof t.lat === 'number' && typeof t.lon === 'number') continue;
-    if(!t.geocodeQuery) continue;
-    const geo = await geocodeOne(t.geocodeQuery);
-    if(geo && Number.isFinite(geo.lat) && Number.isFinite(geo.lon)){
-      t.lat = geo.lat;
-      t.lon = geo.lon;
-      t.geocodeDisplay = geo.display_name;
+  function cleanCity(city){
+    return (city || '')
+      .replace(/\s*,?\s*(Deutschland|Germany)\s*$/i, '')
+      .trim();
+  }
+
+  function buildCandidates(t){
+    const country = 'Germany';
+    const club = (t.club || '').trim();
+    const city = cleanCity(t.city);
+    const postcode = (t.postcode || '').trim();
+
+    // If DPV or club missing, don't rely on club name.
+    const clubAllowed = club && !/^dpv\b/i.test(club);
+
+    const candidates = [];
+
+    // 1) original geocodeQuery first (what you already compute)
+    if (t.geocodeQuery) candidates.push(t.geocodeQuery);
+
+    // 2) club + city
+    if (clubAllowed && city) candidates.push(`${club}, ${city}, ${country}`);
+
+    // 3) club + postcode + city
+    if (clubAllowed && postcode && city) candidates.push(`${club}, ${postcode} ${city}, ${country}`);
+
+    // 4) postcode + city (very reliable)
+    if (postcode && city) candidates.push(`${postcode} ${city}, ${country}`);
+
+    // 5) city only (fallback of last resort)
+    if (city) candidates.push(`${city}, ${country}`);
+
+    // de-dupe
+    return [...new Set(candidates.map(s => normalizeWhitespace(s)).filter(Boolean))];
+  }
+
+  for (const t of items) {
+    if (typeof t.lat === 'number' && typeof t.lon === 'number') continue;
+
+    const candidates = buildCandidates(t);
+    let geo = null;
+
+    for (const q of candidates) {
+      geo = await geocodeOne(q);
+      if (geo && Number.isFinite(geo.lat) && Number.isFinite(geo.lon)) {
+        t.lat = geo.lat;
+        t.lon = geo.lon;
+        t.geocodeDisplay = geo.display_name;
+        t.geocodeQueryUsed = q;   // helpful for debugging
+        break;
+      }
     }
   }
 

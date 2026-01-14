@@ -28,8 +28,8 @@ async function scrapeTablePage(page){
       const title = a?.textContent?.trim() || '';
       const href = a?.getAttribute('href') || '';
 
-      // Based on your example columns:
-      // [title link, date, "42855 Remscheid", club, show details, status, type label]
+
+      //example info [title link, date, "42855 Remscheid", club, show details, status, type label]
       const date = tds?.[2]?.textContent?.trim() || tds?.[1]?.textContent?.trim() || '';
       const cityRaw = tds?.[3]?.textContent?.trim() || '';
       const club = tds?.[4]?.textContent?.trim() || '';
@@ -100,6 +100,7 @@ async function main(){
 
   // Paste your working filter clicks into applyFilters.js
   await applyFilters(page);
+  console.log('Filters applied, starting scrape loop');
 
   const all = [];
   const seen = new Set();
@@ -147,12 +148,15 @@ async function main(){
 
   // Geocode query logic
   for(const t of enriched){
-    const cityQ = t.city ? `${t.city}, Germany` : 'Germany';
+    // Clean up city names - remove "Deutschland" or "Germany" if already present
+    let cleanCity = t.city ? t.city.replace(/,?\s*(Deutschland|Germany)\s*$/i, '').trim() : '';
+    const cityQ = cleanCity ? `${cleanCity}, Germany` : 'Germany';
+
     if(isDPVClubName(t.club)){
       t.geocodeQuery = cityQ;
-    }else if(t.club && t.city){
-      t.geocodeQuery = `${t.club}, ${t.city}, Germany`;
-    }else if(t.city){
+    }else if(t.club && cleanCity){
+      t.geocodeQuery = `${t.club}, ${cleanCity}, Germany`;
+    }else if(cleanCity){
       t.geocodeQuery = cityQ;
     }else if(t.club){
       t.geocodeQuery = `${t.club}, Germany`;
