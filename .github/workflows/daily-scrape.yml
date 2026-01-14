@@ -21,11 +21,11 @@ jobs:
           node-version: 20
 
       - name: Install scraper deps
-        working-directory: rankedin-padel-map/scraper
+        working-directory: scraper
         run: npm ci
 
       - name: Run scraper
-        working-directory: rankedin-padel-map/scraper
+        working-directory: scraper
         env:
           RANKEDIN_LIST_URL: "https://www.rankedin.com/en/organisation/calendar/1883/deutscher-padel-verband-dpv"
           NOMINATIM_USER_AGENT: "RankedinMap/1.0 (https://github.com/rodrag0/RankedinMap)"
@@ -35,6 +35,6 @@ jobs:
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          git add rankedin-padel-map/site/data/tournaments.json
+          git add site/data/tournaments.json
           git diff --staged --quiet || git commit -m "Daily update tournaments.json"
           git push
