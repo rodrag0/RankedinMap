@@ -33,6 +33,70 @@ function createMap(){
 
   cluster = L.markerClusterGroup({ showCoverageOnHover: false });
   map.addLayer(cluster);
+
+  // --- User location layer (not clustered) ---
+  let userMarker = null;
+  let userCircle = null;
+
+  function locateMe() {
+    map.locate({
+      setView: true,
+      maxZoom: 13,
+      enableHighAccuracy: true,
+      timeout: 10000
+    });
+  }
+
+  map.on("locationfound", (e) => {
+    // e.latlng, e.accuracy (meters)
+    if (!userMarker) {
+      const userIcon = L.icon({
+        iconUrl: './baf01fb517749ccf4e1215d7576fe262-tennis-ball.webp',
+        iconSize: [50, 50],
+        iconAnchor: [25, 25],
+        popupAnchor: [0, -25]
+      });
+      userMarker = L.marker(e.latlng, { icon: userIcon, keyboard: false }).addTo(map);
+      userMarker.bindPopup("You are here");
+    } else {
+      userMarker.setLatLng(e.latlng);
+    }
+
+    if (!userCircle) {
+      userCircle = L.circle(e.latlng, { radius: e.accuracy }).addTo(map);
+    } else {
+      userCircle.setLatLng(e.latlng);
+      userCircle.setRadius(e.accuracy);
+    }
+  });
+
+  map.on("locationerror", (e) => {
+    console.warn("Geolocation error:", e.message);
+    alert(`Couldn't get your location: ${e.message}`);
+  });
+
+  // --- Button control ---
+  const LocateControl = L.Control.extend({
+    onAdd() {
+      const btn = L.DomUtil.create("button", "locate-btn");
+      btn.type = "button";
+      btn.title = "Center on my location";
+      btn.innerHTML = "📍";
+
+      L.DomEvent.disableClickPropagation(btn);
+      L.DomEvent.on(btn, "click", (ev) => {
+        L.DomEvent.stop(ev);
+        locateMe();
+      });
+
+      return btn;
+    }
+  });
+
+  new LocateControl({ position: "topleft" }).addTo(map);
+
+  // Trigger geolocation on load
+  locateMe();
 }
 
 function makePopup(t){
