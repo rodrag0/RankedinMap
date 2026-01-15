@@ -330,6 +330,11 @@ a {
     grid-template-rows: 380px 1fr;
   }
 
+  .brand {
+    font-size: 14px;
+    line-height: 1.1;
+  }
+
   .sidebar {
     border-right: none;
     border-bottom: 1px solid var(--border);

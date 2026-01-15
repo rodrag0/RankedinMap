@@ -187,7 +187,7 @@ function renderList(items){
     if(t.joinUrl){
       const a = document.createElement('a');
       a.href = t.joinUrl; a.target = '_blank'; a.rel = 'noreferrer';
-      a.textContent = 'Join';
+      a.textContent = 'Sign in Open';
       actions.appendChild(a);
     }
 
