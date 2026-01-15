@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-01-15T10:35:53.533Z",
+  "updatedAt": "2026-01-15T13:47:54.763Z",
   "items": [
     {
       "title": "CUPRA GPS 350 Herren - PADELON Bergisch Land",
@@ -416,24 +416,6 @@
       "geocodeQueryUsed": "88276 Berg, Germany"
     },
     {
-      "title": "CUPRA GPS 350 Herren - Halle11 (Berg)",
-      "url": "https://www.rankedin.com/en/tournament/62984/cupra-gps-350-herren-halle11-berg",
-      "date": "17/01/26",
-      "postcode": "88276",
-      "city": "Berg",
-      "club": "Padelmaniacs Halle11",
-      "status": "Sign in closed",
-      "type": "TN tournament",
-      "label": "TN tournament",
-      "id": "t_489d9424",
-      "joinUrl": null,
-      "geocodeQuery": "Padelmaniacs Halle11, Berg, Germany",
-      "lat": 47.8258048,
-      "lon": 9.5755619,
-      "geocodeDisplay": "88276, Bachmaier, Weiler, Berg, GVV Mittleres Schussental, Landkreis Ravensburg, Baden-Württemberg, Germany",
-      "geocodeQueryUsed": "88276 Berg, Germany"
-    },
-    {
       "title": "CUPRA GPS 350 Herren 45 - by The Cube",
       "url": "https://www.rankedin.com/en/tournament/63019/cupra-gps-350-herren-45-by-the-cube",
       "date": "17/01/26",
@@ -462,11 +444,29 @@
       "type": "TN tournament",
       "label": "TN tournament",
       "id": "t_7ebc5be0",
+      "joinUrl": null,
       "geocodeQuery": "Terminal Padel & Social Club, Rösrath, Germany",
       "lat": 50.9051654,
       "lon": 7.1821589,
       "geocodeDisplay": "51503, Vierkotten, Hoffnungsthal, Rösrath, Rheinisch-Bergischer Kreis, North Rhine-Westphalia, Germany",
       "geocodeQueryUsed": "51503 Rösrath, Germany"
+    },
+    {
+      "title": "GPS Herren 250 / 100 - Padelon Heilbronn",
+      "url": "https://www.rankedin.com/en/tournament/63572/gps-herren-250-100-padelon-heilbronn",
+      "date": "17/01/26",
+      "postcode": "",
+      "city": "Heilbronn",
+      "club": "Padelon Heilbronn",
+      "status": "join",
+      "type": "TN tournament",
+      "label": "TN tournament",
+      "id": "t_5b051330",
+      "geocodeQuery": "Padelon Heilbronn, Heilbronn, Germany",
+      "lat": 49.142291,
+      "lon": 9.218655,
+      "geocodeDisplay": "Heilbronn, Baden-Württemberg, Germany",
+      "geocodeQueryUsed": "Heilbronn, Germany"
     },
     {
       "title": "CUPRA GPS 350 Herren || Padel Planet in Schönebeck (bei Magdeburg)",
@@ -628,7 +628,7 @@
       "postcode": "",
       "city": "Paderborn",
       "club": "Peakz Padel Paderborn",
-      "status": "join",
+      "status": "Active",
       "type": "TN tournament",
       "label": "TN tournament",
       "id": "t_cfb88bf6",
@@ -2260,7 +2260,7 @@
       "postcode": "",
       "city": "Paderborn",
       "club": "Peakz Padel Paderborn",
-      "status": "Signup Closed",
+      "status": "join",
       "type": "TN tournament",
       "label": "TN tournament",
       "id": "t_9f583b48",
