@@ -24,6 +24,10 @@ function escapeHtml(s){
   return String(s ?? '').replace(/[&<>"']/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
 }
 
+function escapeRegExp(s){
+  return String(s).replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
+}
+
 function normalizeStatus(raw){
   const s = String(raw ?? '').trim();
   if(!s) return '';
@@ -235,9 +239,18 @@ function applyFilters(){
   let items = all.slice();
 
   if(q){
+    const tokens = q.split(/\s+/).filter(Boolean);
     items = items.filter(t => {
-      const hay = `${t.title||''} ${t.club||''} ${t.city||''} ${t.postcode||''}`.toLowerCase();
-      return hay.includes(q);
+      const title = String(t.title || '');
+      const titleLower = title.toLowerCase();
+      const hay = `${title} ${t.club||''} ${t.city||''} ${t.postcode||''}`.toLowerCase();
+      return tokens.every(token => {
+        if(/^\d+$/.test(token)){
+          const re = new RegExp(`\\b${escapeRegExp(token)}\\b`, 'i');
+          return re.test(title);
+        }
+        return hay.includes(token);
+      });
     });
   }
   if(type) items = items.filter(t => (t.type||'') === type);
