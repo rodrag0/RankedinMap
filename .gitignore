@@ -1,3 +1,4 @@
 node_modules/
 scraper/cache/
 .DS_Store
+site/data/tournaments.json
