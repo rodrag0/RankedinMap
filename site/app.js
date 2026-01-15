@@ -24,6 +24,18 @@ function escapeHtml(s){
   return String(s ?? '').replace(/[&<>"']/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
 }
 
+function normalizeStatus(raw){
+  const s = String(raw ?? '').trim();
+  if(!s) return '';
+  const lower = s.toLowerCase();
+  if(lower === 'sign in closed' || lower === 'sign up closed' || lower === 'signup closed' || lower === 'sign-up closed'){
+    return 'Registration closed';
+  }
+  if(lower === 'active') return 'Active';
+  if(lower === 'join') return 'Open';
+  return s;
+}
+
 function createMap(){
   map = L.map('map', { zoomControl: true }).setView([51.1657, 10.4515], 6);
   L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
@@ -104,7 +116,7 @@ function makePopup(t){
   const club = escapeHtml(t.club ?? '');
   const city = escapeHtml(t.city ?? '');
   const date = escapeHtml(t.date ?? '');
-  const status = escapeHtml(t.status ?? '');
+  const status = escapeHtml(normalizeStatus(t.status));
   const typ = escapeHtml(t.type ?? '');
   const label = escapeHtml(t.label ?? '');
   const url = t.url;
@@ -118,7 +130,7 @@ function makePopup(t){
 
   const btns = [
     url ? `<a class="primary" target="_blank" rel="noreferrer" href="${url}">Open in RankedIn</a>` : '',
-    joinUrl ? `<a target="_blank" rel="noreferrer" href="${joinUrl}">Sign in Open</a>` : ''
+    joinUrl ? `<a target="_blank" rel="noreferrer" href="${joinUrl}">Open</a>` : ''
   ].filter(Boolean).join(' ');
 
   return `
@@ -172,7 +184,7 @@ function renderList(items){
       pills.appendChild(s);
     };
     addPill(t.type);
-    addPill(t.status, true);
+    addPill(normalizeStatus(t.status), true);
     addPill(t.label);
 
     const actions = document.createElement('div');
@@ -187,7 +199,7 @@ function renderList(items){
     if(t.joinUrl){
       const a = document.createElement('a');
       a.href = t.joinUrl; a.target = '_blank'; a.rel = 'noreferrer';
-      a.textContent = 'Sign in Open';
+      a.textContent = 'Open';
       actions.appendChild(a);
     }
 
@@ -229,7 +241,7 @@ function applyFilters(){
     });
   }
   if(type) items = items.filter(t => (t.type||'') === type);
-  if(status) items = items.filter(t => (t.status||'') === status);
+  if(status) items = items.filter(t => normalizeStatus(t.status) === status);
   if(label) items = items.filter(t => (t.label||'') === label);
 
   items.sort((a,b)=>{
@@ -253,7 +265,7 @@ async function init(){
     payload.updatedAt ? `Updated: ${payload.updatedAt}` : 'Updated: (unknown)';
 
   const types = uniq(all.map(x=>x.type));
-  const statuses = uniq(all.map(x=>x.status));
+  const statuses = uniq(all.map(x=>normalizeStatus(x.status)));
   const labels = uniq(all.map(x=>x.label));
 
   const typeSel = document.getElementById('type');
