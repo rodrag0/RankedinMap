@@ -4,6 +4,7 @@ const DATA_URL = './data/tournaments.json';
 let map, cluster;
 let all = [];
 let markersById = new Map();
+let userLocation = null;
 
 function parseDate(dmy){
   if(!dmy) return null;
@@ -26,6 +27,18 @@ function escapeHtml(s){
 
 function escapeRegExp(s){
   return String(s).replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
+}
+
+function haversineKm(a, b){
+  const toRad = (deg) => (deg * Math.PI) / 180;
+  const dLat = toRad(b.lat - a.lat);
+  const dLon = toRad(b.lng - a.lng);
+  const lat1 = toRad(a.lat);
+  const lat2 = toRad(b.lat);
+  const sinDLat = Math.sin(dLat / 2);
+  const sinDLon = Math.sin(dLon / 2);
+  const h = sinDLat * sinDLat + Math.cos(lat1) * Math.cos(lat2) * sinDLon * sinDLon;
+  return 6371 * 2 * Math.asin(Math.sqrt(h));
 }
 
 function normalizeStatus(raw){
@@ -65,6 +78,11 @@ function createMap(){
 
   map.on("locationfound", (e) => {
     // e.latlng, e.accuracy (meters)
+    userLocation = e.latlng;
+    const sortSel = document.getElementById('sort');
+    if(sortSel && sortSel.value === 'distance'){
+      applyFilters();
+    }
     if (!userMarker) {
       const userIcon = L.icon({
         iconUrl: './baf01fb517749ccf4e1215d7576fe262-tennis-ball.webp',
@@ -233,8 +251,8 @@ function applyFilters(){
   const q = document.getElementById('search').value.trim().toLowerCase();
   const type = document.getElementById('type').value;
   const status = document.getElementById('status').value;
-  const label = document.getElementById('state').value;
   const sort = document.getElementById('sort').value;
+  const level = document.getElementById('level').value;
 
   let items = all.slice();
 
@@ -255,9 +273,23 @@ function applyFilters(){
   }
   if(type) items = items.filter(t => (t.type||'') === type);
   if(status) items = items.filter(t => normalizeStatus(t.status) === status);
-  if(label) items = items.filter(t => (t.label||'') === label);
+  if(level){
+    const levelRe = new RegExp(`\\b${escapeRegExp(level)}\\b`, 'i');
+    items = items.filter(t => levelRe.test(String(t.title || '')));
+  }
+
+  if(sort === 'distance' && !userLocation && map){
+    map.locate({ setView: false, enableHighAccuracy: true, timeout: 10000 });
+  }
 
   items.sort((a,b)=>{
+    if(sort === 'distance' && userLocation){
+      const hasA = typeof a.lat === 'number' && typeof a.lon === 'number';
+      const hasB = typeof b.lat === 'number' && typeof b.lon === 'number';
+      const da = hasA ? haversineKm(userLocation, { lat: a.lat, lng: a.lon }) : Number.POSITIVE_INFINITY;
+      const db = hasB ? haversineKm(userLocation, { lat: b.lat, lng: b.lon }) : Number.POSITIVE_INFINITY;
+      return da - db;
+    }
     const da = parseDate(a.date)?.getTime() ?? 0;
     const db = parseDate(b.date)?.getTime() ?? 0;
     return sort === 'dateDesc' ? (db - da) : (da - db);
@@ -279,7 +311,6 @@ async function init(){
 
   const types = uniq(all.map(x=>x.type));
   const statuses = uniq(all.map(x=>normalizeStatus(x.status)));
-  const labels = uniq(all.map(x=>x.label));
 
   const typeSel = document.getElementById('type');
   types.forEach(v=>{ const o=document.createElement('option'); o.value=v; o.textContent=v; typeSel.appendChild(o); });
@@ -287,10 +318,7 @@ async function init(){
   const statusSel = document.getElementById('status');
   statuses.forEach(v=>{ const o=document.createElement('option'); o.value=v; o.textContent=v; statusSel.appendChild(o); });
 
-  const labelSel = document.getElementById('state');
-  labels.forEach(v=>{ const o=document.createElement('option'); o.value=v; o.textContent=v; labelSel.appendChild(o); });
-
-  ['search','type','status','state','sort'].forEach(id => {
+  ['search','type','status','sort','level'].forEach(id => {
     document.getElementById(id).addEventListener('input', applyFilters);
     document.getElementById(id).addEventListener('change', applyFilters);
   });
@@ -299,8 +327,8 @@ async function init(){
     document.getElementById('search').value = '';
     document.getElementById('type').value = '';
     document.getElementById('status').value = '';
-    document.getElementById('state').value = '';
     document.getElementById('sort').value = 'dateAsc';
+    document.getElementById('level').value = '';
     applyFilters();
   });
 

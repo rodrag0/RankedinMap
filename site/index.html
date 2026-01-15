@@ -10,7 +10,7 @@
   <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" crossorigin="">
   <link rel="stylesheet" href="https://unpkg.com/leaflet.markercluster@1.5.3/dist/MarkerCluster.css" crossorigin="">
   <link rel="stylesheet" href="https://unpkg.com/leaflet.markercluster@1.5.3/dist/MarkerCluster.Default.css" crossorigin="">
-  <link rel="stylesheet" href="./style.css" />
+  <link rel="stylesheet" href="./style.css?v=2" />
 </head>
 <body>
   <header class="topbar">
@@ -31,7 +31,7 @@
         </button>
       </div>
       <div class="controls" id="controlsPanel">
-        <input id="search" type="search" placeholder="Search (club, 100, 250, city, title)…" />
+        <input id="search" type="search" placeholder="Search (club, level, category,city, title)…" />
         <div class="row">
           <select id="type">
             <option value="">All types</option>
@@ -41,12 +41,21 @@
           </select>
         </div>
         <div class="row">
-          <select id="state">
-            <option value="">All labels</option>
-          </select>
           <select id="sort">
+            <option value="">Sort By</option>
             <option value="dateAsc">Sooner ↑</option>
             <option value="dateDesc">Later ↓</option>
+            <option value="distance">Distance</option>
+          </select>
+          <select id="level">
+            <option value="">All levels</option>
+            <option value="50">50</option>
+            <option value="100">100</option>
+            <option value="250">250</option>
+            <option value="350">350</option>
+            <option value="500">500</option>
+            <option value="1000">1000</option>
+            <option value="1500">1500</option>
           </select>
         </div>
         <div class="row">
