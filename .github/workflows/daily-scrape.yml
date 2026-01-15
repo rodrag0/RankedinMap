@@ -31,6 +31,8 @@ jobs:
 
       - name: Install Playwright browsers
         working-directory: scraper
+        env:
+          PLAYWRIGHT_BROWSERS_PATH: /home/runner/.cache/ms-playwright
         run: npx playwright install --with-deps chromium
 
       - name: Run scraper
@@ -38,6 +40,7 @@ jobs:
         env:
           RANKEDIN_LIST_URL: "https://www.rankedin.com/en/organisation/calendar/1883/deutscher-padel-verband-dpv"
           NOMINATIM_USER_AGENT: "RankedinMap/1.0 (https://github.com/rodrag0/RankedinMap)"
+          PLAYWRIGHT_BROWSERS_PATH: /home/runner/.cache/ms-playwright
         run: node scrape.js 2>&1
 
       - name: Commit changes (if any)
