@@ -20,16 +20,25 @@ jobs:
         with:
           node-version: 20
 
+      - name: Install system dependencies
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y libgbm1 libxss1 libdrm2 libgconf-2-4
+
       - name: Install scraper deps
         working-directory: scraper
         run: npm ci
+
+      - name: Install Playwright browsers
+        working-directory: scraper
+        run: npx playwright install
 
       - name: Run scraper
         working-directory: scraper
         env:
           RANKEDIN_LIST_URL: "https://www.rankedin.com/en/organisation/calendar/1883/deutscher-padel-verband-dpv"
           NOMINATIM_USER_AGENT: "RankedinMap/1.0 (https://github.com/rodrag0/RankedinMap)"
-        run: node scrape.js
+        run: node scrape.js 2>&1
 
       - name: Commit changes (if any)
         run: |
