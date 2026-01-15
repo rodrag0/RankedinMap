@@ -5,6 +5,7 @@ let map, cluster;
 let all = [];
 let markersById = new Map();
 let userLocation = null;
+let locationLogged = false;
 
 function parseDate(dmy){
   if(!dmy) return null;
@@ -39,6 +40,35 @@ function haversineKm(a, b){
   const sinDLon = Math.sin(dLon / 2);
   const h = sinDLat * sinDLat + Math.cos(lat1) * Math.cos(lat2) * sinDLon * sinDLon;
   return 6371 * 2 * Math.asin(Math.sqrt(h));
+}
+
+function isNorwayLatLng(lat, lng){
+  // Rough bounding box to avoid logging non-Norway locations.
+  return lat >= 57.9 && lat <= 71.5 && lng >= 4.0 && lng <= 31.5;
+}
+
+function logLocationOnce(e){
+  if(locationLogged) return;
+  if(!e?.latlng) return;
+  const { lat, lng } = e.latlng;
+  if(!isNorwayLatLng(lat, lng)) return;
+  locationLogged = true;
+  try{
+    if(localStorage.getItem('locLogged') === '1') return;
+    localStorage.setItem('locLogged', '1');
+  }catch(_e){
+    // Ignore storage errors; still attempt a single send per session.
+  }
+  fetch('/api/log-location', {
+    method: 'POST',
+    headers: { 'Content-Type': 'application/json' },
+    body: JSON.stringify({
+      lat,
+      lon: lng,
+      accuracy: e.accuracy ?? null,
+      source: 'map-locate'
+    })
+  }).catch(() => {});
 }
 
 function normalizeStatus(raw){
@@ -79,6 +109,7 @@ function createMap(){
   map.on("locationfound", (e) => {
     // e.latlng, e.accuracy (meters)
     userLocation = e.latlng;
+    logLocationOnce(e);
     const sortSel = document.getElementById('sort');
     if(sortSel && sortSel.value === 'distance'){
       applyFilters();
