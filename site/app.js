@@ -118,7 +118,7 @@ function makePopup(t){
 
   const btns = [
     url ? `<a class="primary" target="_blank" rel="noreferrer" href="${url}">Open in RankedIn</a>` : '',
-    joinUrl ? `<a target="_blank" rel="noreferrer" href="${joinUrl}">Join</a>` : ''
+    joinUrl ? `<a target="_blank" rel="noreferrer" href="${joinUrl}">Sign in Open</a>` : ''
   ].filter(Boolean).join(' ');
 
   return `
