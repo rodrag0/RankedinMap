@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-01-15T13:47:54.763Z",
+  "updatedAt": "2026-01-16T04:13:26.503Z",
   "items": [
     {
       "title": "CUPRA GPS 350 Herren - PADELON Bergisch Land",
@@ -543,7 +543,7 @@
       "postcode": "",
       "city": "Köln",
       "club": "padelBOX Köln-Weiden",
-      "status": "Signup Closed",
+      "status": "Active",
       "type": "TN tournament",
       "label": "TN tournament",
       "id": "t_9163a446",
@@ -2169,6 +2169,23 @@
       "geocodeQueryUsed": "Obertraubling, Germany"
     },
     {
+      "title": "CUPRA GPS 100 H00 - mitte — the cabrio",
+      "url": "https://www.rankedin.com/en/tournament/63559/cupra-gps-100-h00-mitte-the-cabrio",
+      "date": "12/02/26",
+      "postcode": "",
+      "city": "Hamburg",
+      "club": "mitte — The Cabrio",
+      "status": "join",
+      "type": "TN tournament",
+      "label": "TN tournament",
+      "id": "t_e4842718",
+      "geocodeQuery": "mitte — The Cabrio, Hamburg, Germany",
+      "lat": 53.550341,
+      "lon": 10.000654,
+      "geocodeDisplay": "Hamburg, Germany",
+      "geocodeQueryUsed": "Hamburg, Germany"
+    },
+    {
       "title": "CUPRA GPS 350 Herren Ü35 by padelBOX Niederkassel",
       "url": "https://www.rankedin.com/en/tournament/62514/cupra-gps-350-herren-u35-by-padelbox-niederkassel",
       "date": "13/02/26",
@@ -2243,7 +2260,7 @@
       "postcode": "51503",
       "city": "Rösrath",
       "club": "Terminal Padel & Social Club",
-      "status": "Signup Closed",
+      "status": "join",
       "type": "TN tournament",
       "label": "TN tournament",
       "id": "t_a93573fa",
@@ -2515,7 +2532,7 @@
       "postcode": "",
       "city": "Leipzig",
       "club": "PadelCity Leipzig",
-      "status": "Signup Closed",
+      "status": "join",
       "type": "TN tournament",
       "label": "TN tournament",
       "id": "t_12cdec10",
@@ -2583,7 +2600,7 @@
       "postcode": "51503",
       "city": "Rösrath",
       "club": "Terminal Padel & Social Club",
-      "status": "Signup Closed",
+      "status": "join",
       "type": "TN tournament",
       "label": "TN tournament",
       "id": "t_698c4500",
@@ -2626,6 +2643,23 @@
       "lon": 7.1821589,
       "geocodeDisplay": "51503, Vierkotten, Hoffnungsthal, Rösrath, Rheinisch-Bergischer Kreis, North Rhine-Westphalia, Germany",
       "geocodeQueryUsed": "51503 Rösrath, Germany"
+    },
+    {
+      "title": "CUPRA GPS 100 D00 - mitte — the cabrio",
+      "url": "https://www.rankedin.com/en/tournament/63560/cupra-gps-100-d00-mitte-the-cabrio",
+      "date": "19/02/26",
+      "postcode": "",
+      "city": "Hamburg",
+      "club": "mitte — The Cabrio",
+      "status": "join",
+      "type": "TN tournament",
+      "label": "TN tournament",
+      "id": "t_147cfede",
+      "geocodeQuery": "mitte — The Cabrio, Hamburg, Germany",
+      "lat": 53.550341,
+      "lon": 10.000654,
+      "geocodeDisplay": "Hamburg, Germany",
+      "geocodeQueryUsed": "Hamburg, Germany"
     },
     {
       "title": "CUPRA GPS 350 Herren by padelBOX Bergisch Gladbach",
@@ -3000,6 +3034,23 @@
       "lon": 7.1821589,
       "geocodeDisplay": "51503, Vierkotten, Hoffnungsthal, Rösrath, Rheinisch-Bergischer Kreis, North Rhine-Westphalia, Germany",
       "geocodeQueryUsed": "51503 Rösrath, Germany"
+    },
+    {
+      "title": "CUPRA GPS 250 H00 - mitte — the cabrio",
+      "url": "https://www.rankedin.com/en/tournament/63561/cupra-gps-250-h00-mitte-the-cabrio",
+      "date": "25/02/26",
+      "postcode": "",
+      "city": "Hamburg",
+      "club": "mitte — The Cabrio",
+      "status": "join",
+      "type": "TN tournament",
+      "label": "TN tournament",
+      "id": "t_15049858",
+      "geocodeQuery": "mitte — The Cabrio, Hamburg, Germany",
+      "lat": 53.550341,
+      "lon": 10.000654,
+      "geocodeDisplay": "Hamburg, Germany",
+      "geocodeQueryUsed": "Hamburg, Germany"
     },
     {
       "title": "CUPRA GPS 250 Herren - Early Bird - by padelBOX Bergisch Gladbach",
